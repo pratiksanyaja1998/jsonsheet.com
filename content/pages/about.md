@@ -28,19 +28,8 @@ seo:
       relativeUrl: true
 layout: page
 ---
+Well for us, it happened somewhere between collaboration and communication, connecting and scaling quickly, being completely transparent and working the way we want, while always aspiring to go beyond our best. He grew between building, creating, managing and always smiling along the way. It expanded as we integrated and automated, created workflows and templates, and grew our community beyond our wildest dreams. We have experienced firsthand how much more we can accomplish when we really, truly work together. We've realized how powerful it is to build our own workflows with customizable building blocks. How can there be one place where all work happens—eliminating silos, aligning our organizations, and elevating our teams. It was through this journey that jsonsheet.com Work smart spreadsheet was born. It is in these moments that magic happens. And it's exciting to know that as we continue our mission together, we're just getting started…
 
-We are a team of productivity nuts that love to get stuff done without the stress of time management. We work together to optimize workflows, understand use cases and set up our app to be the most productive and useful tool for us, internally, and for you.
 
-![Our team](/images/team.jpg)
+By changing the way the world works, we believe we can change the world.
 
-## Work Life Balance
-
-Our goal is for work and life to be controlled in one place, to help you maintain a zen state of mind.
-
-> "Tasks and deadlines should not control our time. We should control what when to pay attention to which task." -- Lorinda Mamo, Designer
-
-With App Land, we strive to make it clear and easy to follow a healthy routine of work effectiveness, collaboration, and also family time and social events.
-
-## We Value Your YOU Time
-
-Our team understands that life is a marathon, and it's super important to make sure you take care of YOU and your needs. This is why we try to remind our users to take time off, reward themselves after a job well done, and put down the phone every once in a while when there's nowhere you have to be, or nothing you need to do.

@@ -2,7 +2,8 @@
 title: Home
 sections:
   - type: hero_section
-    title: Instantly Boost Your Productivity
+    title: Welcome to Json Sheet Spreadsheet 
+
     subtitle: >-
       Stop switching between calendars and task lists!
     content: >-
@@ -96,11 +97,11 @@ sections:
     background_color: none
   - type: features_section
     features:
-      - title: Syncronized Calendar
+      - title: Handle project your way
         subtitle: >-
-          For true work-life balance
+          
         content: >-
-          Stop juggling between calendar apps and productivity tools — from now on all your appointments and meetings appear in one place.
+            Visualize, plan and manage your projects with custom dashboards. Stay on top of progress, timelines and budgets by keeping every team member in the loop.
         actions:
           - label: Learn More
             url: /pricing
@@ -112,13 +113,11 @@ sections:
         image_alt: Feature 1 placeholder image
         media_position: left
         media_width: fifty
-      - title: Comprehensive Task List
+      - title: Create your own custom solution
         subtitle: >-
-          Always be in control
+          
         content: >-
-          We all have stuff to do all the time: Work tasks, calls to make,
-          groceries to buy and dry cleaning to pick up. Get all your tasks in
-          one place for easy management.
+          Build your perfect relational database, with over 25+ unique column data types. Develop it into a powerful custom solution with ever-increasing capabilities for your team or business. You are the pilot of this ship!
         actions:
           - label: Take a look
             url: /pricing

@@ -28,9 +28,20 @@
                 "style": "link"
             },
             {
+                "label":"Contact-Us",
+                "url":"/contact-us",
+                "style":"link"
+            },
+            {
                 "label": "Style Guide",
                 "url": "/style-guide",
                 "style": "link"
+            },
+            {
+                "label": "Template",
+                "url":"/template",
+                "style":"link"
+
             }
         ],
         "has_secondary_nav": true,
@@ -95,6 +106,11 @@
                 "label": "Privacy Policy",
                 "url": "/privacy-policy",
                 "style": "link"
+            },
+            {
+                "label":"Security",
+                "url":"/security",
+                "style":"link"
             }
         ],
         "has_social": true,
