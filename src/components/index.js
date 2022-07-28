@@ -20,6 +20,7 @@ import NavOverlay from './NavOverlay';
 import Icon from './Icon';
 import SectionActions from './SectionActions';
 import SectionBackground from './SectionBackground';
+import TypeHeroSection from './TypeHeroSection';
 
 export {
     Action,
@@ -43,7 +44,8 @@ export {
     NavOverlay,
     Icon,
     SectionActions,
-    SectionBackground
+    SectionBackground,
+    TypeHeroSection
 };
 
 export default {
@@ -68,5 +70,6 @@ export default {
     NavOverlay,
     Icon,
     SectionActions,
-    SectionBackground
+    SectionBackground,
+    TypeHeroSection
 };

@@ -20,7 +20,7 @@ const contact = (props) => {
             config={config}
         >
             <div className="container">
-                <h4 className="mb-3 text-center mr-5 ml-5 ">Let us help you grow your business and dramatically streamline your workflow.</h4>
+                <h4 className="mb-3 text-center mr-5 ml-5" style={{marginTop:20 }}>Let us help you grow your business and dramatically streamline your workflow.</h4>
                 <h3 className="mb-3 text-center mr-5 ml-5 ">Contact our Sales team</h3>
             </div>
 

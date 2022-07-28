@@ -1,7 +1,7 @@
 ---
 title: Home
 sections:
-  - type: hero_section
+  - type: type_hero_section
     title: Welcome to Json Sheet Spreadsheet 
 
     subtitle: >-
@@ -154,9 +154,9 @@ sections:
     feature_padding_vert: small
     background_color: secondary
   - type: cta_section
-    title: Regain Control of your To Dos
+    title: Try Json sheet today
     content: >-
-      Download App Land now and connect with all your calendars, project management tools and task lists — it doesn't get easier than this!
+     Json Sheet can be used for free with teams of any size. We also offer paid plans with additional features, storage and automation.
     actions:
       - label: App Store
         url: /pricing
