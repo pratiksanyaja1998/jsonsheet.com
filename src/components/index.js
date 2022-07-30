@@ -21,6 +21,7 @@ import Icon from './Icon';
 import SectionActions from './SectionActions';
 import SectionBackground from './SectionBackground';
 import TypeHeroSection from './TypeHeroSection';
+import TemplateLayout from './TemplateLayout';
 
 export {
     Action,
@@ -45,7 +46,8 @@ export {
     Icon,
     SectionActions,
     SectionBackground,
-    TypeHeroSection
+    TypeHeroSection,
+    TemplateLayout
 };
 
 export default {
@@ -71,5 +73,6 @@ export default {
     Icon,
     SectionActions,
     SectionBackground,
-    TypeHeroSection
+    TypeHeroSection,
+    TemplateLayout
 };

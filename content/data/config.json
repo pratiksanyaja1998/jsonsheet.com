@@ -38,8 +38,8 @@
                 "style": "link"
             },
             {
-                "label": "Template",
-                "url":"/template",
+                "label": "Templates",
+                "url":"/templates",
                 "style":"link"
 
             }
