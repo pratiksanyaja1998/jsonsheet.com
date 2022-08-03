@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, TemplateLayout } from '../../components';
+import { Layout, TemplateLayout, TemplateItem } from '../../components';
 import { sourcebitDataClient } from 'sourcebit-target-next';
 import _ from 'lodash';
 
@@ -7,76 +7,26 @@ const Template = (props) => {
     const data = _.get(props, 'data');
     const config = _.get(data, 'config');
 
-    let arr = [
+    let tempList = [
         {
-            link: '/',
-            name: 'All'
+            id: 1,
+            name: 'Art and Culture',
+            image: 'https://all-powerpoint-template.com/img/2020/10/Slide1-640.jpg',
+            description:
+                'Showcase your works with significant Free Art and Culture Templates & Themes. Easy to customize templates with clean and crisp layouts and free support.'
         },
         {
-            link: '/art-and-cultural',
-            name: 'Art and Culture'
+            id: 2,
+            name: 'community',
+            image: 'https://all-powerpoint-template.com/img/2020/10/Slide1-640.jpg',
+            description:
+                'Get 723 community website templates on ThemeForest. Buy community website templates from $3. All created by our Global Community of independent Web .'
         },
         {
-            link: '/community',
-            name: 'Community'
-        },
-        {
-            link: '/fashion-food',
-            name: 'Fashion & Food'
-        },
-
-        {
-            link: '/health',
-            name: 'Health'
-        },
-        {
-            link: '/local-business',
-            name: 'Local Business'
-        },
-        {
-            link: '/marketing',
-            name: 'Marketing'
-        },
-        {
-            link: '/real-estatel',
-            name: 'Real Estatel'
-        },
-        {
-            link: '/sales',
-            name: 'Sales'
-        },
-        {
-            link: '/science-and-technology',
-            name: 'Science and Technology'
-        },
-        {
-            link: '/community',
-            name: 'Community'
-        },
-        {
-            link: '/fashion-food',
-            name: 'Fashion & Food'
-        },
-
-        {
-            link: '/health',
-            name: 'Health'
-        },
-        {
-            link: '/local-business',
-            name: 'Local Business'
-        },
-        {
-            link: '/marketing',
-            name: 'Marketing'
-        },
-        {
-            link: '/real-estatel',
-            name: 'Real Estatel'
-        },
-        {
-            link: '/sales',
-            name: 'Sales'
+            id: 3,
+            name: 'fashion-food',
+            image: 'https://all-powerpoint-template.com/img/2020/10/Slide1-640.jpg',
+            description: 'Discover 2 Food And Fashion Cover designs on Dribbble. Your resource to discover and connect with designers worldwide.'
         }
     ];
 
@@ -92,8 +42,16 @@ const Template = (props) => {
             }}
             config={config}
         >
-            <TemplateLayout categoryList={arr}>
-                <h1>hello yesh</h1>
+            <TemplateLayout>
+                <div className="grid grid-gap-small">
+                    {tempList.map((item, index) => {
+                        return (
+                            <div className="cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-2" key={index}>
+                                <TemplateItem item={item} />
+                            </div>
+                        );
+                    })}
+                </div>
             </TemplateLayout>
         </Layout>
     );

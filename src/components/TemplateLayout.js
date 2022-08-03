@@ -2,34 +2,102 @@ import React from 'react';
 import Link from 'next/link';
 
 const TemplateLayout = (props) => {
-    const { categoryList } = props;
+    let arr = [
+        {
+            link: '/',
+            name: 'All'
+        },
+        {
+            link: '/art-and-cultural',
+            name: 'Art and Culture'
+        },
+        {
+            link: '/community',
+            name: 'Community'
+        },
+        {
+            link: '/fashion-food',
+            name: 'Fashion & Food'
+        },
+
+        {
+            link: '/health',
+            name: 'Health'
+        },
+        {
+            link: '/local-business',
+            name: 'Local Business'
+        },
+        {
+            link: '/marketing',
+            name: 'Marketing'
+        },
+        {
+            link: '/real-estatel',
+            name: 'Real Estatel'
+        },
+        {
+            link: '/sales',
+            name: 'Sales'
+        },
+        {
+            link: '/science-and-technology',
+            name: 'Science and Technology'
+        },
+        {
+            link: '/community',
+            name: 'Community'
+        },
+        {
+            link: '/fashion-food',
+            name: 'Fashion & Food'
+        },
+
+        {
+            link: '/health',
+            name: 'Health'
+        },
+        {
+            link: '/local-business',
+            name: 'Local Business'
+        },
+        {
+            link: '/marketing',
+            name: 'Marketing'
+        },
+        {
+            link: '/real-estatel',
+            name: 'Real Estatel'
+        },
+        {
+            link: '/sales',
+            name: 'Sales'
+        }
+    ];
+
     return (
-        <div>
-            <div className="item_content grid mt-5">
-                <div className="cell-12 cell-md-3 ">
+        <div className="template-layout container grid grid-gap-large">
+            <div className="cell-12 cell-md-3 ">
+                <div className=" categories-list-container p-2">
+                    <div className="text-center mb-2 py-2">
+                        <h5 className="categories-heading m-0">CATEGORIES</h5>
+                    </div>
                     <div>
-                        <div className="mx-1 my-1 p-3">
-                            <input type="text" id="header-search" placeholder="Search" name="s" style={{ width: '200px' }} />
-                        </div>
-                        <div className="mx-5 my-5 p-3" style={{ color: 'black' /*,border:"2px solid"*/ }}>
-                            <div className="text-center my-5">
-                                <h5 style={{ fontWeight: 'normal', marginTop: '40px' }}>CATEGORIES</h5>
+                        {arr.map((value, index) => (
+                            <div key={index}>
+                                <Link href={'/templates' + value.link}>
+                                    <a>{value.name}</a>
+                                </Link>
                             </div>
-                            <div>
-                                {categoryList.map((value, index) => (
-                                    <div key={index}>
-                                        <Link href={"/templates"+value.link}>
-                                            <a>{value.name}</a>
-                                        </Link>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
-                <div className="cell-12 cell-md-9 ">
-                    <div style={{ height: '100%', overflow: 'auto' }}>{props.children}</div>
+            </div>
+            <div className="templates-container cell-12 cell-md-9">
+                <div className="py-2 mb-2">
+                    <input type="text" id="header-search" placeholder="Search" name="s" className="search-bar" />
                 </div>
+                <div className="templates">{props.children}</div>
             </div>
         </div>
     );
