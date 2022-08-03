@@ -57,5 +57,8 @@ const Template = (props) => {
     );
 };
 
-
+async function getStaticProps({ params }) {
+    const props = await sourcebitDataClient.getStaticPropsForPageAtPath('');
+    return { props };
+}
 export default Template;

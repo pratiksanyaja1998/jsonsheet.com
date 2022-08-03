@@ -58,5 +58,12 @@ const TamplateName = (props) => {
         </Layout>
     );
 };
-
+async function getStaticProps({ params }) {
+    console.log('params', params);
+    const props = await sourcebitDataClient.getStaticPropsForPageAtPath('');
+    return { props: { ...props, params } };
+}
+async function getStaticPaths() {
+    return { paths: [], fallback: 'blocking' };
+}
 export default TamplateName;
