@@ -26,17 +26,13 @@
             position: absolute;
             z-index: 999;
             background: white;
-            width: 97%;
+            width: calc(100% - 1.1rem);
             border: 1px solid #ccc;
             max-height: 60vh;
             overflow: auto;
             border-radius: 5px;
-            right: 0;
-            text-decoration: none;
             top: 2.58rem;
             box-shadow: 1px 1px #efefef;
-
-          
         }
     }
 
@@ -61,5 +57,11 @@
 
     .hide {
         display: none !important;
+    }
+
+    @media screen and (max-: 640px) {
+        .categories-sm {
+            top: 2.69rem !important;
+        }
     }
 }
