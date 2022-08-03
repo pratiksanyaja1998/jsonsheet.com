@@ -1,5 +1,4 @@
 .template-layout {
-    
     .categories-list-container {
         color: black;
         .categories-heading {
@@ -10,7 +9,57 @@
     .templates-container {
         .search-bar {
             width: 100%;
-            border: 1px solid;
+            background: #f1f1f1;
+            padding: 0.5rem;
+            border-radius: 3px;
         }
+        .cat-btn {
+            padding: 0.7rem;
+            align-items: center;
+            border: 0.5px solid #ccc;
+            display: flex;
+            justify-content: center;
+            background: #f1f1f1;
+            border-radius: 0 3px 3px 0;
+        }
+        .categories-sm {
+            position: absolute;
+            z-index: 999;
+            background: white;
+            width: 97%;
+            border: 1px solid #ccc;
+            max-height: 60vh;
+            overflow: auto;
+            border-radius: 5px;
+            right: 0;
+            text-decoration: none;
+            top: 2.58rem;
+            box-shadow: 1px 1px #efefef;
+
+          
+        }
+    }
+
+    #category {
+        position: relative;
+        background: #f1f1f1;
+        border: 1px solid #8d8d8d;
+        border-radius: 3px;
+    }
+
+    .show {
+        display: block;
+    }
+    a {
+        text-decoration: none;
+    }
+    .categories-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hide {
+        display: none !important;
     }
 }
