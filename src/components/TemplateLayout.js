@@ -6,10 +6,6 @@ const TemplateLayout = (props) => {
     const [categoryShow, setCategoryShow] = useState(false);
     let arr = [
         {
-            link: '/',
-            name: 'All'
-        },
-        {
             link: '/art-and-cultural',
             name: 'Art and Culture'
         },
@@ -87,7 +83,8 @@ const TemplateLayout = (props) => {
             let btn = document.getElementById('menuBtn');
             let list = document.getElementById('categoryList');
             let cat = document.getElementById('category');
-            // .categories-menu
+
+            let detail = document.getElementById('categoryDetail');
 
             if (width < 800) {
                 btn.classList.replace('hide', 'show');
@@ -98,6 +95,15 @@ const TemplateLayout = (props) => {
                 list.classList.replace('hide', 'show');
                 cat.classList.remove('categories-menu');
                 setCategoryShow(false);
+
+                console.log('height -->', detail.clientHeight, detail.clientHeight < window.innerHeight - 95);
+
+                if (detail.clientHeight < window.innerHeight - 95) {
+                    list.classList.replace('full-height', 'fix-height');
+                } else {
+                    list.style.maxHeight = `${detail.clientHeight+95}px`
+                    list.classList.replace('fix-height', 'full-height');
+                }
             }
         }
 
@@ -108,10 +114,12 @@ const TemplateLayout = (props) => {
 
     return (
         <div className="template-layout container grid grid-gap-large">
-            <div className="cell-0 cell-md-3 show" id="categoryList">
+            <div className="cell-0 cell-md-3 show full-height" id="categoryList">
                 <div className="categories-list-container py-2">
                     <div className="text-center mb-2 py-2">
-                        <h5 className="categories-heading m-0">CATEGORIES</h5>
+                        <Link href={'/templates'}>
+                            <h5 className="categories-heading m-0">CATEGORIES</h5>
+                        </Link>
                     </div>
                     <div>
                         {arr.map((value, index) => (
@@ -144,7 +152,9 @@ const TemplateLayout = (props) => {
                         </div>
                     )}
                 </div>
-                <div className="templates">{props.children}</div>
+                <div className="templates" id="categoryDetail">
+                    {props.children}
+                </div>
             </div>
         </div>
     );
