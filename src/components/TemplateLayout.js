@@ -109,7 +109,7 @@ const TemplateLayout = (props) => {
     return (
         <div className="template-layout container grid grid-gap-large">
             <div className="cell-0 cell-md-3 show" id="categoryList">
-                <div className=" categories-list-container py-2">
+                <div className="categories-list-container py-2">
                     <div className="text-center mb-2 py-2">
                         <h5 className="categories-heading m-0">CATEGORIES</h5>
                     </div>

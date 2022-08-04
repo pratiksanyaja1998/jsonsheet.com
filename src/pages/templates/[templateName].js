@@ -2,6 +2,7 @@ import React from 'react';
 import { sourcebitDataClient } from 'sourcebit-target-next';
 import _ from 'lodash';
 import { Layout, TemplateLayout, TemplateItem } from '../../components';
+import { withRouter } from 'next/router';
 
 const TamplateName = (props) => {
     const data = _.get(props, 'data');
@@ -44,7 +45,7 @@ const TamplateName = (props) => {
             config={config}
         >
             <TemplateLayout>
-                <h1>{'hello ' + props?.params.templateName}</h1>
+                <h1>{'hello ' + props?.params?.templateName}</h1>
                 <div className="grid grid-gap-small">
                     {tempList.map((item, index) => {
                         return (
@@ -59,13 +60,13 @@ const TamplateName = (props) => {
     );
 };
 
-export async function getStaticPaths() {
+export const getStaticPaths = () => {
     return { paths: [], fallback: 'blocking' };
-}
+};
 
 export async function getStaticProps({ params }) {
     console.log('params', params);
     const props = await sourcebitDataClient.getStaticPropsForPageAtPath('');
     return { props: { ...props, params } };
 }
-export default TamplateName;
+export default withRouter(TamplateName);
