@@ -4,11 +4,50 @@ import _ from 'lodash';
 import { Layout, TemplateLayout, TemplateItem } from '../../components';
 import { withRouter } from 'next/router';
 
+let arr = [
+    {
+        link: '/art-and-cultural',
+        name: 'Art and Culture'
+    },
+    {
+        link: '/community',
+        name: 'Community'
+    },
+    {
+        link: '/fashion-food',
+        name: 'Fashion & Food'
+    },
+
+    {
+        link: '/health',
+        name: 'Health'
+    },
+    {
+        link: '/local-business',
+        name: 'Local Business'
+    },
+    {
+        link: '/marketing',
+        name: 'Marketing'
+    },
+    {
+        link: '/real-estatel',
+        name: 'Real Estatel'
+    },
+    {
+        link: '/sales',
+        name: 'Sales'
+    },
+    {
+        link: '/science-and-technology',
+        name: 'Science and Technology'
+    }
+];
+
 const TamplateName = (props) => {
     const data = _.get(props, 'data');
     const config = _.get(data, 'config');
 
-    console.log('props--.', props);
     let tempList = [
         {
             id: 1,
@@ -60,8 +99,15 @@ const TamplateName = (props) => {
     );
 };
 
-export const getStaticPaths = () => {
-    return { paths: [], fallback: 'blocking' };
+export const getStaticPaths = async () => {
+    let paths = arr.map((o) => {
+        return {
+            params: {
+                templateName: o.link.substring(1)
+            }
+        };
+    });
+    return { paths: [...paths], fallback: false };
 };
 
 export async function getStaticProps({ params }) {

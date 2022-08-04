@@ -128,7 +128,7 @@ const TemplateLayout = (props) => {
                 <div className="mb-4 mt-2" id="category">
                     <input type="text" id="header-search" placeholder="Search" name="s" className="search-bar" />
                     <button id="menuBtn" className="cat-btn hide" onClick={() => setCategoryShow(!categoryShow)}>
-                        {!categoryShow ? <Icon icon={'menu'} style={{ fontSize: '1.22rem' }} /> : <Icon icon={'close'} style={{ fontSize: '1.22rem' }} />}{' '}
+                        {!categoryShow ? <Icon icon={'menu'} style={{ fontSize: '1.22rem' }} /> : <Icon icon={'close'} style={{ fontSize: '1.22rem' }} />}
                     </button>
                     {categoryShow && (
                         <div className="categories-sm p-1">

@@ -1,0 +1,4 @@
+for next build and next export 
+
+    - next export not supported getStaticPaths function fallback true or `blocking`
+    - so now we are use fallback false and path list
