@@ -1,77 +1,11 @@
 import React, { useEffect, useLayoutEffect, useState } from 'react';
 import Link from 'next/link';
 import Icon from './Icon';
+import axios from 'axios';
 
 const TemplateLayout = (props) => {
     const [categoryShow, setCategoryShow] = useState(false);
-    let arr = [
-        {
-            link: '/art-and-cultural',
-            name: 'Art and Culture'
-        },
-        {
-            link: '/community',
-            name: 'Community'
-        },
-        {
-            link: '/fashion-food',
-            name: 'Fashion & Food'
-        },
-
-        {
-            link: '/health',
-            name: 'Health'
-        },
-        {
-            link: '/local-business',
-            name: 'Local Business'
-        },
-        {
-            link: '/marketing',
-            name: 'Marketing'
-        },
-        {
-            link: '/real-estatel',
-            name: 'Real Estatel'
-        },
-        {
-            link: '/sales',
-            name: 'Sales'
-        },
-        {
-            link: '/science-and-technology',
-            name: 'Science and Technology'
-        },
-        {
-            link: '/community',
-            name: 'Community'
-        },
-        {
-            link: '/fashion-food',
-            name: 'Fashion & Food'
-        },
-
-        {
-            link: '/health',
-            name: 'Health'
-        },
-        {
-            link: '/local-business',
-            name: 'Local Business'
-        },
-        {
-            link: '/marketing',
-            name: 'Marketing'
-        },
-        {
-            link: '/real-estatel',
-            name: 'Real Estatel'
-        },
-        {
-            link: '/sales',
-            name: 'Sales'
-        }
-    ];
+    const [category, setCategory] = useState([]);
 
     useEffect(() => {
         if (typeof window === 'undefined') {
@@ -101,11 +35,19 @@ const TemplateLayout = (props) => {
                 if (detail.clientHeight < window.innerHeight - 95) {
                     list.classList.replace('full-height', 'fix-height');
                 } else {
-                    list.style.maxHeight = `${detail.clientHeight+95}px`
+                    list.style.maxHeight = `${detail.clientHeight + 95}px`;
                     list.classList.replace('fix-height', 'full-height');
                 }
             }
         }
+
+        axios
+            .get('https://api.whitelabelapp.in/googlesheetapp/templates/category')
+            .then((res) => {
+                // console.log('res-->', res);
+                setCategory(res.data);
+            })
+            .catch((err) => console.log(err));
 
         window.addEventListener('resize', autoResize);
         autoResize();
@@ -122,9 +64,13 @@ const TemplateLayout = (props) => {
                         </Link>
                     </div>
                     <div>
-                        {arr.map((value, index) => (
+                        {category.map((value, index) => (
                             <div key={index}>
-                                <Link href={'/templates' + value.link}>
+                                <Link
+                                    href={{
+                                        pathname: '/templates/' + value.name.toLocaleLowerCase().replaceAll(' ', '-')
+                                    }}
+                                >
                                     <a>{value.name}</a>
                                 </Link>
                             </div>
@@ -140,9 +86,16 @@ const TemplateLayout = (props) => {
                     </button>
                     {categoryShow && (
                         <div className="categories-sm p-1">
-                            {arr.map((value, index) => (
+                            <Link href={'/templates'}>
+                                <a className="cat-list m-1">All</a>
+                            </Link>
+                            {category.map((value, index) => (
                                 <div key={index}>
-                                    <Link href={'/templates' + value.link}>
+                                    <Link
+                                        href={{
+                                            pathname: '/templates/' + value.name.toLocaleLowerCase().replaceAll(' ', '-')
+                                        }}
+                                    >
                                         <a className="cat-list m-1" onClick={() => setCategoryShow(false)}>
                                             {value.name}
                                         </a>
