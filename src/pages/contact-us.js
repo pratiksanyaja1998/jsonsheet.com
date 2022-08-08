@@ -32,7 +32,7 @@ const contact = (props) => {
                     <div className="item card card--vert mb-5 ">
                         {/* first row */}
                         <div className="item_content grid mt-2 mb-2">
-                            <div className="cell-12 cell-md-6 column">
+                            <div className="cell-12 cell-md-6 first-column">
                                 <div className="ml-3 row-col">
                                     <lable>First name</lable>
                                     <input type="text" name="name" className="input-style" placeholder="Ex. jhon" />
@@ -47,7 +47,7 @@ const contact = (props) => {
                         </div>
                         {/* second row */}
                         <div className="item_content grid mb-2">
-                            <div className="cell-12 cell-md-6 column">
+                            <div className="cell-12 cell-md-6 first-column">
                                 <div className="ml-3 row-col">
                                     <lable>Work email</lable>
                                     <input type="email" name="email" className="input-style" placeholder="Ex. xyz@gmail.com" />
@@ -71,7 +71,7 @@ const contact = (props) => {
                         </div>
                         {/* fourth row */}
                         <div className="item_content grid mb-2">
-                            <div className="cell-12 cell-md-6 column">
+                            <div className="cell-12 cell-md-6 first-column">
                                 <div className="ml-3 row-col">
                                     <lable>Company name</lable>
                                     <input type="email" name="email" className="input-style" placeholder="Ex. xyz " />
@@ -86,7 +86,7 @@ const contact = (props) => {
                         </div>
                         {/* fifth row */}
                         <div className="item_content grid mb-4">
-                            <div className="cell-12 cell-md-12 column">
+                            <div className="cell-12 cell-md-12 first-column">
                                 <div className="ml-3 mr-3 row-col">
                                     <lable>How can our team help you?</lable>
                                     <textarea
