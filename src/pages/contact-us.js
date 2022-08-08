@@ -18,6 +18,7 @@ const contact = (props) => {
                 layout: 'page'
             }}
             config={config}
+            id="contactUs"
         >
             <div className="container">
                 <h4 className="mb-3 text-center mr-5 ml-5" style={{marginTop:20 }}>Let us help you grow your business and dramatically streamline your workflow.</h4>
@@ -26,17 +27,17 @@ const contact = (props) => {
 
             <div className="container">
                 {/* whole card */}
-                <div className="item card card--vert mb-5">
+                <div className="item card card--vert mb-5 ">
                     {/* first row */}
                     <div className="item_content grid mt-2 mb-2">
-                        <div className="cell-12 cell-md-6 ">
-                            <div className="ml-3">
+                        <div className="cell-12 cell-md-6">
+                            <div className="ml-3 row-col">
                                 <lable>First name</lable>
                                 <input type="text" name="name" className="input-style" placeholder="Ex. jhon" />
                             </div>
                         </div>
                         <div className="cell-12 cell-md-6">
-                            <div className="mr-3">
+                            <div className="mr-3 row-col">
                                 <lable>Last name</lable>
                                 <input type="text" name="name" className="input-style" placeholder="Ex. parkar" />
                             </div>
