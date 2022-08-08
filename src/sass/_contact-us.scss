@@ -1,0 +1,12 @@
+#contactUs {
+    @media screen and (max-width: 800px) {
+       .row-col{
+        margin: 0 1.111rem !important;
+       }
+    }
+    @media screen and(max-width:800px) {
+        .column{
+            margin-bottom: 0.83333rem;
+        }
+    }
+}
