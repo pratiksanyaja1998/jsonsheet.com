@@ -71,14 +71,14 @@ const TamplateName = (props) => {
 export const getStaticPaths = async () => {
     const list = await axios.get('https://api.whitelabelapp.in/googlesheetapp/templates/category').then((res) => res.data);
 
-    let paths = list.map((o) => {
-        return {
+    let paths =
+        list?.length > 0 &&
+        list?.map((o) => ({
             params: {
-                templateName: o.name.toLocaleLowerCase().replaceAll(' ', '-')
+                templateName: o.name.split(' ').join('-').toLocaleLowerCase()
             }
-        };
-    });
-    return { paths: [...paths], fallback: false };
+        }));
+    return { paths, fallback: false };
 };
 
 export async function getStaticProps({ params }) {
