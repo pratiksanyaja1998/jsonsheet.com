@@ -14,8 +14,7 @@ const TamplateName = (props) => {
 
     const router = useRouter();
 
-    console.log('router -->', router);
-    // console.log('props --', props);
+    console.log('props --', props);
 
     let tempList = [
         {
@@ -75,15 +74,15 @@ export const getStaticPaths = async () => {
         list?.length > 0 &&
         list?.map((o) => ({
             params: {
-                templateName: o.name.split(' ').join('-').toLocaleLowerCase()
+                templateName: o.slug
             }
         }));
     return { paths, fallback: false };
 };
 
 export async function getStaticProps({ params }) {
-    console.log('params', params);
+    const categoryList = await axios.get('https://api.whitelabelapp.in/googlesheetapp/templates/category').then((res) => res.data);
     const props = await sourcebitDataClient.getStaticPropsForPageAtPath('');
-    return { props: { ...props, params } };
+    return { props: { ...props, params, categoty: categoryList.find((o) => o.slug == params.templateName) } };
 }
 export default withRouter(TamplateName);
