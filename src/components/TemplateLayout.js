@@ -44,7 +44,7 @@ const TemplateLayout = (props) => {
         axios
             .get('https://api.whitelabelapp.in/googlesheetapp/templates/category')
             .then((res) => {
-                // console.log('res-->', res);
+                console.log('res-->', res);
                 setCategory(res.data);
             })
             .catch((err) => console.log(err));
@@ -68,7 +68,7 @@ const TemplateLayout = (props) => {
                             <div key={index}>
                                 <Link
                                     href={{
-                                        pathname: '/templates/' + value.name.toLocaleLowerCase().replaceAll(' ', '-')
+                                        pathname: '/templates/' + value.slug
                                     }}
                                 >
                                     <a>{value.name}</a>
@@ -93,7 +93,7 @@ const TemplateLayout = (props) => {
                                 <div key={index}>
                                     <Link
                                         href={{
-                                            pathname: '/templates/' + value.name.toLocaleLowerCase().replaceAll(' ', '-')
+                                            pathname: '/templates/' + value.slug
                                         }}
                                     >
                                         <a className="cat-list m-1" onClick={() => setCategoryShow(false)}>
