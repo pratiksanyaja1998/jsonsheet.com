@@ -23,6 +23,7 @@ import SectionBackground from './SectionBackground';
 import TypeHeroSection from './TypeHeroSection';
 import TemplateLayout from './TemplateLayout';
 import TemplateItem from './TemplateItem';
+import NoDataFound from './NoDataFound';
 
 export {
     Action,
@@ -49,7 +50,8 @@ export {
     SectionBackground,
     TypeHeroSection,
     TemplateLayout,
-    TemplateItem
+    TemplateItem,
+    NoDataFound
 };
 
 export default {
@@ -77,5 +79,6 @@ export default {
     SectionBackground,
     TypeHeroSection,
     TemplateLayout,
-    TemplateItem
+    TemplateItem,
+    NoDataFound
 };

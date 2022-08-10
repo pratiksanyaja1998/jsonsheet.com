@@ -1,7 +1,7 @@
-import { React, useState } from 'react';
+import { React, useEffect, useState } from 'react';
 import { sourcebitDataClient } from 'sourcebit-target-next';
 import _ from 'lodash';
-import { Layout, TemplateLayout, TemplateItem } from '../../components';
+import { Layout, TemplateLayout, TemplateItem, NoDataFound } from '../../components';
 import router, { withRouter, useRouter } from 'next/router';
 import axios from 'axios';
 
@@ -38,6 +38,15 @@ const TamplateName = (props) => {
             description: 'Discover 2 Food And Fashion Cover designs on Dribbble. Your resource to discover and connect with designers worldwide.'
         }
     ];
+    useEffect(() => {
+        axios
+            .get(`https://api.whitelabelapp.in/googlesheetapp/templates/list?category=${props.categoty.id}`)
+            .then((res) => {
+                console.log('res-' + props.categoty.id + '->', res);
+                setTemplateList(res.data);
+            })
+            .catch((err) => console.log(err));
+    }, [props.categoty.id]); //chage here mAKE it proper
 
     return (
         <Layout
@@ -52,16 +61,22 @@ const TamplateName = (props) => {
             config={config}
         >
             <TemplateLayout>
-                <h1>{'hello ' + props?.params?.templateName}</h1>
-                <div className="grid grid-gap-small">
-                    {tempList.map((item, index) => {
-                        return (
-                            <div className="cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-2" key={index}>
-                                <TemplateItem item={item} />
-                            </div>
-                        );
-                    })}
-                </div>
+                {templateList.length == 0 ? (
+                    <NoDataFound />
+                ) : (
+                    <div>
+                        <h1>{props.categoty.name}</h1>
+                        <div className="grid grid-gap-small">
+                            {templateList.map((item, index) => {
+                                return (
+                                    <div className="cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-2" key={index}>
+                                        <TemplateItem item={item} />
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    </div>
+                )}
             </TemplateLayout>
         </Layout>
     );
