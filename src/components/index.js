@@ -24,6 +24,7 @@ import TypeHeroSection from './TypeHeroSection';
 import TemplateLayout from './TemplateLayout';
 import TemplateItem from './TemplateItem';
 import NoDataFound from './NoDataFound';
+import Loading from './Loading';
 
 export {
     Action,
@@ -51,7 +52,8 @@ export {
     TypeHeroSection,
     TemplateLayout,
     TemplateItem,
-    NoDataFound
+    NoDataFound,
+    Loading
 };
 
 export default {
@@ -80,5 +82,6 @@ export default {
     TypeHeroSection,
     TemplateLayout,
     TemplateItem,
-    NoDataFound
+    NoDataFound,
+    Loading
 };

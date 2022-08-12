@@ -1,7 +1,7 @@
 import { React, useEffect, useState } from 'react';
 import { sourcebitDataClient } from 'sourcebit-target-next';
 import _ from 'lodash';
-import { Layout, TemplateLayout, TemplateItem, NoDataFound } from '../../components';
+import { Layout, TemplateLayout, TemplateItem, NoDataFound, Loading } from '../../components';
 import router, { withRouter, useRouter } from 'next/router';
 import axios from 'axios';
 
@@ -11,7 +11,7 @@ const TamplateName = (props) => {
     const config = _.get(data, 'config');
     // state
     const [templateList, setTemplateList] = useState([]);
-
+    const [isLoading, setIsLoading] = useState(false);
     const router = useRouter();
 
     console.log('props --', props);
@@ -39,13 +39,18 @@ const TamplateName = (props) => {
         }
     ];
     useEffect(() => {
+        setIsLoading(true);
         axios
             .get(`https://api.whitelabelapp.in/googlesheetapp/templates/list?category=${props.categoty.id}`)
             .then((res) => {
                 console.log('res-' + props.categoty.id + '->', res);
                 setTemplateList(res.data);
+                setIsLoading(false);
             })
-            .catch((err) => console.log(err));
+            .catch((err) => {
+                console.log(err);
+                setIsLoading(false);
+            });
     }, [props.categoty.id]); //chage here mAKE it proper
 
     return (
@@ -61,7 +66,9 @@ const TamplateName = (props) => {
             config={config}
         >
             <TemplateLayout>
-                {templateList.length == 0 ? (
+                {isLoading ? (
+                    <Loading />
+                ) : templateList.length == 0 ? (
                     <NoDataFound />
                 ) : (
                     <div>

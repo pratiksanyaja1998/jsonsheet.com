@@ -2,10 +2,11 @@ import React, { useEffect, useLayoutEffect, useState } from 'react';
 import Link from 'next/link';
 import Icon from './Icon';
 import axios from 'axios';
-
+import Loading from './Loading';
 const TemplateLayout = (props) => {
     const [categoryShow, setCategoryShow] = useState(false);
     const [category, setCategory] = useState([]);
+    const [isLoading, setIsLoading] = useState(false);
 
     useEffect(() => {
         if (typeof window === 'undefined') {
@@ -41,20 +42,30 @@ const TemplateLayout = (props) => {
             }
         }
 
-        axios
-            .get('https://api.whitelabelapp.in/googlesheetapp/templates/category')
-            .then((res) => {
-                console.log('res-->', res);
-                setCategory(res.data);
-            })
-            .catch((err) => console.log(err));
-
+        fetchData();
         window.addEventListener('resize', autoResize);
         autoResize();
         return () => window.removeEventListener('resize', autoResize);
     }, []);
 
-    return (
+    const fetchData = () => {
+        setIsLoading(true);
+        axios
+            .get('https://api.whitelabelapp.in/googlesheetapp/templates/category')
+            .then((res) => {
+                console.log('res-->', res);
+                setCategory(res.data);
+                setIsLoading(false);
+            })
+            .catch((err) => {
+                console.log(err);
+                setIsLoading(false);
+            });
+    };
+
+    return isLoading ? (
+        <Loading />
+    ) : (
         <div className="template-layout container grid grid-gap-large">
             <div className="cell-0 cell-md-3 show full-height" id="categoryList">
                 <div className="categories-list-container py-2">
