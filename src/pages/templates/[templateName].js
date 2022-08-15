@@ -51,7 +51,7 @@ const TamplateName = (props) => {
                 console.log(err);
                 setIsLoading(false);
             });
-    }, [props.categoty.id]); //chage here mAKE it proper
+    }, [props.categoty.id]); //chage here make it proper
 
     return (
         <Layout
