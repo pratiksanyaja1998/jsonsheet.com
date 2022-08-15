@@ -7,7 +7,7 @@ sections:
     subtitle: >-
       Stop switching between calendars and task lists!
     content: >-
-      App Land combines your work and home calendars with all your task
+      Json Sheet combines your work and home calendars with all your task
       management tools into one seamless experience controlled by a single app
       that you can use on any device.
     actions:
@@ -26,7 +26,7 @@ sections:
     padding_bottom: large
     background_color: primary
   - type: grid_section
-    title: What's Great About App Land?
+    title: What's Great About Json Sheet?
     subtitle: >-
       In a Glance
     align: center

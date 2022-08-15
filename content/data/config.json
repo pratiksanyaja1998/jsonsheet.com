@@ -11,12 +11,7 @@
         "logo": "images/logo.svg",
         "logo_alt": "App logo",
         "has_primary_nav": true,
-        "primary_nav_links": [
-            {
-                "label": "Pricing",
-                "url": "/pricing",
-                "style": "link"
-            },
+        "primary_nav_links": [           
             {
                 "label": "About",
                 "url": "/about",
@@ -67,11 +62,6 @@
             {
                 "label": "About",
                 "url": "/about",
-                "style": "link"
-            },
-            {
-                "label": "Style Guide",
-                "url": "/style-guide",
                 "style": "link"
             }
         ],
@@ -161,7 +151,7 @@
                 "new_window": true
             }
         ],
-        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=app&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>"
+        "content": "&copy; SPYHUNTER IT SOLUTION (OPC) PRIVATE LIMITED."
     },
     "announcement": {
         "has_anncmnt": true,

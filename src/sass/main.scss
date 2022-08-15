@@ -30,6 +30,7 @@
 @import "components/text-block";
 @import "components/type-hero";
 @import "components/templateLayout";
+@import "components/noDataFound";
 
 // Layouts
 @import "layouts/site";
@@ -42,3 +43,6 @@
 
 // Color variations
 @import "variations/modes";
+
+//pages
+@import "contact-us";

@@ -1,77 +1,12 @@
 import React, { useEffect, useLayoutEffect, useState } from 'react';
 import Link from 'next/link';
 import Icon from './Icon';
-
+import axios from 'axios';
+import Loading from './Loading';
 const TemplateLayout = (props) => {
     const [categoryShow, setCategoryShow] = useState(false);
-    let arr = [
-        {
-            link: '/art-and-cultural',
-            name: 'Art and Culture'
-        },
-        {
-            link: '/community',
-            name: 'Community'
-        },
-        {
-            link: '/fashion-food',
-            name: 'Fashion & Food'
-        },
-
-        {
-            link: '/health',
-            name: 'Health'
-        },
-        {
-            link: '/local-business',
-            name: 'Local Business'
-        },
-        {
-            link: '/marketing',
-            name: 'Marketing'
-        },
-        {
-            link: '/real-estatel',
-            name: 'Real Estatel'
-        },
-        {
-            link: '/sales',
-            name: 'Sales'
-        },
-        {
-            link: '/science-and-technology',
-            name: 'Science and Technology'
-        },
-        {
-            link: '/community',
-            name: 'Community'
-        },
-        {
-            link: '/fashion-food',
-            name: 'Fashion & Food'
-        },
-
-        {
-            link: '/health',
-            name: 'Health'
-        },
-        {
-            link: '/local-business',
-            name: 'Local Business'
-        },
-        {
-            link: '/marketing',
-            name: 'Marketing'
-        },
-        {
-            link: '/real-estatel',
-            name: 'Real Estatel'
-        },
-        {
-            link: '/sales',
-            name: 'Sales'
-        }
-    ];
+    const [category, setCategory] = useState([]);
+    const [isLoading, setIsLoading] = useState(false);
 
     useEffect(() => {
         if (typeof window === 'undefined') {
@@ -101,18 +36,36 @@ const TemplateLayout = (props) => {
                 if (detail.clientHeight < window.innerHeight - 95) {
                     list.classList.replace('full-height', 'fix-height');
                 } else {
-                    list.style.maxHeight = `${detail.clientHeight+95}px`
+                    list.style.maxHeight = `${detail.clientHeight + 95}px`;
                     list.classList.replace('fix-height', 'full-height');
                 }
             }
         }
 
+        fetchData();
         window.addEventListener('resize', autoResize);
         autoResize();
         return () => window.removeEventListener('resize', autoResize);
     }, []);
 
-    return (
+    const fetchData = () => {
+        setIsLoading(true);
+        axios
+            .get('https://api.whitelabelapp.in/googlesheetapp/templates/category')
+            .then((res) => {
+                console.log('res-->', res);
+                setCategory(res.data);
+                setIsLoading(false);
+            })
+            .catch((err) => {
+                console.log(err);
+                setIsLoading(false);
+            });
+    };
+
+    return isLoading ? (
+        <Loading />
+    ) : (
         <div className="template-layout container grid grid-gap-large">
             <div className="cell-0 cell-md-3 show full-height" id="categoryList">
                 <div className="categories-list-container py-2">
@@ -122,9 +75,13 @@ const TemplateLayout = (props) => {
                         </Link>
                     </div>
                     <div>
-                        {arr.map((value, index) => (
+                        {category.map((value, index) => (
                             <div key={index}>
-                                <Link href={'/templates' + value.link}>
+                                <Link
+                                    href={{
+                                        pathname: '/templates/' + value.slug
+                                    }}
+                                >
                                     <a>{value.name}</a>
                                 </Link>
                             </div>
@@ -140,9 +97,16 @@ const TemplateLayout = (props) => {
                     </button>
                     {categoryShow && (
                         <div className="categories-sm p-1">
-                            {arr.map((value, index) => (
+                            <Link href={'/templates'}>
+                                <a className="cat-list m-1">All</a>
+                            </Link>
+                            {category.map((value, index) => (
                                 <div key={index}>
-                                    <Link href={'/templates' + value.link}>
+                                    <Link
+                                        href={{
+                                            pathname: '/templates/' + value.slug
+                                        }}
+                                    >
                                         <a className="cat-list m-1" onClick={() => setCategoryShow(false)}>
                                             {value.name}
                                         </a>
