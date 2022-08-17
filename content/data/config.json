@@ -1,5 +1,5 @@
 {
-    "title": "Stackbit App Theme",
+    "title": "JsonSheet App Theme",
     "path_prefix": "/",
     "layout_type": "full-width",
     "style": "minimal",
@@ -23,14 +23,9 @@
                 "style": "link"
             },
             {
-                "label":"Contact-Us",
+                "label":"Contact Us",
                 "url":"/contact-us",
                 "style":"link"
-            },
-            {
-                "label": "Style Guide",
-                "url": "/style-guide",
-                "style": "link"
             },
             {
                 "label": "Templates",
@@ -155,7 +150,7 @@
     },
     "announcement": {
         "has_anncmnt": true,
-        "anncmnt_content": "Curabitur ac tellus mattis, tempor ipsum eu, eleifend sapien. **[Learn More](/pricing/)**",
+        "anncmnt_content": "",
         "anncmnt_align": "left",
         "anncmnt_is_home_only": true,
         "anncmnt_has_close": true,

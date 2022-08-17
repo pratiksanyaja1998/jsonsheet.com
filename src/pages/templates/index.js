@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Layout, TemplateLayout, TemplateItem, Loading } from '../../components';
 import { sourcebitDataClient } from 'sourcebit-target-next';
 import _ from 'lodash';
@@ -9,11 +9,30 @@ const Template = (props) => {
     const config = _.get(data, 'config');
     const [templateList, setTemplateList] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
+    const [search, setSearch] = useState();
+
+    const getData = useCallback(
+        _.debounce((data) => {
+            setSearch(data);
+        }, 1000),
+        []
+    );
+    useEffect(() => {
+        fatchData();
+    }, [search]);
 
     useEffect(() => {
+        fatchData();
+    }, []);
+
+    const fatchData = () => {
         setIsLoading(true);
+        let url = 'https://api.whitelabelapp.in/googlesheetapp/templates/list';
+        if (search) {
+            url += '?search=' + search;
+        }
         axios
-            .get('https://api.whitelabelapp.in/googlesheetapp/templates/list')
+            .get(url)
             .then((res) => {
                 console.log('res-->', res);
                 setTemplateList(res.data);
@@ -23,8 +42,7 @@ const Template = (props) => {
                 console.log(err);
                 setIsLoading(false);
             });
-    }, []);
-
+    };
     return (
         <Layout
             page={{
@@ -37,7 +55,7 @@ const Template = (props) => {
             }}
             config={config}
         >
-            <TemplateLayout>
+            <TemplateLayout getData={getData}>
                 {isLoading ? (
                     <Loading />
                 ) : (

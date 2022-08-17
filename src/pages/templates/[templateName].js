@@ -1,4 +1,4 @@
-import { React, useEffect, useState } from 'react';
+import { React, useEffect, useState, useCallback } from 'react';
 import { sourcebitDataClient } from 'sourcebit-target-next';
 import _ from 'lodash';
 import { Layout, TemplateLayout, TemplateItem, NoDataFound, Loading } from '../../components';
@@ -12,38 +12,38 @@ const TamplateName = (props) => {
     // state
     const [templateList, setTemplateList] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
+    const [search, setSearch] = useState();
     const router = useRouter();
 
     console.log('props --', props);
-
-    let tempList = [
-        {
-            id: 1,
-            name: 'Art and Culture',
-            image: 'https://all-powerpoint-template.com/img/2020/10/Slide1-640.jpg',
-            description:
-                'Showcase your works with significant Free Art and Culture Templates & Themes. Easy to customize templates with clean and crisp layouts and free support.'
-        },
-        {
-            id: 2,
-            name: 'community',
-            image: 'https://all-powerpoint-template.com/img/2020/10/Slide1-640.jpg',
-            description:
-                'Get 723 community website templates on ThemeForest. Buy community website templates from $3. All created by our Global Community of independent Web .'
-        },
-        {
-            id: 3,
-            name: 'fashion-food',
-            image: 'https://all-powerpoint-template.com/img/2020/10/Slide1-640.jpg',
-            description: 'Discover 2 Food And Fashion Cover designs on Dribbble. Your resource to discover and connect with designers worldwide.'
-        }
-    ];
+    const getData = useCallback(
+        _.debounce((data) => {
+            setSearch(data);
+        }, 1000),
+        []
+    );
     useEffect(() => {
+        fatchData();
+    }, [search]);
+
+    useEffect(() => {
+        setSearch('');
+        fatchData();
+    }, [props.categoty.id]);
+
+    const fatchData = () => {
         setIsLoading(true);
+        let url = 'https://api.whitelabelapp.in/googlesheetapp/templates/list';
+        if (props.categoty.id) {
+            url += '?category=' + props.categoty.id;
+        }
+        if (search) {
+            url += '&search=' + search;
+        }
         axios
-            .get(`https://api.whitelabelapp.in/googlesheetapp/templates/list?category=${props.categoty.id}`)
+            .get(url)
             .then((res) => {
-                console.log('res-' + props.categoty.id + '->', res);
+                console.log('res-->', res);
                 setTemplateList(res.data);
                 setIsLoading(false);
             })
@@ -51,21 +51,20 @@ const TamplateName = (props) => {
                 console.log(err);
                 setIsLoading(false);
             });
-    }, [props.categoty.id]); //chage here make it proper
-
+    };
     return (
         <Layout
             page={{
                 title: 'templates',
                 seo: {
                     title: 'templates',
-                    description: 'template page'
+                    description: '"templatelist",templateList page'
                 },
                 layout: 'page'
             }}
             config={config}
         >
-            <TemplateLayout>
+            <TemplateLayout getData={getData} categoty={props.categoty.id}>
                 {isLoading ? (
                     <Loading />
                 ) : templateList.length == 0 ? (

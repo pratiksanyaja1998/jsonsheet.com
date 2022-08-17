@@ -200,14 +200,14 @@ sections:
     has_border: false
     background_color: none
 seo:
-  title: Stackbit App Theme
+  title: Json Sheet App Theme
   description: The preview of the App theme
   extra:
     - name: og:type
       value: website
       keyName: property
     - name: og:title
-      value: Stackbit App Theme
+      value: Json Sheet App Theme
       keyName: property
     - name: og:description
       value: The preview of the App theme
@@ -219,7 +219,7 @@ seo:
     - name: twitter:card
       value: summary_large_image
     - name: twitter:title
-      value: Stackbit App Theme
+      value: Json Sheet App Theme
     - name: twitter:description
       value: The preview of the App theme
     - name: twitter:image
