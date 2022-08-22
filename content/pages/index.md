@@ -12,10 +12,10 @@ sections:
       that you can use on any device.
     actions:
       - label: App Store
-        url: /pricing
+        url: https://play.google.com/store/apps/details?id=com.jsonsheetapp
         style: primary
       - label: Google Play
-        url: /pricing
+        url: https://play.google.com/store/apps/details?id=com.jsonsheetapp
         style: secondary
     image: images/hero.svg
     image_alt: Hero section placeholder image
@@ -26,16 +26,15 @@ sections:
     padding_bottom: large
     background_color: primary
   - type: grid_section
-    title: What's Great About Json Sheet?
+    title: Get started with Json Sheet
     subtitle: >-
       In a Glance
     align: center
     grid_items:
-      - title: Right When You Need It
+      - title: Sign up
         title_align: left
         content: >-
-          See all of your appointments, work meetings and life events in one
-          place so you know exactly where you need to be at any given time.
+          Create a new Json Sheet workspace in just a few moments. It's free to try for teams of any size.
         content_align: left
         actions:
           - label: Learn More
@@ -50,11 +49,10 @@ sections:
         image_align: left
         image_has_padding: true
         image_position: top
-      - title: On Any Device
+      - title: Invite your colleagues and
         title_align: left
         content: >-
-          App Land synchronizes across Android and iOS phones, and on your
-          computer or tablet. See all your dates and info anywhere you are.
+         Json Sheets is better put together (no, really, it's a little uncool for you), and it's easier to invite your team.
         content_align: left
         actions:
           - label: Learn More
@@ -69,11 +67,10 @@ sections:
         image_align: left
         image_has_padding: true
         image_position: top
-      - title: Smart Notifications
+      - title: Try it once
         title_align: left
         content: >-
-          Get color-coded notifications for easy viewing at a glance. Your tasks
-          and appointments show up conveniently in one place.
+         Run projects, coordinate with your team, or just talk about things. Slack is a blank canvas for teamwork.
         content_align: left
         actions:
           - label: Learn More
@@ -132,37 +129,37 @@ sections:
     feature_padding_vert: large
     align: center
     background_color: none
-  - type: features_section
-    features:
-      - title: >-
-          “Fantastic app for planning your day and future tasks. Works perfectly
-          everyday!”
-        subtitle: >-
-          Alyvia Cope, Design at Company
-        image: images/person-1.png
-        image_alt: Person 1 photo
-        media_position: right
-        media_width: thirty-three
-      - title: >-
-          “A very useful project management app. I use it every day.”
-        subtitle: >-
-          Travis Guidelines, Manager at Company
-        image: images/person-2.png
-        image_alt: Person 2 photo
-        media_position: left
-        media_width: thirty-three
-    feature_padding_vert: small
-    background_color: secondary
+  # - type: features_section
+  #   features:
+  #     - title: >-
+  #         “Fantastic app for planning your day and future tasks. Works perfectly
+  #         everyday!”
+  #       subtitle: >-
+  #         Alyvia Cope, Design at Company
+  #       image: images/person-1.png
+  #       image_alt: Person 1 photo
+  #       media_position: right
+  #       media_width: thirty-three
+  #     - title: >-
+  #         “A very useful project management app. I use it every day.”
+  #       subtitle: >-
+  #         Travis Guidelines, Manager at Company
+  #       image: images/person-2.png
+  #       image_alt: Person 2 photo
+  #       media_position: left
+  #       media_width: thirty-three
+  #   feature_padding_vert: small
+  #   background_color: secondary
   - type: cta_section
     title: Try Json sheet today
     content: >-
      Json Sheet can be used for free with teams of any size. We also offer paid plans with additional features, storage and automation.
     actions:
       - label: App Store
-        url: /pricing
+        url: https://play.google.com/store/apps/details?id=com.jsonsheetapp
         style: primary
       - label: Google Play
-        url: /pricing
+        url: https://play.google.com/store/apps/details?id=com.jsonsheetapp
         style: secondary
         has_icon: false
         icon: arrow-left
@@ -178,31 +175,35 @@ sections:
     background_image_repeat: repeat
     background_image_size: cover
     background_image_opacity: 10
-  - type: blog_feed_section
-    title: Productivity Blog
-    subtitle: What's Up?
-    actions:
-      - label: View All
-        url: /blog
-        style: primary
-    blog_feed_cols: two
-    enable_cards: true
-    show_recent: true
-    recent_count: 2
-    show_image: true
-    show_date: true
-    show_categories: true
-    show_author: false
-    show_excerpt: false
-    align: center
-    padding_top: medium
-    padding_bottom: medium
-    has_border: false
-    background_color: none
+  # - type: blog_feed_section
+  #   title: Productivity Blog
+  #   subtitle: What's Up?
+  #   actions:
+  #     - label: View All
+  #       url: /blog
+  #       style: primary
+  #   blog_feed_cols: two
+  #   enable_cards: true
+  #   show_recent: true
+  #   recent_count: 2
+  #   show_image: true
+  #   show_date: true
+  #   show_categories: true
+  #   show_author: false
+  #   show_excerpt: false
+  #   align: center
+  #   padding_top: medium
+  #   padding_bottom: medium
+  #   has_border: false
+  #   background_color: none
 seo:
-  title: Json Sheet App Theme
-  description: The preview of the App theme
+  title: Spreadsheets Databases and Smartsheet platform
+  description: Json Smart sheet Customize your workflow, collaborate, and achieve ambitious outcomes.  Maintain visibility & keep distributed teams connected.
+
   extra:
+    - name:
+    - name: Keywords
+      value: json sheet, google script json sheet, convert-excel-to-json sheet, json sheetjs,json cheat sheet, google sheet to json, sheets json api, google sheet json api, json sheet builder, json cheat sheet pdf, json to sheet custom header, json schema cheat sheet, jsonpath cheat sheet, google sheet to json, json to google sheets	
     - name: og:type
       value: website
       keyName: property

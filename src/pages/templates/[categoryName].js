@@ -95,7 +95,7 @@ export const getStaticPaths = async () => {
         list?.length > 0 &&
         list?.map((o) => ({
             params: {
-                templateName: o.slug
+                categoryName: o.slug
             }
         }));
     return { paths, fallback: false };
@@ -104,6 +104,6 @@ export const getStaticPaths = async () => {
 export async function getStaticProps({ params }) {
     const categoryList = await axios.get('https://api.whitelabelapp.in/googlesheetapp/templates/category').then((res) => res.data);
     const props = await sourcebitDataClient.getStaticPropsForPageAtPath('');
-    return { props: { ...props, params, categoty: categoryList.find((o) => o.slug == params.templateName) } };
+    return { props: { ...props, params, categoty: categoryList.find((o) => o.slug == params.categoryName) } };
 }
 export default withRouter(TamplateName);
