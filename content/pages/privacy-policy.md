@@ -28,13 +28,13 @@ We — meaning Spyhunter IT Solution, doing business as Json Sheet(also "Json Sh
 
 In this policy the following terms shall have the following meanings:
 
-Account - means the account required to access and/or use certain areas and features of our Products;
+Account - The account required to access and/or use certain areas and features of our Products;
 
-Cookies - means a small text file placed on your computer or device by our products when you visit certain parts of our products and/or when you use certain features of our products. Details of the cookies used by our products are set out in Section below;
+Cookies - A small text file placed on your computer or device by our products when you visit certain parts of our products and/or when you use certain features of our products. Details of the cookies used by our products are set out in Section below;
 
-Our Products - means this website - www.Json Sheet.com   & associated Json Sheet products (web or mobile).
+Our Products - This website - https://jsonsheet.com & associated Json Sheet products (web or mobile).
 
-We/Us/Our - means Spyhunter IT Solution Pvt.Ltd, registered in India, whose registered address is 104, Global point, Sarthana Jakat Naka, Surat, Gujarat-395007.
+We/Us/Our - Spyhunter IT Solution Pvt.Ltd, registered in India, whose registered address is 104, Global point, Sarthana Jakat Naka, Surat, Gujarat-395007.
 
 
 ### Scope - What Does This Policy Cover?
