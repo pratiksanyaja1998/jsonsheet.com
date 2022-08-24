@@ -10,6 +10,7 @@ const TemplateLayout = (props) => {
     const [isLoading, setIsLoading] = useState(false);
     const [search, setSearch] = useState('');
 
+
     useEffect(() => {
         if (typeof window === 'undefined') {
             return;
@@ -50,7 +51,7 @@ const TemplateLayout = (props) => {
     }, []);
 
     useEffect(() => {
-        console.log("props chnges");
+        console.log('props chnges');
         setSearch('');
     }, [props?.categoty]);
 
@@ -68,7 +69,7 @@ const TemplateLayout = (props) => {
                 setIsLoading(false);
             });
     };
-
+ console.log(props.show);
     return isLoading ? (
         <Loading />
     ) : (
@@ -95,6 +96,7 @@ const TemplateLayout = (props) => {
                     </div>
                 </div>
             </div>
+
             <div className="templates-container cell-12 cell-md-9">
                 <div className="mb-4 mt-2" id="category">
                     <input

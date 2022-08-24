@@ -1,59 +1,97 @@
 ---
-title: When to Put Down your Phone
+title: Our vision for the next generation of management tools
 subtitle: >-
-  Atqui pugnantibus et contrariis studiis consiliisque semper utens nihil quieti videre, nihil tranquilli potest.
-date: 2020-04-16
+
+date: 2022-08-23
 categories:
-  - content/data/categories/tutorials.yaml
-  - content/data/categories/general.yaml
+    - content/data/categories/tutorials.yaml
+    - content/data/categories/general.yaml
 excerpt: >-
-  Hey, don't forget about your social life! Real people need real interactions
-  and positive facetime with loved ones. Take a page from our book of rules for
-  your phone usage.
-thumb_image: images/post-5.jpg
+    Learn all about json sheet is modern management sheet
+thumb_image: images/post-5.png
 thumb_image_alt: Post 1 placeholder image
-image: images/post-5.jpg
+image: images/post-5.png
 image_alt: Post 1 placeholder image
-image_position: right
+image_position: top
 seo:
-  title: When to Put Down your Phone
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  extra:
-    - name: og:type
-      value: article
-      keyName: property
-    - name: og:title
-      value: When to Put Down your Phone
-      keyName: property
-    - name: og:description
-      value: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-      keyName: property
-    - name: og:image
-      value: images/post-5.jpg
-      keyName: property
-      relativeUrl: true
-    - name: twitter:card
-      value: summary_large_image
-    - name: twitter:title
-      value: When to Put Down your Phone
-    - name: twitter:description
-      value: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    - name: twitter:image
-      value: images/post-5.jpg
-      relativeUrl: true
+    title: Our vision for the next generation of management tools
+    description: Learn all about json sheet is modern management sheet
+    extra:
+        - name: Keywords
+          value: json sheet, google script json sheet, convert-excel-to-json sheet, json sheetjs,json cheat sheet, google sheet to json, sheets json api, google sheet json api, json sheet builder, json cheat sheet pdf, json to sheet custom header, json schema cheat sheet, jsonpath cheat sheet, google sheet to json, json to google sheets
+        - name: og:type
+          value: article
+          keyName: property
+        - name: og:title
+          value: When to Put Down your Phone
+          keyName: property
+        - name: og:description
+          value: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          keyName: property
+        - name: og:image
+          value: images/post-5.jpg
+          keyName: property
+          relativeUrl: true
+        - name: twitter:card
+          value: summary_large_image
+        - name: twitter:title
+          value: When to Put Down your Phone
+        - name: twitter:description
+          value: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        - name: twitter:image
+          value: images/post-5.jpg
+          relativeUrl: true
 layout: post
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ea mala virtuti magnitudine obruebantur. Duo Reges: constructio interrete. An hoc usque quaque, aliter in vita? Gracchum patrem non beatiorem fuisse quam fillum, cum alter stabilire rem publicam studuerit, alter evertere. Quo plebiscito decreta a senatu est consuli quaestio Cn. Illud non continuo, ut aeque incontentae. Atqui pugnantibus et contrariis studiis consiliisque semper utens nihil quieti videre, nihil tranquilli potest. Itaque hoc frequenter dici solet a vobis, non intellegere nos, quam dicat Epicurus voluptatem. Sin kakan malitiam dixisses, ad aliud nos unum certum vitium consuetudo Latina traduceret.
+Our goal was never to make a good product that we could sell; We want to create a great product that sells itself. A product that people can try for free and then decide for themselves whether they want to buy or not.
 
-## Sed Ille, UT Dixi, Vitiose
+We found a fundamental truth: people felt they were working really hard for their tools, rather than the other way around. They were slaves to a master they didn't like, and in return, the master gave them some reports and organization. But people had to work hard to get this information, and it wasn't all they wanted—far from it.
 
-Utrum igitur tibi litteram videor an totas paginas commovere? Potius inflammat, ut coercendi magis quam dedocendi esse videantur. Ne in odium veniam, si amicum destitero tueri. Ne amores quidem sanctos a sapiente alienos esse arbitrantur. Quid ergo aliud intellegetur nisi uti ne quae pars naturae neglegatur? Quis istud, quaeso, nesciebat? Primum divisit ineleganter; Hoc unum Aristo tenuit: praeter vitia atque virtutes negavit rem esse ullam aut fugiendam aut expetendam. Et ille ridens: Video, inquit, quid agas; In his igitur partibus duabus nihil erat, quod Zeno commutare gestiret.
+People are usually used to keeping a strict separation between their personal tools and their work tools. They expect their personal phones, apps and devices to be intuitive and beautiful, but are resigned to working with cumbersome, complex and clumsy tools in the office. It's no wonder that many people don't like going to work.
 
-Nemo nostrum istius generis asotos iucunde putat vivere.
-Est enim tanti philosophi tamque nobilis audacter sua decreta defendere. Sed eum qui audiebant, quoad poterant, defendebant sententiam suam. Atqui, inquam, Cato, si istud optinueris, traducas me ad te totum licebit. Quam ob rem tandem, inquit, non satisfacit? Vestri haec verecundius, illi fortasse constantius. Quorum sine causa fieri nihil putandum est. Non modo carum sibi quemque, verum etiam vehementer carum esse? Nemo nostrum istius generis asotos iucunde putat vivere.
+I think in general, it's a false divide to separate your work-life from your life-life. If you're going to achieve anything at your job, you have to love your work tools as much as you love your iPhone or Samsung Galaxy (or whatever.).
 
-Expressa vero in iis aetatibus, quae iam confirmatae sunt.
-Ne amores quidem sanctos a sapiente alienos esse arbitrantur. Quid enim de amicitia statueris utilitatis causa expetenda vides. Nihil acciderat ei, quod nollet, nisi quod anulum, quo delectabatur, in mari abiecerat. Quid enim possumus hoc agere divinius? Dic in quovis conventu te omnia facere, ne doleas. Omnes enim iucundum motum, quo sensus hilaretur. Hoc loco discipulos quaerere videtur, ut, qui asoti esse velint, philosophi ante fiant. Hoc loco tenere se Triarius non potuit. Nunc haec primum fortasse audientis servire debemus. Sin dicit obscurari quaedam nec apparere, quia valde parva sint, nos quoque concedimus; Isto modo ne improbos quidem, si essent boni viri. Quid censes in Latino fore?
+So we decided to design a tool that's beautiful, friendly and focused on what people need to succeed. For that, we will focus on three main things:
 
-Quae diligentissime contra Aristonem dicuntur a Chryippo. Huius ego nunc auctoritatem sequens idem faciam. Quare obscurentur etiam haec, quae secundum naturam esse dicimus, in vita beata; Ad corpus diceres pertinere-, sed ea, quae dixi, ad corpusne refers? Huius, Lyco, oratione locuples, rebus ipsis ielunior. Aliter homines, aliter philosophos loqui putas oportere? Qui autem esse poteris, nisi te amor ipse ceperit? Aliter autem vobis placet. Compensabatur, inquit, cum summis doloribus laetitia.
+<div  style="text-align: center;"><a href="https://jsonsheet.com/"><button style="border:1px solid;font-weight:700;padding:3%;font-size:1.5em;color:#1b1e21;background-color:#a4c8ed;border-radius:8px;" >Get started with json sheet</button></a></div>
+
+## 1. A good product is intuitive
+
+Think back to the first time you touched an iPhone. You knew what to do without reading the user manual. And if you've ever used an iPhone or a table around a child, you'll notice that even young children get it right away. It is intuitive and human friendly.
+
+Your work tool should be the same — so intuitive and fun that you can use it without any training.
+
+But intuitiveness does not mean simplicity. A good tool is simple for your basic needs and then scales with you as things get more complex.
+
+For example, many of our customers want to track their weekly tasks and see clearly where things stand. It's a very simple requirement, and it's a piece of cake to do with <a href="https://jsonsheet.com/" >jsonsheet.com</a>.
+
+But let's say your processes eventually become more complex, and you want to see who on your team is working on what over a period of months to gauge whether you'll meet your critical deadlines. On the same particular board on<a href="https://jsonsheet.com/" >jsonsheet.com</a>, you can easily add more columns and filters to adapt it to your growing needs.
+<a href="https://jsonsheet.com/" >![jsonsheet](/images/post-5-1.PNG)</a>
+
+This is a fundamental strength we've built into jshonsheet.com that I've seen lacking in almost every other <a href="https://jsonsheet.com/" >management</a> tool. Either the tools are simple, but they limit you to doing only simple things forever, or they are complex, and you are burdened to manage the complexity. A tool must be flexible and scalable while maintaining the core of simplicity.
+
+## 2. A good product is non-imposing
+
+A non-imposing product doesn't force you to adapt the way you think and work to the technology. It works for you; Not the other way around.
+To achieve a non-imposing product, we have a simple rule: we will never ask you to add metadata that <a href="https://jsonsheet.com/" >jsonsheet.com</a> needs for its internal operations. A Gantt chart is a great example of software imposition - you need to add dependencies, time and due dates to create the resulting report. Then you become a slave to updating and managing those dependencies, just to keep up with that report.
+
+If there's something you want to say to someone on your team, mentioning it on<a href="https://jsonsheet.com/" >jsonsheet.com</a> is the best way to do it. If you want to delegate some task, jsonsheet.com is the fastest and most natural way to do it. If you want to plan ahead, <a href="https://jsonsheet.com/" >jsonsheet.com</a> is the easiest and most rewarding place for that.
+
+<a href="https://jsonsheet.com/" >jsonsheet.com</a> only requires information you already have in mind: your priorities, goals, and deadlines. You don't need to put any energy or effort into understanding what <a href="https://jsonsheet.com/" >jsonsheet.com</a> wants from you to get immediate value.
+
+## 3. A good product is fast
+
+When production is slow, nothing else matters. Speed has its own value and affects the overall design and experience of your product.
+
+What happens when production is slow? Navigating to different places in the system takes a lot of time, so people start asking you to duplicate functionality. For example, they can request the same button on several different screens so they don't have to leave the page they're on. This makes the tool complex and bloated.
+
+When manufacturing is fast, each function can exist in only one place. Yes, people need to click more to get where they want, but they don't mind, because it's faster. With fewer buttons and functions, your product remains streamlined and simple.
+
+Also, when a product is fast, people start using it for many other things than it was originally intended for. (Great example: Have you ever used Google to spell-check a word you're not sure about? You do it because it's so fast.)
+
+<a href="https://jsonsheet.com/" >![jsonsheet](/images/post-5-2.PNG)</a>
+
+It takes a lot of dedication to make a product so great, people will try it and pay for it without convincing salespeople to buy it. Tools and teams that tackle this challenge will dominate the market in the coming years.
+
+<div  style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=com.jsonsheetapp"><button style="border:1px solid;font-weight:700;padding:3%;font-size:1.5em;color:#1b1e21;background-color:#a4c8ed;border-radius:8px;" >Get strated</button></a></div>
