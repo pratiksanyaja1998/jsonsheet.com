@@ -3,7 +3,7 @@ title: Blog
 sections:
   - type: hero_section
     title: Blog
-    subtitle: The optional subtitle
+    subtitle: Json Sheet Blog
     align: center
     padding_top: medium
     padding_bottom: none
