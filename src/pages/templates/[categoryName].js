@@ -55,10 +55,10 @@ const TamplateName = (props) => {
     return (
         <Layout
             page={{
-                title: 'templates',
+                title: props.categoty.name,
                 seo: {
-                    title: 'templates',
-                    description: '"templatelist",templateList page'
+                    title: props.categoty.name,
+                    description: props.categoty.description
                 },
                 layout: 'page'
             }}

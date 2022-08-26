@@ -10,7 +10,6 @@ const TemplateLayout = (props) => {
     const [isLoading, setIsLoading] = useState(false);
     const [search, setSearch] = useState('');
 
-
     useEffect(() => {
         if (typeof window === 'undefined') {
             return;
@@ -69,19 +68,28 @@ const TemplateLayout = (props) => {
                 setIsLoading(false);
             });
     };
- console.log(props.show);
     return isLoading ? (
         <Loading />
     ) : (
         <div className="template-layout container grid grid-gap-large">
             <div className="cell-0 cell-md-3 show full-height" id="categoryList">
                 <div className="categories-list-container py-2">
-                    <div className="text-center mb-2 py-2">
-                        <Link href={'/templates'}>
-                            <h5 className="categories-heading m-0">CATEGORIES</h5>
-                        </Link>
+                    <div className="mb-2 py-2">
+                        <h5 className="font-sans-serif">CATEGORIES</h5>
                     </div>
                     <div>
+                        <Link href={'/templates'}>
+                            <a
+                                style={{
+                                    fontFamily: 'sans-serif',
+                                    fontWeight: '700',
+                                    lineHeight: '1.2',
+                                    margin: '1.25em 0 0.5em'
+                                }}
+                            >
+                                All
+                            </a>
+                        </Link>
                         {category.map((value, index) => (
                             <div key={index}>
                                 <Link
@@ -89,7 +97,16 @@ const TemplateLayout = (props) => {
                                         pathname: '/templates/' + value.slug
                                     }}
                                 >
-                                    <a>{value.name}</a>
+                                    <a
+                                        style={{
+                                            fontFamily: 'IBM Plex Sans',
+                                            fontWeight: '700',
+                                            lineHeight: '1.2',
+                                            margin: '1.25em 0 0.5em'
+                                        }}
+                                    >
+                                        {value.name}
+                                    </a>
                                 </Link>
                             </div>
                         ))}
@@ -98,19 +115,21 @@ const TemplateLayout = (props) => {
             </div>
 
             <div className="templates-container cell-12 cell-md-9">
-                <div className="mb-4 mt-2" id="category">
-                    <input
-                        type="text"
-                        id="header-search"
-                        placeholder="Search"
-                        name="s"
-                        className="search-bar"
-                        value={search}
-                        onChange={(e) => {
-                            setSearch(e.target.value);
-                            props?.getData(e.target.value);
-                        }}
-                    />
+                <div className={props?.hideSearch ?"mb-4 mt-2": "mb-4 mt-2 search-border"} id="category" >
+                    {!props?.hideSearch && (
+                        <input
+                            type="text"
+                            id="header-search"
+                            placeholder="Search Template"
+                            name="s"
+                            className="search-bar"
+                            value={search}
+                            onChange={(e) => {
+                                setSearch(e.target.value);
+                                props?.getData(e.target.value);
+                            }}
+                        />
+                    )}
                     <button id="menuBtn" className="cat-btn hide" onClick={() => setCategoryShow(!categoryShow)}>
                         {!categoryShow ? <Icon icon={'menu'} style={{ fontSize: '1.22rem' }} /> : <Icon icon={'close'} style={{ fontSize: '1.22rem' }} />}
                     </button>

@@ -1,27 +1,15 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 257 56" width="262" height="57">
-	<title>logo-json-svg</title>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 257 56" width="257" height="56">
+	<title>logo - Copy-svg</title>
+	<defs>
+		<image aria-label="JsonSheet"  width="245" height="38" id="img1" href="data:image/png;base64,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"/>
+	</defs>
 	<style>
-		tspan { white-space:pre } 
-		.t0 { font-size: 13px;fill: #000000;font-weight: 400;font-family: "LiberationSans", "Liberation Sans" } 
-		.t1 { font-size: 43px;fill: #0084ff;font-weight: 700;font-family: "DejaVuSans-Bold", "DejaVu Sans" } 
-		.t2 { font-size: 43px;fill: #000000;font-weight: 700;font-family: "DejaVuSans-Bold", "DejaVu Sans" } 
 	</style>
 	<g id="Artboard">
-		<text id="" style="transform: matrix(1,0,0,1,73,33)" >
-			<tspan x="0" y="15.6" class="t0">		
-</tspan>
-		</text>
-		<text id="" style="transform: matrix(1,0,0,1,68,19)" >
-			<tspan x="0" y="15.6" class="t0">		
-</tspan>
-		</text>
 	</g>
 	<g id="jsonSheet">
-		<text id="" style="transform: matrix(1,0,0,1,228,33)" >
-		</text>
-		<text id="JsonSheet" style="transform: matrix(1,0,0,1,8,40)" >
-			<tspan x="0" y="0" class="t1">J</tspan><tspan  y="0" class="t1">s</tspan><tspan  y="0" class="t1">o</tspan><tspan  y="0" class="t1">n</tspan><tspan  y="0" class="t2">S</tspan><tspan  y="0" class="t2">h</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">t</tspan><tspan  y="0" class="t2">
-</tspan>
-		</text>
+		<g id="JsonSheet">
+			<use id="JsonSheet" href="#img1" x="5" y="9"/>
+		</g>
 	</g>
 </svg>

@@ -4,7 +4,11 @@ import Link from 'next/dist/client/link';
 const TemplateItem = (props) => {
     console.log(' props.slug', props.slug);
     return (
-        <Link href={'/template/details'}>
+        <Link
+            href={{
+                pathname: '/template/' + props.item.slug + '/' + props.item.id
+            }}
+        >
             <div style={{ minHeight: '100%', borderRadius: '6px' }} className="card--highlight card item">
                 <img src={props.item.image} style={{ maxHeight: '100%', borderRadius: '6px 6px 0px 0px', objectFit: 'cover' }} />
                 <div className="p-1">

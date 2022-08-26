@@ -46,10 +46,10 @@ const Template = (props) => {
     return (
         <Layout
             page={{
-                title: 'templates',
+                title: 'Templates',
                 seo: {
-                    title: 'templates',
-                    description: 'template page'
+                    title: 'Templates',
+                    description: 'Template page'
                 },
                 layout: 'page'
             }}

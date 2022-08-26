@@ -10,10 +10,10 @@ const contact = (props) => {
     return (
         <Layout
             page={{
-                title: 'contact-us',
+                title: 'Contact-us',
                 seo: {
-                    title: 'contact-us',
-                    description: 'contact-us page'
+                    title: 'Contact-us',
+                    description: 'Contact-us page'
                 },
                 layout: 'page'
             }}
