@@ -28,8 +28,14 @@
                 "style":"link"
             },
             {
-                "label": "Templates",
+                "label":"Templates",
                 "url":"/templates",
+                "style":"link"
+
+            },
+            {
+                "label": "Product",
+                "url":"/product",
                 "style":"link"
 
             }
