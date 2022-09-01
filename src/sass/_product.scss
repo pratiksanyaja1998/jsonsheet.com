@@ -64,18 +64,15 @@
     }
 }
 
-.card {
+.product-card {
     padding: 5px 55px !important;
     border: none;
-    .card-img {
+    .product-card-img {
         border: 1px solid #1c1c1c;
         border-radius: 5px;
     }
-    .card-text {
+    .product-card-text {
         color: gray;
-    }
-    .Consume-title {
-        text-align: center;
     }
 }
 

@@ -15,10 +15,10 @@ const ACHIEVE = [
 
 const ProductCard = (props) => {
     return (
-        <div className="card">
-            <img src={props?.item?.img} className="card-img" />
-            <h6 className="card-title">{props?.item?.title}</h6>
-            <p className="card-text">{props?.item?.description}</p>
+        <div className="product-card">
+            <img src={props?.item?.img} className="product-card-img" />
+            <h6 className="product-card-title">{props?.item?.title}</h6>
+            <p className="product-card-text">{props?.item?.description}</p>
         </div>
     );
 };
