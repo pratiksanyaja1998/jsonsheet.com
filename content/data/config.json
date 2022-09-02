@@ -32,12 +32,6 @@
                 "url":"/templates",
                 "style":"link"
 
-            },
-            {
-                "label":"Product",
-                "url":"/product",
-                "style":"link"
-
             }
         ],
         "has_secondary_nav": true,
