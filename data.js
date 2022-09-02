@@ -1,30 +1,31 @@
-export const VIEW_LIST = [{
-    img: 'https://stackby.com/assets/product-overview/img/5d96bb1cf795cc890cfe8e21e5fe8e8b.png',
-    title: 'Real-time Collaboration',
-    description: "All at one table at the same time."
-},
-{
-    img: 'https://stackby.com/assets/product-overview/img/5d96bb1cf795cc890cfe8e21e5fe8e8b.png',
-    title: 'Commenting on Records',
-    description: "Comment on individual rows, and take your collaboration to the next level."
-},
-{
-    img: 'https://stackby.com/assets/product-overview/img/5d96bb1cf795cc890cfe8e21e5fe8e8b.png',
-    title: '@Mentions',
-    description: "Even mention your team members while you're chatting."
-}];
-
-export const COLLABORATE_LIST = [
-
+export const VIEW_LIST = [
     {
         img: 'https://stackby.com/assets/product-overview/img/5d96bb1cf795cc890cfe8e21e5fe8e8b.png',
         title: 'Real-time Collaboration',
-        description: "All at one table at the same time."
+        description: 'All at one table at the same time.'
     },
     {
         img: 'https://stackby.com/assets/product-overview/img/5d96bb1cf795cc890cfe8e21e5fe8e8b.png',
         title: 'Commenting on Records',
-        description: "Comment on individual rows, and take your collaboration to the next level."
+        description: 'Comment on individual rows, and take your collaboration to the next level.'
+    },
+    {
+        img: 'https://stackby.com/assets/product-overview/img/5d96bb1cf795cc890cfe8e21e5fe8e8b.png',
+        title: '@Mentions',
+        description: "Even mention your team members while you're chatting."
+    }
+];
+
+export const COLLABORATE_LIST = [
+    {
+        img: 'https://stackby.com/assets/product-overview/img/5d96bb1cf795cc890cfe8e21e5fe8e8b.png',
+        title: 'Real-time Collaboration',
+        description: 'All at one table at the same time.'
+    },
+    {
+        img: 'https://stackby.com/assets/product-overview/img/5d96bb1cf795cc890cfe8e21e5fe8e8b.png',
+        title: 'Commenting on Records',
+        description: 'Comment on individual rows, and take your collaboration to the next level.'
     },
     {
         img: 'https://stackby.com/assets/product-overview/img/5d96bb1cf795cc890cfe8e21e5fe8e8b.png',
@@ -34,12 +35,12 @@ export const COLLABORATE_LIST = [
     {
         img: 'https://stackby.com/assets/product-overview/img/5d96bb1cf795cc890cfe8e21e5fe8e8b.png',
         title: 'Checklists on rows',
-        description: "Create sub-tasks and checklist on individual row, and stay on top of your todo list."
+        description: 'Create sub-tasks and checklist on individual row, and stay on top of your todo list.'
     },
     {
         img: 'https://stackby.com/assets/product-overview/img/5d96bb1cf795cc890cfe8e21e5fe8e8b.png',
         title: 'Reminders',
-        description: "Set individual reminders on each row."
+        description: 'Set individual reminders on each row.'
     },
     {
         img: 'https://stackby.com/assets/product-overview/img/5d96bb1cf795cc890cfe8e21e5fe8e8b.png',
@@ -49,18 +50,18 @@ export const COLLABORATE_LIST = [
     {
         img: 'https://stackby.com/assets/product-overview/img/5d96bb1cf795cc890cfe8e21e5fe8e8b.png',
         title: 'Advanced Permissions',
-        description: "Setup different access permissions on a workspace or even on an individual view within a table."
+        description: 'Setup different access permissions on a workspace or even on an individual view within a table.'
     },
     {
         img: 'https://stackby.com/assets/product-overview/img/5d96bb1cf795cc890cfe8e21e5fe8e8b.png',
         title: 'Revision History',
-        description: " Records all activity history on each row."
+        description: ' Records all activity history on each row.'
     },
     {
         img: 'https://stackby.com/assets/product-overview/img/5d96bb1cf795cc890cfe8e21e5fe8e8b.png',
         title: 'Share & Embed Stacks',
         description: "Don't use it alone! Share and embed your databases, anywhere - in your blog, webpage or even in another app that you use."
-    },
+    }
 ];
 
 export const ORGANIZE_LIST = [
@@ -219,21 +220,75 @@ export const CREATE_LIST = [
     }
 ];
 
-export const CONSUME_LIST = [{
-    img: 'https://stackby.com/assets/product-overview/img/99dfe07b85c9bb1262d99ee68ce20731.gif',
-    title: 'Web',
-    btn:'Try out for free',
-    description: 'Create mood boards, directories and much more, with the powerful Gallery view.'
-},
-{
-    img: 'https://stackby.com/assets/product-overview/img/8a54394db0e498f18823c16470048d7b.gif',
-    title: 'Mobile App',
-    btn:'Download iOS or Android',
-    description: 'Create custom forms to collect responses from anywhere and even embed it in your webpage.'
-},
-{
-    img: 'https://stackby.com/assets/product-overview/img/99dfe07b85c9bb1262d99ee68ce20731.gif',
-    title: 'Desktop App',
-    btn:'Download Windows or MacOS',
-    description: 'Not only create forms but also make them internally updatable.'
-}];
+export const CONSUME_LIST = [
+    {
+        img: 'https://stackby.com/assets/product-overview/img/99dfe07b85c9bb1262d99ee68ce20731.gif',
+        title: 'Web',
+        btn: 'Try out for free',
+        description: 'Create mood boards, directories and much more, with the powerful Gallery view.'
+    },
+    {
+        img: 'https://stackby.com/assets/product-overview/img/8a54394db0e498f18823c16470048d7b.gif',
+        title: 'Mobile App',
+        btn: 'Download iOS or Android',
+        description: 'Create custom forms to collect responses from anywhere and even embed it in your webpage.'
+    },
+    {
+        img: 'https://stackby.com/assets/product-overview/img/99dfe07b85c9bb1262d99ee68ce20731.gif',
+        title: 'Desktop App',
+        btn: 'Download Windows or MacOS',
+        description: 'Not only create forms but also make them internally updatable.'
+    }
+];
+
+export const FEATURE_LIST = [
+    {
+        img: 'https://stackby.com/assets/solutions/img/d10f01f359875013f7f7330e4a1d2ccf.jpg',
+        position: 'left',
+        title: 'Solutions for Marketing teams  ',
+        description:
+            'Plan, manage & automate your end-to-end campaigns, content, SEO, video production & more. Streamline workflows, requests and automate marketing reporting for your company or your client’s.',
+        btn: 'Explore for Marketing'
+    },
+    {
+        img: 'https://stackby.com/assets/solutions/img/6109ceda53b921a5e693c2a78e24101d.jpg',
+        position: 'right',
+        title: 'Solutions for HR teams ',
+        description:
+            'Easily build your custom ATS, manage your recruitment pipeline, ensure smooth employee onboarding and consolidate all HR assets & projects in a single place.',
+        btn: 'Explore for HR'
+    },
+    {
+        img: 'https://stackby.com/assets/solutions/img/66f217a34430f0cd85eb90cdf93991ec.jpg',
+        position: 'left',
+        title: 'Solutions for Sales Teams ',
+        description:
+            'Build your custom CRM or track sales pipeline and keep your sales, account management or partnership teams in sync to achieve your milestones. Unite sales data, automate sales reporting and keep moving work forward. ',
+        btn: 'Explore for Sales'
+    },
+    {
+        img: 'https://stackby.com/assets/solutions/img/c239221a309a3d0c0a2975e112de1097.jpg',
+        position: 'right',
+        title: 'Solutions for Operations Teams  ',
+        description:
+            'Manage your business operations smoothly and ensure operational efficiency with operations management solutions. Track vendors, orders, inventory, purchases, requests, catalogs and more - all in one place.',
+        btn: 'Explore for Operations'
+    },
+    {
+        img: 'https://stackby.com/assets/solutions/img/c772057da23204050cc8f0a3bfbd4e29.jpg',
+        position: 'left',
+        title: 'Solutions for Product teams',
+        description:
+            'Build roadmap, prioritise features, collect user feedback and successfully launch products by keeping data and teams in sync. Put your best foot forward. ',
+        btn: 'Explore for Product'
+    },
+    {
+        img: 'https://stackby.com/assets/solutions/img/b31e057d0e622de087e328abd378ee75.jpg',
+        position: 'right',
+        title: 'Solutions for Project teams ',
+        description:
+            'From basic to complex projects, use Stackby to customise your own project management solution. Automate project reporting and KPIs and collaborate with your team to get things done.',
+        btn: 'Explore for Projects'
+    }
+   
+];

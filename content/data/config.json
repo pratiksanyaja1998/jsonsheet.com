@@ -34,10 +34,15 @@
 
             },
             {
-                "label": "Product",
+                "label":"Product",
                 "url":"/product",
                 "style":"link"
 
+            },
+            {
+                "label":"Solutions",
+                "url":"/solutions",
+                "style":"link"
             }
         ],
         "has_secondary_nav": true,
