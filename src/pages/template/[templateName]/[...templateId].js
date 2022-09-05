@@ -54,7 +54,7 @@ const Template = (props) => {
                     ) : (
                         <div className="container">
                             <div>
-                                <h2>{details?.name}</h2>
+                                <h3 style={{ color: '#2c343c' }}>{details?.name}</h3>
                                 <img src={details?.image}></img>
                                 <p>{details?.description}</p>
                             </div>

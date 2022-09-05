@@ -11,7 +11,7 @@
         "logo": "images/logo.svg",
         "logo_alt": "App logo",
         "has_primary_nav": true,
-        "primary_nav_links": [           
+        "primary_nav_links": [
             {
                 "label": "About",
                 "url": "/about",
@@ -23,22 +23,21 @@
                 "style": "link"
             },
             {
-                "label":"Contact Us",
-                "url":"/contact-us",
-                "style":"link"
+                "label": "Contact Us",
+                "url": "/contact-us",
+                "style": "link"
             },
             {
-                "label":"Templates",
-                "url":"/templates",
-                "style":"link"
-
+                "label": "Templates",
+                "url": "/templates",
+                "style": "link"
             }
         ],
         "has_secondary_nav": true,
         "secondary_nav_links": [
             {
-                "label": "App Store",
-                "url": "https://play.google.com/store/apps/details?id=com.jsonsheetapp",
+                "label": "Web App",
+                "url": "https://app.jsonsheet.com/#/",
                 "style": "primary"
             },
             {
@@ -93,9 +92,9 @@
                 "style": "link"
             },
             {
-                "label":"Security",
-                "url":"/security",
-                "style":"link"
+                "label": "Security",
+                "url": "/security",
+                "style": "link"
             }
         ],
         "has_social": true,

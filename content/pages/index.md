@@ -11,8 +11,8 @@ sections:
       management tools into one seamless experience controlled by a single app
       that you can use on any device.
     actions:
-      - label: App Store
-        url: https://play.google.com/store/apps/details?id=com.jsonsheetapp
+      - label: Web App
+        url: https://app.jsonsheet.com/#/
         style: primary
       - label: Google Play
         url: https://play.google.com/store/apps/details?id=com.jsonsheetapp
@@ -155,8 +155,8 @@ sections:
     content: >-
      Json Sheet can be used for free with teams of any size. We also offer paid plans with additional features, storage and automation.
     actions:
-      - label: App Store
-        url: https://play.google.com/store/apps/details?id=com.jsonsheetapp
+      - label: Web App
+        url: https://app.jsonsheet.com/#/
         style: primary
       - label: Google Play
         url: https://play.google.com/store/apps/details?id=com.jsonsheetapp

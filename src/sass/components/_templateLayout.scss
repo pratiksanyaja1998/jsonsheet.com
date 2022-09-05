@@ -1,9 +1,25 @@
 .template-layout {
     .categories-list-container {
-        color: black;
+        color: #2c343c;
         .categories-heading {
             font-weight: normal;
         }
+
+        .category-link {
+            font-family: sans-serif;
+            font-weight: 700;
+            line-height: 1.2;
+            margin: 1.25em 0 0.5em;
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    .active-link {
+        color: #0084ff;
+        text-decoration: underline;
     }
 
     .templates-container {
@@ -50,7 +66,7 @@
     #category {
         position: relative;
     }
-    .search-border{
+    .search-border {
         background: #f1f1f1;
         border: 1px solid #8d8d8d;
         border-radius: 3px;

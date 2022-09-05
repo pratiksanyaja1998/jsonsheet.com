@@ -19,8 +19,8 @@ const TemplateItem = (props) => {
                             opacity: '0.8',
                             maxHeight: '3.80rem',
                             overflow: 'hidden',
-                            webkitLineClamp: '3',
-                            webkitBoxOrient: 'vertical'
+                            WebkitLineClamp: '3',
+                            WebkitBoxOrient: 'vertical'
                         }}
                         className="m-0"
                     >

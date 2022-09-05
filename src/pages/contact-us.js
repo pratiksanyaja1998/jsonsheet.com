@@ -19,12 +19,16 @@ const contact = (props) => {
             }}
             config={config}
         >
-            <div id="contactUs">
-                <div className="container">
-                    <h4 className="mb-3 text-center mr-5 ml-5" style={{ marginTop: 20 }}>
-                        Let us help you grow your business and dramatically streamline your workflow.
-                    </h4>
-                    <h3 className="mb-3 text-center mr-5 ml-5 ">Contact our Sales team</h3>
+            <div id="contactUs" className="pb-5">
+                <div className="container container--medium">
+                    <div className="section hero bg-none pt-6">
+                        <div className="hero__content grid items-center">
+                            <div className="hero__body my-2 cell-12 text-center">
+                                <h1 className="hero__title">Contact our Sales team</h1>
+                                <p className="hero__subtitle">Let us help you grow your business and dramatically streamline your workflow.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div className="container">
