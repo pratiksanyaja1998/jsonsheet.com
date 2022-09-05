@@ -1,5 +1,5 @@
 const fs = require('fs');
-const convert = require('xml-js');
+const xml2js = require('xml2js');
 const axios = require('axios');
 
 axios.defaults.baseURL = 'https://api.whitelabelapp.in';
@@ -30,7 +30,13 @@ const updateSiteMap = async () => {
         ];
 
         let existingSitemapList = {};
-        existingSitemapList.urlset = {};
+        existingSitemapList.urlset = {
+            $: {
+                xmlns: 'http://www.sitemaps.org/schemas/sitemap/0.9',
+                'xmlns:xsi': 'http://www.w3.org/2001/XMLSchema-instance',
+                'xsi:schemaLocation': 'http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd'
+            }
+        };
         existingSitemapList.urlset.url = [];
         try {
             staticUrls.map((o) => {
@@ -71,11 +77,11 @@ const updateSiteMap = async () => {
             console.log('error->', error);
         }
         console.log('exists sitemap>>>>>>>>', existingSitemapList);
-        let xmltext = convert.json2xml(existingSitemapList, {
-            compact: true,
-            spaces: 4,
-            ignoreComment: true
+
+        let builder = new xml2js.Builder({
+            xmldec: { version: '1.0', encoding: 'UTF-8' }
         });
+        let xmltext = builder.buildObject(existingSitemapList);
 
         fs.writeFile('public/sitemap.xml', xmltext, (err) => {
             // console.log(xmltext);
