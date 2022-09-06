@@ -1,13 +1,12 @@
 #solutions {
-    text-align: center;
-
     .heading-section {
         background-color: rgba(242, 251, 255, 1);
-
+        text-align: center;
         .heading {
             .sub-title-text {
                 padding: 0px 150px 50px 150px;
                 margin: 10px 0px 10px 0px;
+                color: #2c343c;
                 @media only screen and (max-width: 992px) {
                     padding: 0px 50px 40px 50px;
                     margin: 10px 0px 10px 0px;
@@ -27,10 +26,12 @@
 
     .market-card-container {
         border: 1px solid #0084ff;
+        color: #2c343c;
         border-radius: 2px;
         padding: 15px;
         height: 100%;
         box-sizing: border-box;
+        text-align: center;
 
         .icon-container {
             display: flex;
@@ -47,11 +48,11 @@
             line-height: 1.25;
             margin: 1rem 0;
         }
-        
     }
 
     .solutions-fichar-section {
         background-color: rgba(242, 242, 242, 1);
+        color: #2c343c;
 
         .solutions-fichar-text {
             text-align: left;
@@ -77,6 +78,41 @@
             }
             @media only screen and (max-width: 800px) {
                 padding: 0px 2.22rem 0px 1.667rem;
+            }
+        }
+    }
+    .faq-section {
+        background-color: #0084ff;
+        text-align: left;
+        .faq-container {
+            max-width: 935px;
+            color: #fff;
+        }
+
+        .faq-data {
+            color: #2c343c;
+            background-color: aliceblue;
+            padding: 10px 15px 10px 15px;
+            margin-bottom: 10px;
+            border-radius: 20px;
+            cursor: pointer;
+
+            .desc {
+                display: flex;
+                height: 100%;
+                transition: all 3s;
+            }
+            .desc.hide {
+                height: 0;
+                display: none;
+            }
+        }
+    }
+    .sign-up-section {
+        .sign-up-section-text {
+            
+            @media only screen and (max-width: 800px) {
+                text-align: center;
             }
         }
     }

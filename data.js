@@ -247,7 +247,7 @@ export const FEATURE_LIST = [
         position: 'left',
         title: 'Solutions for Marketing teams  ',
         description:
-            'Plan, manage & automate your end-to-end campaigns, content, SEO, video production & more. Streamline workflows, requests and automate marketing reporting for your company or your client’s.',
+            'Manage your deliverables at every stage, streamline approvals and report on all results in Json sheet. streamline workflows, and requests and automate marketing reporting for your company or your clients.',
         btn: 'Explore for Marketing'
     },
     {
@@ -255,40 +255,46 @@ export const FEATURE_LIST = [
         position: 'right',
         title: 'Solutions for HR teams ',
         description:
-            'Easily build your custom ATS, manage your recruitment pipeline, ensure smooth employee onboarding and consolidate all HR assets & projects in a single place.',
+            'Easily manage your recruitment pipeline, ensure employee onboarding and consolidate all HR assets and projects in one place.',
         btn: 'Explore for HR'
     },
+    // {
+    //     img: 'https://stackby.com/assets/solutions/img/66f217a34430f0cd85eb90cdf93991ec.jpg',
+    //     position: 'left',
+    //     title: 'Solutions for Sales Teams ',
+    //     description:
+    //         'Build your custom CRM or track sales pipeline and keep your sales, account management or partnership teams in sync to achieve your milestones. Unite sales data, automate sales reporting and keep moving work forward. ',
+    //     btn: 'Explore for Sales'
+    // },
+    
     {
-        img: 'https://stackby.com/assets/solutions/img/66f217a34430f0cd85eb90cdf93991ec.jpg',
+        img: 'https://stackby.com/assets/solutions/img/c772057da23204050cc8f0a3bfbd4e29.jpg',
         position: 'left',
-        title: 'Solutions for Sales Teams ',
+        title: 'Solutions for Product teams',
         description:
-            'Build your custom CRM or track sales pipeline and keep your sales, account management or partnership teams in sync to achieve your milestones. Unite sales data, automate sales reporting and keep moving work forward. ',
-        btn: 'Explore for Sales'
+            'Set your inventory, collect and act on customer feedback, and launch great products your customers love.',
+        btn: 'Explore for Product'
     },
     {
         img: 'https://stackby.com/assets/solutions/img/c239221a309a3d0c0a2975e112de1097.jpg',
         position: 'right',
         title: 'Solutions for Operations Teams  ',
         description:
-            'Manage your business operations smoothly and ensure operational efficiency with operations management solutions. Track vendors, orders, inventory, purchases, requests, catalogs and more - all in one place.',
+            "Connect initiatives across your business and streamline your team's most important workflows to achieve your goals.",
         btn: 'Explore for Operations'
-    },
-    {
-        img: 'https://stackby.com/assets/solutions/img/c772057da23204050cc8f0a3bfbd4e29.jpg',
-        position: 'left',
-        title: 'Solutions for Product teams',
-        description:
-            'Build roadmap, prioritise features, collect user feedback and successfully launch products by keeping data and teams in sync. Put your best foot forward. ',
-        btn: 'Explore for Product'
-    },
-    {
-        img: 'https://stackby.com/assets/solutions/img/b31e057d0e622de087e328abd378ee75.jpg',
-        position: 'right',
-        title: 'Solutions for Project teams ',
-        description:
-            'From basic to complex projects, use Stackby to customise your own project management solution. Automate project reporting and KPIs and collaborate with your team to get things done.',
-        btn: 'Explore for Projects'
     }
-   
+    // {
+    //     img: 'https://stackby.com/assets/solutions/img/b31e057d0e622de087e328abd378ee75.jpg',
+    //     position: 'right',
+    //     title: 'Solutions for Project teams ',
+    //     description:
+    //         'From basic to complex projects, use Stackby to customise your own project management solution. Automate project reporting and KPIs and collaborate with your team to get things done.',
+    //     btn: 'Explore for Projects'
+    // }
+];
+export const FAQS_LIST = [
+    { que: 'Why should my company use Json Sheet?', ans: 'That`s an excellent question. Json Sheet is the new way to communicate for your entire company. It replaces email with something faster, better organized and more secure. Instead of one-by-one email chains, all your communications are organized into channels that are easy to create, join, and find. When you have one channel for everything that happens in your company, everyone knows exactly where to go to work.' },
+    { que: 'How is Json Sheet different from spreadsheets?', ans: 'Json Sheet is a no-code platform that is as easy to use as a spreadsheet but works like a relational database. It`s completely customizable and entirely flexible for your teams to use. If you want to structure your data and are all over the place, you need a database. Often users struggle with spreadsheets to manage their workflows, as they are not meant to organize data.' },
+    { que: 'What are the different no-code solutions we can create?', ans: 'We`ve seen JSON sheets used across industries - from book publishing to media production to startups to marketing agencies to real estate companies and more. Teams from 30+ unique industries have already built their own no-code solutions on Json Sheets.' },
+    { que: "What is Json Sheet Connect?", ans: 'What is Json Sheet Connect? Json Sheet Connect is a more secure and productive way for organizations to communicate together. It lets you move all communications with your external partners, clients, vendors, and others into a Json Sheet, replacing email and promoting collaboration. Json Sheet extends enterprise-grade security features and compliance standards, such as enterprise key management, to Json Sheet Connect. Learn more about Json Sheet Connect.' }
 ];
