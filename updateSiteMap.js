@@ -41,36 +41,24 @@ const updateSiteMap = async () => {
         try {
             staticUrls.map((o) => {
                 existingSitemapList.urlset.url.push({
-                    loc: {
-                        _text: o
-                    },
-                    lastmod: {
-                        _text: new Date().toISOString()
-                    }
+                    loc: o,
+                    lastmod: new Date().toISOString()
                 });
             });
 
             templateCatList.map((o) => {
                 let url = `https://jsonsheet.com/templates/${o.slug}`;
                 existingSitemapList.urlset.url.push({
-                    loc: {
-                        _text: url
-                    },
-                    lastmod: {
-                        _text: new Date().toISOString()
-                    }
+                    loc: url,
+                    lastmod: new Date().toISOString()
                 });
             });
 
             templateList.map((o, index) => {
                 let url = `https://jsonsheet.com/template/${o.slug}/${o.id}`;
                 existingSitemapList.urlset.url.push({
-                    loc: {
-                        _text: url
-                    },
-                    lastmod: {
-                        _text: new Date().toISOString()
-                    }
+                    loc: url,
+                    lastmod: new Date().toISOString()
                 });
             });
         } catch (error) {
