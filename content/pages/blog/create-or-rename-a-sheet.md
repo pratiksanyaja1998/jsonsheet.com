@@ -7,9 +7,9 @@ categories:
     - content/data/categories/tutorials.yaml
 excerpt: >-
     Learn about create or rename a sheet or other Json Sheet item
-thumb_image: images/create-jsonsheet.png
+thumb_image: images/blogs/create-jsonsheet.png
 thumb_image_alt: Post 1 placeholder image
-image: images/create-jsonsheet.png
+image: images/blogs/create-jsonsheet.png
 image_alt: Post 1 placeholder image
 image_position: top
 seo:
@@ -28,7 +28,7 @@ seo:
           value: Lorem ipsum dolor sit amet, consectetur adipiscing elit
           keyName: property
         - name: og:image
-          value: images/post-5.jpg
+          value: images/blogs/create-jsonsheet.png
           keyName: property
           relativeUrl: true
         - name: twitter:card
@@ -38,7 +38,7 @@ seo:
         - name: twitter:description
           value: Lorem ipsum dolor sit amet, consectetur adipiscing elit
         - name: twitter:image
-          value: images/post-5.jpg
+          value: images/blogs/create-jsonsheet.png
           relativeUrl: true
 layout: post
 ---
@@ -53,14 +53,14 @@ In a Json sheet, most solutions start with a sheet: it's the primary place where
 4. Click on the 3 dots next to the name of the sheet
 5. After that go to the settings and then add the column there
 
-![jsonsheet](/images/create-jsonsheet-2.PNG)
+![jsonsheet](/images/blogs/create-jsonsheet-2.PNG)
 
 ## 2. Rename a sheet
 
 1. Click on the 3 dots next to the <b>spreadsheet</b> 
 2. Click on rename and rename your spreadsheet
 
-![jsonsheet](/images/create-jsonsheet-1.PNG)
+![jsonsheet](/images/blogs/create-jsonsheet-1.PNG)
 
 ## 3. Overview of Json Sheet Items
 

@@ -61,6 +61,11 @@ export const COLLABORATE_LIST = [
         img: 'https://stackby.com/assets/product-overview/img/5d96bb1cf795cc890cfe8e21e5fe8e8b.png',
         title: 'Share & Embed Stacks',
         description: "Don't use it alone! Share and embed your databases, anywhere - in your blog, webpage or even in another app that you use."
+    },
+    {
+        img: 'https://stackby.com/assets/product-overview/img/5d96bb1cf795cc890cfe8e21e5fe8e8b.png',
+        title: 'Consolidate data',
+        description: "Easily pull data from multiple sources into an aggregated view to analyze data from multiple sources simultaneously."
     }
 ];
 
@@ -99,17 +104,17 @@ export const ORGANIZE_LIST = [
 
 export const CREATE_LIST = [
     {
-        img: 'https://stackby.com/assets/product-overview/img/ef0135fa1f95e7f2cb468131533b5aaf.png',
+        img: 'images/colu.png',
         title: 'Date/Time',
         description: ' Select date and time (option) through a powerful date picker on cells.'
     },
     {
-        img: 'https://stackby.com/assets/product-overview/img/5d96bb1cf795cc890cfe8e21e5fe8e8b.png',
+        img: 'images/add-colu.png',
         title: 'Text',
         description: 'Identify your text lines.'
     },
     {
-        img: 'https://stackby.com/assets/product-overview/img/473af1485efeb901cc7ad8433d0fc9f5.png',
+        img: 'images/col-typ.png',
         title: 'Long text',
         description: 'Expand the text into a long text, that supports rich text formatting and more space.'
     },
@@ -124,7 +129,7 @@ export const CREATE_LIST = [
         description: 'Add single tag to your cells to determine categories, statuses and much more, via a dropdown.'
     },
     {
-        img: 'https://stackby.com/assets/product-overview/img/ef0135fa1f95e7f2cb468131533b5aaf.png',
+        img: 'images/col-typ.png',
         title: 'Multiple Options',
         description: 'Add multiple tags on each cell and take it up a notch.'
     },
@@ -139,7 +144,7 @@ export const CREATE_LIST = [
         description: 'Yes, customize your icons and rate anything.'
     },
     {
-        img: 'https://stackby.com/assets/product-overview/img/ef0135fa1f95e7f2cb468131533b5aaf.png',
+        img: 'images/pgraf.png',
         title: 'Progress',
         description: 'Track your row checklist`s progress right in your cells.'
     },
@@ -194,7 +199,7 @@ export const CREATE_LIST = [
         description: 'Make your tables relational, with this powerful link column type. Create one-to-one, one- to-many and many-to-many relationships.'
     },
     {
-        img: 'https://stackby.com/assets/product-overview/img/ef0135fa1f95e7f2cb468131533b5aaf.png',
+        img: 'images/add-colu.png',
         title: 'Lookup, Count ',
         description: 'Lookup columns from any table in other table or even auto count the linked rows on that table. You can also make it conditional.'
     },
