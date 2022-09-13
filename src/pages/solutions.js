@@ -6,22 +6,22 @@ import { FEATURE_LIST, FAQS_LIST } from '../../data';
 
 const CARD = [
     {
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY6M7apTz-sOWTP_MyMaA1jAodsPnAcQ_S24uFESAiFE_hjs5iYgye_qpTTW8KazK2YVg&usqp=CAU',
+        img: 'images/marketing-team.png',
         title: 'Solutions for Marketing teams',
         button: 'Explore Marketing'
     },
     {
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY6M7apTz-sOWTP_MyMaA1jAodsPnAcQ_S24uFESAiFE_hjs5iYgye_qpTTW8KazK2YVg&usqp=CAU',
+        img: 'images/hr-team.png',
         title: 'Solutions for HR teams',
         button: 'Explore HR'
     },
     {
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY6M7apTz-sOWTP_MyMaA1jAodsPnAcQ_S24uFESAiFE_hjs5iYgye_qpTTW8KazK2YVg&usqp=CAU',
-        title: 'Solutions for Operations Teams',
+        img: 'images/operations-team.png',
+        title: 'Solutions for Operations teams',
         button: 'Explore Operations'
     },
     {
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY6M7apTz-sOWTP_MyMaA1jAodsPnAcQ_S24uFESAiFE_hjs5iYgye_qpTTW8KazK2YVg&usqp=CAU',
+        img: 'images/sales-team.png',
         title: 'Solutions for Product teams ',
         button: 'Explore Product'
     }
@@ -47,11 +47,11 @@ const Solutions = (props) => {
                 {/* header section */}
                 <section>
                     <div className="heading-section">
-                        <div className="section hero bg-none pt-6">
+                        <div className="section hero bg-none pt-6 container">
                             <div className="hero__content grid items-center heading">
                                 <div className="hero__body my-2 cell-12 text-center">
-                                    <h1 className="hero__title">Flexible no-code solutions to empower every team</h1>
-                                    <p className="hero__subtitle">Customize right workflows for your team and achieve success with no-code databases.</p>
+                                    <h1 className="hero__title">Solutions to empower every team. Connect everything. Achieve anything. </h1>
+                                    <p className="hero__subtitle">Customize the right workflow for your team and achieve success with a no-code database.</p>
                                     <button className="btn btn--primary">
                                         <span> Sign up for free </span>
                                     </button>
@@ -59,7 +59,7 @@ const Solutions = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <img src="https://stackby.com/assets/solutions/img/a8b6595d60356f367a46b358053ed6ca.png" />
+                        <img src="images/Frame-2.png" />
                     </div>
                 </section>
 
@@ -69,10 +69,10 @@ const Solutions = (props) => {
                         <div className="container">
                             <div className="grid grid-gap-small my-2">
                                 <div className="cell-12 cell-sm-12 cell-md-6 cell-lg-6 my-2">
-                                    <h2>Regardless of your workflow, you can build it with Stackby</h2>
+                                    <h2>Depending on your workflow, you can build with it Json Sheet.</h2>
                                 </div>
-                                <div className="cell-12 cell-sm-12 cell-md-6 cell-lg-6 my-2">
-                                    <h5>Build better solutions for your business or teams and achieve success with no-code.</h5>
+                                <div className="cell-12 cell-sm-12 cell-md-6 cell-lg-6 my-2 regardles-section-small-text ">
+                                    <h5>Move work faster with a no-code app that perfectly matches your team's agility and scale.</h5>
                                 </div>
                             </div>
                         </div>
@@ -86,11 +86,11 @@ const Solutions = (props) => {
                             return (
                                 <div className="cell-12 cell-sm-12 cell-md-6 cell-lg-3 my-2" key={i}>
                                     <div className="market-card-container">
-                                        {/* <img src={item.img} className="solutions-card-img" /> */}
+                                        <img src={item.img} className="solutions-card-img" />
                                         {/* <div style={{ height: '100%' }}> */}
-                                        <div className="icon-container">
+                                        {/* <div className="icon-container">
                                             <Icon icon={'facebook'} />
-                                        </div>
+                                        </div> */}
                                         <h3 className="card-title">{item.title}</h3>
                                         <button className="btn btn--primary">
                                             <Icon icon={'arrow-right'} />
@@ -155,14 +155,14 @@ const Solutions = (props) => {
                         <div className="grid grid-gap-small my-2">
                             <div className="cell-12 cell-md-5 cell-lg-4 my-2 order-md-first sign-up-section-text">
                                 <h1 className="Sign-up-text">Start building in Jsonsheet today</h1>
-                                <button className="btn btn--primary Sign-up-btn justify-md-center">
+                                <button className="btn btn--primary Sign-up-btn justify-md-center ">
                                     <Icon icon={'arrow-right'} />
                                     <span className={'order-first'}>Sign up for free</span>
                                 </button>
                                 <p className="mt-2 Sign-up-text">No credit card needed</p>
                             </div>
-                            <div className="cell-12 cell-md-7 cell-lg-8 my-2 order-first">
-                                <img src="https://stackby.com/assets/solutions/img/6ed384ab8f6c34c5959508addd744f79.png" />
+                            <div className="cell-12 cell-md-7 cell-lg-8 my-2 order-first ">
+                                <img src="images/tab.png" className=" sign-up-section-img" />
                             </div>
                         </div>
                     </div>
