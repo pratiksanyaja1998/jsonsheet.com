@@ -138,7 +138,7 @@ export const COLLABORATE_LIST = [
 ];
 export const ORGANIZE_LIST = [
     {
-        img: 'images/col-types/kanban.jpg',
+        img: 'images/col-types/grid.png',
         title: 'Grid',
         description: "It's not the ordinary spreadsheet tables, it's much more."
     },
