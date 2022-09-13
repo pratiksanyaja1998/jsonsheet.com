@@ -25,6 +25,7 @@ import TemplateLayout from './TemplateLayout';
 import TemplateItem from './TemplateItem';
 import NoDataFound from './NoDataFound';
 import Loading from './Loading';
+import SubmitButton from './SubmitButton';
 
 export {
     Action,
@@ -53,7 +54,8 @@ export {
     TemplateLayout,
     TemplateItem,
     NoDataFound,
-    Loading
+    Loading,
+    SubmitButton
 };
 
 export default {
@@ -83,5 +85,6 @@ export default {
     TemplateLayout,
     TemplateItem,
     NoDataFound,
-    Loading
+    Loading,
+    SubmitButton
 };

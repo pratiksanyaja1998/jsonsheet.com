@@ -7,9 +7,9 @@ categories:
     - content/data/categories/general.yaml
 excerpt: >-
     Learn all about json sheet is modern management sheet
-thumb_image: images/blog-1.png
+thumb_image: images/blogs/blog-1.png
 thumb_image_alt: Post 1 placeholder image
-image: images/blog-1.png
+image: images/blogs/blog-1.png
 image_alt: Post 1 placeholder image
 image_position: top
 seo:
@@ -28,7 +28,7 @@ seo:
           value: Lorem ipsum dolor sit amet, consectetur adipiscing elit
           keyName: property
         - name: og:image
-          value: images/post-5.jpg
+          value: images/blogs/blog-1.png
           keyName: property
           relativeUrl: true
         - name: twitter:card
@@ -38,7 +38,7 @@ seo:
         - name: twitter:description
           value: Lorem ipsum dolor sit amet, consectetur adipiscing elit
         - name: twitter:image
-          value: images/post-5.jpg
+          value: images/blogs/blog-1.png
           relativeUrl: true
 layout: post
 ---
@@ -66,7 +66,7 @@ But intuitiveness does not mean simplicity. A good tool is simple for your basic
 For example, many of our customers want to track their weekly tasks and see clearly where things stand. It's a very simple requirement, and it's a piece of cake to do with <a href="https://jsonsheet.com/" >jsonsheet.com</a>.
 
 But let's say your processes eventually become more complex, and you want to see who on your team is working on what over a period of months to gauge whether you'll meet your critical deadlines. On the same particular board on<a href="https://jsonsheet.com/" >jsonsheet.com</a>, you can easily add more columns and filters to adapt it to your growing needs.
-<a href="https://jsonsheet.com/" >![jsonsheet](/images/blog-1-1.PNG)</a>
+<a href="https://jsonsheet.com/" >![jsonsheet](/images/blogs/blog-1-1.PNG)</a>
 
 This is a fundamental strength we've built into jshonsheet.com that I've seen lacking in almost every other <a href="https://jsonsheet.com/" >management</a> tool. Either the tools are simple, but they limit you to doing only simple things forever, or they are complex, and you are burdened to manage the complexity. A tool must be flexible and scalable while maintaining the core of simplicity.
 
@@ -89,7 +89,7 @@ When manufacturing is fast, each function can exist in only one place. Yes, peop
 
 Also, when a product is fast, people start using it for many other things than it was originally intended for. (Great example: Have you ever used Google to spell-check a word you're not sure about? You do it because it's so fast.)
 
-<a href="https://jsonsheet.com/" >![jsonsheet](/images/blog-1-2.PNG)</a>
+<a href="https://jsonsheet.com/" >![jsonsheet](/images/blogs/blog-1-2.PNG)</a>
 
 It takes a lot of dedication to make a product so great, people will try it and pay for it without convincing salespeople to buy it. Tools and teams that tackle this challenge will dominate the market in the coming years.
 

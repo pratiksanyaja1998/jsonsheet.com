@@ -1,12 +1,75 @@
-import React from 'react';
-import { Layout } from '../components';
+import React, { useState } from 'react';
 import { sourcebitDataClient } from 'sourcebit-target-next';
+import { toast } from 'react-toastify';
+import { Layout } from '../components';
+import { SubmitButton } from '../components';
 import _ from 'lodash';
+import axios from 'axios';
 
-const contact = (props) => {
+const ContactUs = (props) => {
     const data = _.get(props, 'data');
     const config = _.get(data, 'config');
 
+    const [loading, setLoading] = useState(false);
+    const [detail, setDetail] = useState({
+        name: '',
+        email: '',
+        query: '',
+        message: ''
+    });
+
+    let handleSubmit = async (e) => {
+        e.preventDefault();
+        setLoading(true);
+        console.log(detail);
+
+        try {
+            axios
+                .post('https://api.whitelabelapp.in/lookup/inquiry/create', {
+                    name: detail.name,
+                    email: detail.email,
+                    query: detail.query,
+                    message: detail.message
+                })
+                .then(function (response) {
+                    console.log('res', response);
+
+                    toast.success('Request successfull', {
+                        position: 'top-center',
+                        autoClose: 5000,
+                        hideProgressBar: true,
+                        closeOnClick: true,
+                        pauseOnHover: true,
+                        draggable: true,
+                        progress: undefined,
+                        theme: 'dark'
+                    });
+                    setDetail({ name: '', email: '', query: '', message: '' });
+                    setLoading(false);
+                })
+                .catch(function (error) {
+                    console.log(error);
+                    setDetail({ name: '', email: '', query: '', message: '' });
+                    setLoading(false);
+                    toast.error('Request faill', {
+                        position: 'bottom-left',
+                        autoClose: 5000,
+                        hideProgressBar: false,
+                        closeOnClick: true,
+                        pauseOnHover: true,
+                        draggable: true,
+                        progress: undefined
+                    });
+                });
+        } catch (err) {
+            console.log(err);
+        }
+    };
+
+    const handleChange = (event) => {
+        setDetail({ ...detail, [event.target.name]: event.target.value });
+    };
+    console.log(detail);
     return (
         <Layout
             page={{
@@ -19,109 +82,113 @@ const contact = (props) => {
             }}
             config={config}
         >
-            <div id="contactUs" className="pb-5">
-                <div className="container container--medium">
-                    <div className="section hero bg-none pt-6">
-                        <div className="hero__content grid items-center">
-                            <div className="hero__body my-2 cell-12 text-center">
-                                <h1 className="hero__title">Contact our Sales team</h1>
-                                <p className="hero__subtitle">Let us help you grow your business and dramatically streamline your workflow.</p>
-                            </div>
+            <main id="contactUs" className="site-content contact-root">
+                <section className="section features bg-none py-5 py-sm-6 contact-root">
+                    <div className="container container--medium">
+                        <div className="text-center">
+                            <h2 className="section__title mt-0">Get in Touch with us</h2>
+                            <div className="section__subtitle">Need an expert? You’re welcome to leave your contact info and we’ll get in touch shortly.</div>
                         </div>
-                    </div>
-                </div>
-
-                <div className="container">
-                    {/* whole card */}
-                    <div className="item card card--vert mb-5 ">
-                        {/* first row */}
-                        <div className="item_content grid mt-2 mb-2">
-                            <div className="cell-12 cell-md-6 first-column">
-                                <div className="ml-3 row-col">
-                                    <lable>First name</lable>
-                                    <input type="text" name="name" className="input-style" placeholder="Ex. jhon" />
-                                </div>
-                            </div>
-                            <div className="cell-12 cell-md-6">
-                                <div className="mr-3 row-col">
-                                    <lable>Last name</lable>
-                                    <input type="text" name="name" className="input-style" placeholder="Ex. parkar" />
-                                </div>
-                            </div>
-                        </div>
-                        {/* second row */}
-                        <div className="item_content grid mb-2">
-                            <div className="cell-12 cell-md-6 first-column">
-                                <div className="ml-3 row-col">
-                                    <lable>Work email</lable>
-                                    <input type="email" name="email" className="input-style" placeholder="Ex. xyz@gmail.com" />
-                                </div>
-                            </div>
-                            <div className="cell-12 cell-md-6">
-                                <div className="mr-3 row-col">
-                                    <lable>Job title</lable>
-                                    <input type="text" name="name" className="input-style" placeholder="Ex. developer" />
-                                </div>
-                            </div>
-                        </div>
-                        {/* third row */}
-                        <div className="item_content grid mb-2">
+                        <div className="item_content grid mt-5">
                             <div className="cell-12 cell-md-6 ">
-                                <div className="ml-3 row-col">
-                                    <lable>Phone number</lable>
-                                    <input type="text" name="email" className="input-style" placeholder="Ex. +91 your phone number" />
+                                <div className="item card  card--vert contact-card">
+                                    <div className="mx-5 my-5" style={{ color: 'white' }}>
+                                        <div className="text-center my-5">
+                                            <h5 style={{ fontWeight: 'normal', marginTop: '40px' }}>Contact Us</h5>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                <p style={{ fontSize: '16px' }}>Email : admin@spyhunteritsolution.in</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div style={{ fontSize: '16px' }}>
+                                                <p style={{ fontSize: '16px' }}>
+                                                    Address : Spyhunter It Solution
+                                                    <br />
+                                                    104-Global Point,
+                                                    <br />
+                                                    Sarthana Jakat Naka,
+                                                    <br />
+                                                    Surat, India
+                                                    <br />
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <iframe
+                                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1859.46925209965!2d72.90466784453756!3d21.234287029194064!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0475a8b4f9c41%3A0x73cbbce6635f7c29!2sSpyhunter%20IT%20Solution!5e0!3m2!1sen!2sin!4v1655707539248!5m2!1sen!2sin"
+                                                frameBorder="0"
+                                                style={{ height: 200, width: '100%' }}
+                                                allowfullscreen
+                                                loading="lazy"
+                                            ></iframe>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        {/* fourth row */}
-                        <div className="item_content grid mb-2">
-                            <div className="cell-12 cell-md-6 first-column">
-                                <div className="ml-3 row-col">
-                                    <lable>Company name</lable>
-                                    <input type="email" name="email" className="input-style" placeholder="Ex. xyz " />
-                                </div>
-                            </div>
-                            <div className="cell-12 cell-md-6">
-                                <div className="mr-3 row-col">
-                                    <lable>Company size</lable>
-                                    <input type="text" name="name" className="input-style" placeholder="Ex. 10" />
-                                </div>
-                            </div>
-                        </div>
-                        {/* fifth row */}
-                        <div className="item_content grid mb-4">
-                            <div className="cell-12 cell-md-12 first-column">
-                                <div className="ml-3 mr-3 row-col">
-                                    <lable>How can our team help you?</lable>
-                                    <textarea
-                                        type="text"
-                                        name="email"
-                                        className="input-style"
-                                        placeholder="add your problem"
-                                        rows="3"
-                                        style={{ resize: 'none' }}
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                        {/* six row */}
-                        <div className="item_content grid mb-2">
-                            <div className="cell-12 cell-md-12 ">
-                                <div className="mb-3 text-center">
-                                    <button type="button" className="btn btn--primary" style={{ borderRadius: '2px' }}>
-                                        INQUIERY NOW
-                                    </button>
-                                    <p className="my-3 text-center mx-3 " style={{ fontSize: '10px' }}>
-                                        By clicking "INQUIERY NOW", you acknowledge that your data will be handled in accordance with Json Sheet's{' '}
-                                        <a href="/privacy-policy">Privacy Policy</a> and you authorize Json Sheet to send you updates about Json Sheet products,
-                                        services and events.
-                                    </p>
+                            <div className="cell-12 cell-md-6 ">
+                                <div className="item card  card--vert">
+                                    <form className="mx-5 my-5 form_data" onSubmit={handleSubmit}>
+                                        <div className="mb-3">
+                                            <lable> Name</lable>
+                                            <input
+                                                type="text"
+                                                name="name"
+                                                className="input-style"
+                                                value={detail.name}
+                                                placeholder="Enter Your Name"
+                                                onChange={handleChange}
+                                                required
+                                            />
+                                        </div>
+                                        <div className="mb-3">
+                                            <label style={{ fontWeight: 0 }}> Email</label>
+                                            <input
+                                                type="email"
+                                                name="email"
+                                                className="input-style"
+                                                value={detail.email}
+                                                placeholder="Enter Your Email"
+                                                onChange={handleChange}
+                                                required
+                                            />
+                                        </div>
+                                        <div className="mb-3">
+                                            <label>Query</label>
+                                            <input
+                                                type="text"
+                                                name="query"
+                                                className="input-style"
+                                                value={detail.query}
+                                                placeholder="Enter Your Query"
+                                                onChange={handleChange}
+                                                required
+                                            />
+                                        </div>
+                                        <div className="mb-3">
+                                            <label>Message</label>
+                                            <textarea
+                                                name="message"
+                                                className="input-style"
+                                                style={{ resize: 'none' }}
+                                                value={detail.message}
+                                                placeholder="Enter Your Message"
+                                                onChange={handleChange}
+                                                required
+                                            />
+                                        </div>
+
+                                        <div className="mb-3 text-center">
+                                            <SubmitButton title="INQUIERY NOW" onPressButton={() => {}} loading={loading} />
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </section>
+            </main>
         </Layout>
     );
 };
@@ -131,4 +198,4 @@ export async function getStaticProps({ params }) {
     const props = await sourcebitDataClient.getStaticPropsForPageAtPath('');
     return { props };
 }
-export default contact;
+export default ContactUs;

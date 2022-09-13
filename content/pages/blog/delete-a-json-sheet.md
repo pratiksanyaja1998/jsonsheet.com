@@ -7,9 +7,9 @@ categories:
     - content/data/categories/tutorials.yaml
 excerpt: >-
     Learn about Delete a Json Sheet
-thumb_image: images/delete-jsonsheet.png
+thumb_image: images/blogs/delete-jsonsheet.png
 thumb_image_alt: Post 1 placeholder image
-image: images/delete-jsonsheet.png
+image: images/blogs/delete-jsonsheet.png
 image_alt: Post 1 placeholder image
 image_position: top
 seo:
@@ -28,7 +28,7 @@ seo:
           value: Lorem ipsum dolor sit amet, consectetur adipiscing elit
           keyName: property
         - name: og:image
-          value: images/post-5.jpg
+          value: images/blogs/delete-jsonsheet.png
           keyName: property
           relativeUrl: true
         - name: twitter:card
@@ -38,7 +38,7 @@ seo:
         - name: twitter:description
           value: Lorem ipsum dolor sit amet, consectetur adipiscing elit
         - name: twitter:image
-          value: images/post-5.jpg
+          value: images/blogs/delete-jsonsheet.png
           relativeUrl: true
 layout: post
 ---
@@ -49,9 +49,9 @@ Free up space and remove the clutter of Json Sheet items that you no longer use 
 
 1. If you want to delete the <b>spreadsheet,</b> you can
 2.  Open the <b>Json sheet</b> and click on the dot on the right side and go to Delete and delete it.
-![jsonsheet](/images/delete-jsonsheet-1.PNG)
+![jsonsheet](/images/blogs/delete-jsonsheet-1.PNG)
 3. Open the <b>spreadsheet</b> and click on the dot on the sheet and go to Delete
-![jsonsheet](/images/delete-jsonsheet-2.PNG)
+![jsonsheet](/images/blogs/delete-jsonsheet-2.PNG)
 
 ## What happens when you delete a workspace or folder
 
