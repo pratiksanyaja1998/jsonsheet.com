@@ -13,6 +13,21 @@
         "has_primary_nav": true,
         "primary_nav_links": [
             {
+                "label": "Templates",
+                "url": "/templates",
+                "style": "link"
+            },
+            {
+                "label": "Product",
+                "url": "/product",
+                "style": "link"
+            },
+            {
+                "label": "Solutions",
+                "url": "/solutions",
+                "style": "link"
+            },
+            {
                 "label": "About",
                 "url": "/about",
                 "style": "link"
@@ -26,12 +41,8 @@
                 "label": "Contact Us",
                 "url": "/contact-us",
                 "style": "link"
-            },
-            {
-                "label": "Templates",
-                "url": "/templates",
-                "style": "link"
             }
+           
         ],
         "has_secondary_nav": true,
         "secondary_nav_links": [
@@ -54,8 +65,28 @@
         "primary_nav_title": "Company",
         "primary_nav_links": [
             {
+                "label": "Templates",
+                "url": "/templates",
+                "style": "link"
+            },
+            {
+                "label": "Product",
+                "url": "/product",
+                "style": "link"
+            },
+            {
+                "label": "Solutions",
+                "url": "/solutions",
+                "style": "link"
+            },
+            {
                 "label": "About",
                 "url": "/about",
+                "style": "link"
+            },
+            {
+                "label": "Contact Us",
+                "url": "/contact-us",
                 "style": "link"
             }
         ],

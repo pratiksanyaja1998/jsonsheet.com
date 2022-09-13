@@ -2,15 +2,15 @@ import React from 'react';
 import { Icon, Layout } from '../components';
 import _ from 'lodash';
 import { sourcebitDataClient } from 'sourcebit-target-next';
-import { ORGANIZE_LIST, VIEW_LIST, CREATE_LIST, COLLABORATE_LIST, CONSUME_LIST } from '../../data';
+import { ORGANIZE_LIST, AUTOMATE_LIST, CREATE_LIST, COLLABORATE_LIST, CONSUME_LIST, SLICE_LIST } from '../../data';
 
 const ACHIEVE = [
-    { link: '#Organize', img: 'https://stackby.com/assets/product-overview/img/8808e5a01ddb2810d3c4f2a7b76d7d68.png', title: 'Organize' },
-    { link: '#Create', img: 'https://stackby.com/assets/product-overview/img/b5666880151b057406db2b21055ea4b8.png', title: 'Create' },
-    { link: '#Automate', img: 'https://stackby.com/assets/product-overview/img/e2a8b113955902819cd6a98041162ed3.png', title: 'Automate' },
-    { link: '#Collaborate', img: 'https://stackby.com/assets/product-overview/img/d6b1b2b64592e2b9cc94b367a05bc972.png', title: 'Collaborate' },
-    { link: '#Customize', img: 'https://stackby.com/assets/product-overview/img/c7438284e00b4da59382cfedb7434d9a.png', title: 'Customize' },
-    { link: '#Consume', img: 'https://stackby.com/assets/product-overview/img/cedc1932b2bf9ac44bf66bedb4b55387.png', title: 'Consume' }
+    { link: '#Organize', img: 'https://t3.ftcdn.net/jpg/02/99/38/16/240_F_299381681_JPM2NoyPKGhFIjitOIjwNt5rD3bb5FMF.jpg', title: 'Organize' },
+    { link: '#Create', img: 'https://t3.ftcdn.net/jpg/04/75/10/56/240_F_475105646_Aows3hzhl0CbhQttq75opMz7vocbTNZY.jpg', title: 'Create' },
+    { link: '#Automate', img: 'https://t3.ftcdn.net/jpg/01/37/22/46/240_F_137224603_ZjVKCAfTsNBGDEWcEngpUjIkaeVFq6oG.jpg', title: 'Automate' },
+    { link: '#Collaborate', img: 'https://t4.ftcdn.net/jpg/02/94/56/59/240_F_294565901_EO6aaVd7KIpTvLrtWpD9R0L1PcDgvymz.jpg', title: 'Collaborate' },
+    { link: '#Customize', img: 'https://t3.ftcdn.net/jpg/03/18/79/48/240_F_318794876_Wmnt0TkO7xxn9pp2ajZBhdrRLlIb7ekU.jpg', title: 'Customize' },
+    { link: '#Consume', img: 'https://t4.ftcdn.net/jpg/02/95/20/73/240_F_295207347_cw4cuZwBBoWjrW8Qg218P70UyKG8chc4.jpg', title: 'Consume' }
 ];
 
 const ProductCard = (props) => {
@@ -51,20 +51,21 @@ const product = (props) => {
                 <section className="container">
                     <input placeholder="Enter your email" className="input-email" />
                     <button className="btn btn--primary started-btn">Get Started</button>
-                    <video
+                    {/* <video
                         className="video"
                         preload="none"
                         loop
                         muted
                         data-autoplay="on"
-                        src="https://www.brizy.cloud/customfile/9bba6170dadd858b9c7a172ed5b3b648.mp4"
+                        src="images/Jsonsheet.gif"
                         autoplay="true"
-                    ></video>
+                    ></video> */}
+                        <img src='images/Jsonsheet.gif' className="video"/>
                 </section>
 
                 {/* overview image */}
                 <section className="container">
-                    <img src="https://stackby.com/assets/product-overview/img/209af8b0ee951a5ef2e6ec1d3e48e8ab.png" className="img-overview" />
+                    <img src="images/overview.png" className="img-overview" />
                 </section>
 
                 {/* Achieve anything section*/}
@@ -139,7 +140,7 @@ const product = (props) => {
 
             {/* Automate card section */}
             <section id="Automate" className="container grid grid-gap-small my-2">
-                {VIEW_LIST.map((item, i) => {
+                {AUTOMATE_LIST.map((item, i) => {
                     return (
                         <div className="cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-2" key={i}>
                             <ProductCard item={item} />
@@ -150,14 +151,14 @@ const product = (props) => {
             {/* explore Customize section */}
             <section>
                 <div className="online-database">
-                    <h1 className="online-database-title">Slice, Dice & Share</h1>
-                    <p className="online-database-subtitle">No more writing long queries. Filter, Sort, Search, Color - all in a snap.</p>
+                    <h1 className="online-database-title">Slice, Formulas, & Share</h1>
+                    <p className="online-database-subtitle">No more writing long queries. Filter, Sort, Search, Color, Share.</p>
                 </div>
             </section>
 
             {/* Customize card section */}
             <section id="Automate" className="container grid grid-gap-small my-2">
-                {VIEW_LIST.map((item, i) => {
+                {SLICE_LIST.map((item, i) => {
                     return (
                         <div className="cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-2" key={i}>
                             <ProductCard item={item} />
