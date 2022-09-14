@@ -7,9 +7,9 @@ categories:
     - content/data/categories/news.yaml
 excerpt: >-
     Learn about The Json Sheet mobile app will soon be available in the App Store
-thumb_image: images/json-seat-mobile-app-will-soon.png
+thumb_image: images/blogs/json-sheet-mobile-app-will-soon.png
 thumb_image_alt: Post 1 placeholder image
-image: images/blogs/json-seat-mobile-app-will-soon.png
+image: images/blogs/json-sheet-mobile-app-will-soon.png
 image_alt: Post 1 placeholder image
 image_position: top
 seo:
@@ -28,7 +28,7 @@ seo:
           value: Lorem ipsum dolor sit amet, consectetur adipiscing elit
           keyName: property
         - name: og:image
-          value: images/blogs/json-seat-mobile-app-will-soon.png
+          value: images/blogs/json-sheet-mobile-app-will-soon.png
           keyName: property
           relativeUrl: true
         - name: twitter:card
@@ -38,11 +38,11 @@ seo:
         - name: twitter:description
           value: Lorem ipsum dolor sit amet, consectetur adipiscing elit
         - name: twitter:image
-          value: images/blogs/json-seat-mobile-app-will-soon.png  
+          value: images/blogs/json-sheet-mobile-app-will-soon.png  
           relativeUrl: true
 layout: post
 ---
-### The Json Sheet mobile app will soon be available in the App Store
+## The Json Sheet mobile app will soon be available in the App Store
 
 In a few days, the Json Sheet app will come to Apple it.
 
