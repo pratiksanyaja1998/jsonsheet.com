@@ -31,8 +31,12 @@ const product = (props) => {
             page={{
                 title: 'Product',
                 seo: {
-                    title: 'Product',
-                    description: 'Product page'
+                    title: 'Json Sheet Product - Build a Better Way to Work - Json Sheet',
+                    description: 'Json Sheet is a low-code platform for building collaborative applications. Customize your workflow, collaborate and achieve ambitious results. Get started for free.',
+                    extra: [{
+                        name: 'Keywords',
+                        value: 'json sheet, google script json sheet, convert-excel-to-json sheet, json sheetjs,json cheat sheet, google sheet to json, sheets json api, google sheet json api, json sheet builder, json cheat sheet pdf, json to sheet custom header, json schema cheat sheet, jsonpath cheat sheet, google sheet to json, json to google sheets'
+                    }],
                 },
                 layout: 'page'
             }}
