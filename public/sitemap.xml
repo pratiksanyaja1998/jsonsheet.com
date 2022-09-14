@@ -2,142 +2,166 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://jsonsheet.com</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/about</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/blog</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/contact-us</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/templates</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jsonsheet.com/product</loc>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jsonsheet.com/solutions</loc>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/terms-conditions</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/privacy-policy</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/security</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/blog/category/news</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/blog/category/general</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/blog/category/tutorials</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/blog/our-vision-for-the-next-generation-of-management-tools</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/blog/3-management-basics-everyone-needs-to-know</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jsonsheet.com/blog/create-or-rename-a-sheet</loc>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jsonsheet.com/blog/delete-a-json-sheet</loc>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jsonsheet.com/blog/json-seat-mobile-app-will-soon</loc>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/templates/legal</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/templates/project-management</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/templates/real-estate</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/templates/sales-customers</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/templates/software-development</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/templates/everyday-life</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/templates/marketing</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/templates/hr-recruiting</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/templates/local-business</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jsonsheet.com/template/legal-case-tracking-and-billing/4</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jsonsheet.com/template/blog-editorial-calendar/8</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jsonsheet.com/template/interview-application-tracker/5</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jsonsheet.com/template/bug-tracker/9</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jsonsheet.com/template/customer-data/10</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jsonsheet.com/template/office-expenses-tracking/6</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jsonsheet.com/template/remote-survey/7</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jsonsheet.com/template/site-visit-tracker/12</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jsonsheet.com/template/students-job-application-tracking/1</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jsonsheet.com/template/product-inventory/11</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/template/personal-expense-tracking/13</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jsonsheet.com/template/site-visit-tracker/12</loc>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jsonsheet.com/template/simple-task-tracker/16</loc>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jsonsheet.com/template/bug-tracker/9</loc>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jsonsheet.com/template/customer-data/10</loc>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jsonsheet.com/template/students-job-application-tracking/1</loc>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/template/competitive-analysis-overview/14</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jsonsheet.com/template/interview-application-tracker/5</loc>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jsonsheet.com/template/legal-case-tracking-and-billing/4</loc>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jsonsheet.com/template/product-inventory/11</loc>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jsonsheet.com/template/remote-survey/7</loc>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jsonsheet.com/template/office-expenses-tracking/6</loc>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jsonsheet.com/template/blog-editorial-calendar/8</loc>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
   <url>
     <loc>https://jsonsheet.com/template/social-media-tracking-overview/15</loc>
-    <lastmod>2022-09-06T07:02:41.741Z</lastmod>
+    <lastmod>2022-09-14T09:09:08.552Z</lastmod>
   </url>
 </urlset>
