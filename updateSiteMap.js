@@ -32,7 +32,7 @@ const updateSiteMap = async () => {
             `https://jsonsheet.com/blog/3-management-basics-everyone-needs-to-know`,
             `https://jsonsheet.com/blog/create-or-rename-a-sheet`,
             `https://jsonsheet.com/blog/delete-a-json-sheet`,
-            `https://jsonsheet.com/blog/json-seat-mobile-app-will-soon`
+            `https://jsonsheet.com/blog/json-sheet-mobile-app-will-soon`
         ];
 
         let existingSitemapList = {};
