@@ -1,9 +1,11 @@
 ---
 title: About
 seo:
-  title: About
+  title: About Json Sheet - Json Sheet 
   description: This is the about us page
   extra:
+    - name: Keywords
+      value: json sheet, google script json sheet, convert-excel-to-json sheet, json sheetjs,json cheat sheet, google sheet to json, sheets json api, google sheet json api, json sheet builder, json cheat sheet pdf, json to sheet custom header, json schema cheat sheet, jsonpath cheat sheet, google sheet to json, json to google sheets	
     - name: og:type
       value: website
       keyName: property
@@ -30,6 +32,4 @@ layout: page
 ---
 Well for us, it happened somewhere between collaboration and communication, connecting and scaling quickly, being completely transparent and working the way we want, while always aspiring to go beyond our best. He grew between building, creating, managing and always smiling along the way. It expanded as we integrated and automated, created workflows and templates, and grew our community beyond our wildest dreams. We have experienced firsthand how much more we can accomplish when we really, truly work together. We've realized how powerful it is to build our own workflows with customizable building blocks. How can there be one place where all work happens—eliminating silos, aligning our organizations, and elevating our teams. It was through this journey that jsonsheet.com Work smart spreadsheet was born. It is in these moments that magic happens. And it's exciting to know that as we continue our mission together, we're just getting started…
 
-
 By changing the way the world works, we believe we can change the world.
-

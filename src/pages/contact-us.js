@@ -69,14 +69,18 @@ const ContactUs = (props) => {
     const handleChange = (event) => {
         setDetail({ ...detail, [event.target.name]: event.target.value });
     };
-    console.log(detail);
+    // console.log(detail);
     return (
         <Layout
             page={{
                 title: 'Contact-us',
                 seo: {
-                    title: 'Contact-us',
-                    description: 'Contact-us page'
+                    title: 'Contact Us - Json Sheet',
+                    description: 'Json Smart sheet Customize your workflow, collaborate, and achieve ambitious outcomes.  Maintain visibility & keep distributed teams connected. Contact-us page',
+                    extra: [{
+                        name: 'Keywords',
+                        value: 'json sheet, google script json sheet, convert-excel-to-json sheet, json sheetjs,json cheat sheet, google sheet to json, sheets json api, google sheet json api, json sheet builder, json cheat sheet pdf, json to sheet custom header, json schema cheat sheet, jsonpath cheat sheet, google sheet to json, json to google sheets'
+                    }],
                 },
                 layout: 'page'
             }}
