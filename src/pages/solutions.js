@@ -91,7 +91,7 @@ const Solutions = (props) => {
                         {CARD.map((item, i) => {
                             return (
                                 <div className="cell-12 cell-sm-12 cell-md-6 cell-lg-3 my-2" key={i}>
-                                    <div className="market-card-container">
+                                    <div className="market-card-container card--highlight card item">
                                         <img src={item.img} className="solutions-card-img" />
                                         {/* <div style={{ height: '100%' }}> */}
                                         {/* <div className="icon-container">
@@ -100,7 +100,7 @@ const Solutions = (props) => {
                                         <h3 className="card-title">{item.title}</h3>
                                         <button className="btn btn--primary">
                                             <Icon icon={'arrow-right'} />
-                                            <span className={'order-first'}>{item.button}</span>
+                                            <span className={'order-first'} style={{whiteSpace:"normal"}}>{item.button}</span>
                                         </button>
                                         {/* </div> */}
                                     </div>
