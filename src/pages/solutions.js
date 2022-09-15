@@ -41,7 +41,7 @@ const Solutions = (props) => {
                     extra: [
                         {
                             name: 'Keywords',
-                            value: 'json sheet, google script json sheet, convert-excel-to-json sheet, json sheetjs,json cheat sheet, google sheet to json, sheets json api, google sheet json api, json sheet builder, json cheat sheet pdf, json to sheet custom header, json schema cheat sheet, jsonpath cheat sheet, google sheet to json, json to google sheets'
+                            value: 'json sheet, google script json sheet, convert-excel-to-json sheet, json sheet js, google sheet to json, sheets json api, google sheet json api, json sheet builder,  json to sheet custom header, google sheet to json, json to google sheets'
                         }
                     ]
                 },
@@ -59,7 +59,7 @@ const Solutions = (props) => {
                                     <h1 className="hero__title">Solutions to empower every team. Connect everything. Achieve anything. </h1>
                                     <p className="hero__subtitle">Customize the right workflow for your team and achieve success with a no-code database.</p>
                                     <button className="btn btn--primary">
-                                        <span> Sign up for free </span>
+                                        <span> Signup for free </span>
                                     </button>
                                     <h5>No credit card needed </h5>
                                 </div>
@@ -77,7 +77,7 @@ const Solutions = (props) => {
                                 <div className="cell-12 cell-sm-12 cell-md-6 cell-lg-6 my-2">
                                     <h2>Depending on your workflow, you can build with it Json Sheet.</h2>
                                 </div>
-                                <div className="cell-12 cell-sm-12 cell-md-6 cell-lg-6 my-2 regardles-section-small-text ">
+                                <div className="cell-12 cell-sm-12 cell-md-6 cell-lg-6 my-2 regardless-section-small-text ">
                                     <h5>Move work faster with a no-code app that perfectly matches your team's agility and scale.</h5>
                                 </div>
                             </div>
@@ -112,19 +112,19 @@ const Solutions = (props) => {
 
                 {/* feature section */}
                 <section>
-                    <div className="solutions-fichar-section">
+                    <div className="solutions-feature-section">
                         <div className="container py-4">
                             {FEATURE_LIST.map((item, i) => {
                                 return (
                                     <div className="grid  grid-gap-small my-2 py-2" key={i}>
                                         <div className="cell-12 cell-sm-12 cell-md-7 cell-lg-6 my-2 px-sm-4 px-lg-1">
-                                            <img src={item.img} />
+                                            <img src={item.img} style={{objectFit:"cover",aspectRatio:"3/2"}} />
                                         </div>
                                         <div
                                             className={
                                                 item.position == 'right'
-                                                    ? 'cell-12 cell-sm-12 cell-md-5 cell-lg-6 my-2 solutions-fichar-text order-md-first'
-                                                    : 'cell-12 cell-sm-12 cell-md-5 cell-lg-6 my-2 solutions-fichar-text'
+                                                    ? 'cell-12 cell-sm-12 cell-md-5 cell-lg-6 my-2 solutions-feature-text order-md-first'
+                                                    : 'cell-12 cell-sm-12 cell-md-5 cell-lg-6 my-2 solutions-feature-text'
                                             }
                                         >
                                             <h2>{item.title}</h2>
@@ -160,10 +160,10 @@ const Solutions = (props) => {
                     <div className="container">
                         <div className="grid grid-gap-small my-2">
                             <div className="cell-12 cell-md-5 cell-lg-4 my-2 order-md-first sign-up-section-text">
-                                <h1 className="Sign-up-text">Start building in Jsonsheet today</h1>
+                                <h1 className="Sign-up-text">Start building in Json sheet today</h1>
                                 <button className="btn btn--primary Sign-up-btn justify-md-center ">
                                     <Icon icon={'arrow-right'} />
-                                    <span className={'order-first'}>Sign up for free</span>
+                                    <span className={'order-first'}>Signup for free</span>
                                 </button>
                                 <p className="mt-2 Sign-up-text">No credit card needed</p>
                             </div>

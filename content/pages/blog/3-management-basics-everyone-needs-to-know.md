@@ -18,7 +18,7 @@ seo:
   description: Learn all about 3 Management Basics Everyone Needs to Know
   extra:
     - name: Keywords
-      value: json sheet, google script json sheet, convert-excel-to-json sheet, json sheetjs,json cheat sheet, google sheet to json, sheets json api, google sheet json api, json sheet builder, json cheat sheet pdf, json to sheet custom header, json schema cheat sheet, jsonpath cheat sheet, google sheet to json, json to google sheets
+      value: json sheet, google script json sheet, convert-excel-to-json sheet, json sheet js, google sheet to json, sheets json api, google sheet json api, json sheet builder,  json to sheet custom header, google sheet to json, json to google sheets
     - name: og:type
       value: article
       keyName: property
@@ -56,7 +56,7 @@ People need a goal to focus on what's important, motivate them toward a concrete
 
 When you manage without a goal, you take on one task at a time. You want to avoid that, as it will cause your team's motivation to wane. Think of climbing a mountain as a team, but instead of seeing the top, managers tell everyone where to step next. Loses team orientation. They don't know how far they have to go, and most importantly, they lose motivation when the climb gets particularly steep. They climb more slowly or drop out altogether. People feel that their work is an endless, futile and boring endeavour, simply because they do not see the bigger picture.
 
-For us, the solution is to build a culture of transparency and that is inherent in our product. A Jsonsheet.com board shows everyone exactly how tasks fit into the larger context of the process, who is responsible for what and where things stand. Even the tallest mountain looks like you can conquer it all together when it's all laid out on a vision board.
+For us, the solution is to build a culture of transparency and that is inherent in our product. A jsonsheet.com board shows everyone exactly how tasks fit into the larger context of the process, who is responsible for what and where things stand. Even the tallest mountain looks like you can conquer it all together when it's all laid out on a vision board.
 
 <a href="https://jsonsheet.com/" >![jsonsheet](/images/blogs/blog-2-1.PNG)</a>
 
@@ -74,6 +74,6 @@ Validation is one of the most powerful tool managers, but sadly, almost all tool
 
 Have you heard Dan Ariely's great TED talk on the science of what motivates people? Getting recognized for your work is one of the top factors. monday.com takes people's identification needs to a new level. Everyone looks at the weekly task list and when a task is marked as “Done”, it turns green. Everyone knows, and recognition comes from the entire team, not just the manager. It is fast and powerful. As a team, you can focus on the shared goal of going green all week and recognize each other and celebrate together. That's why people say monday.com is addictive and makes teams happy.
 
-<div  style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=com.jsonsheetapp"><button style="border:1px solid;font-weight:700;padding:3%;font-size:1.5em;color:#1b1e21;background-color:#a4c8ed;border-radius:8px;" >Get strated</button></a></div>
+<div  style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=com.jsonsheetapp"><button style="border:1px solid;font-weight:700;padding:3%;font-size:1.5em;color:#1b1e21;background-color:#a4c8ed;border-radius:8px;" >Get started</button></a></div>
 
 

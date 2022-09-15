@@ -34,7 +34,7 @@ const ContactUs = (props) => {
                 .then(function (response) {
                     console.log('res', response);
 
-                    toast.success('Request successfull', {
+                    toast.success('Request Successful', {
                         position: 'top-center',
                         autoClose: 5000,
                         hideProgressBar: true,
@@ -51,7 +51,7 @@ const ContactUs = (props) => {
                     console.log(error);
                     setDetail({ name: '', email: '', query: '', message: '' });
                     setLoading(false);
-                    toast.error('Request faill', {
+                    toast.error('Request fail', {
                         position: 'bottom-left',
                         autoClose: 5000,
                         hideProgressBar: false,
@@ -79,7 +79,7 @@ const ContactUs = (props) => {
                     description: 'Json Smart sheet Customize your workflow, collaborate, and achieve ambitious outcomes.  Maintain visibility & keep distributed teams connected. Contact-us page',
                     extra: [{
                         name: 'Keywords',
-                        value: 'json sheet, google script json sheet, convert-excel-to-json sheet, json sheetjs,json cheat sheet, google sheet to json, sheets json api, google sheet json api, json sheet builder, json cheat sheet pdf, json to sheet custom header, json schema cheat sheet, jsonpath cheat sheet, google sheet to json, json to google sheets'
+                        value: 'json sheet, google script json sheet, convert-excel-to-json sheet, json sheet js, google sheet to json, sheets json api, google sheet json api, json sheet builder,  json to sheet custom header, google sheet to json, json to google sheets'
                     }],
                 },
                 layout: 'page'
@@ -135,7 +135,7 @@ const ContactUs = (props) => {
                                 <div className="item card  card--vert">
                                     <form className="mx-5 my-5 form_data" onSubmit={handleSubmit}>
                                         <div className="mb-3">
-                                            <lable> Name</lable>
+                                            <label> Name</label>
                                             <input
                                                 type="text"
                                                 name="name"
@@ -184,7 +184,7 @@ const ContactUs = (props) => {
                                         </div>
 
                                         <div className="mb-3 text-center">
-                                            <SubmitButton title="INQUIERY NOW" onPressButton={() => {}} loading={loading} />
+                                            <SubmitButton title="INQUIRY NOW" onPressButton={() => {}} loading={loading} />
                                         </div>
                                     </form>
                                 </div>

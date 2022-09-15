@@ -6,18 +6,18 @@ date: 2022-09-05
 categories:
     - content/data/categories/news.yaml
 excerpt: >-
-    Learn about The Json Sheet mobile app will soon be available in the App Store
+    Learn about the json sheet mobile app will soon be available in the App Store
 thumb_image: images/blogs/json-sheet-mobile-app-will-soon.png
 thumb_image_alt: Post 1 placeholder image
 image: images/blogs/json-sheet-mobile-app-will-soon.png
 image_alt: Post 1 placeholder image
 image_position: top
 seo:
-    title: The Json Sheet mobile app will soon be available in the App Store
-    description: Learn about The Json Sheet mobile app will soon be available in the App Store
+    title: The Json Sheet mobile app will soon be available in the App Store - Json Sheet
+    description: Learn about the json sheet mobile app will soon be available in the app store
     extra:
         - name: Keywords
-          value: json sheet, google script json sheet, convert-excel-to-json sheet, json sheetjs,json cheat sheet, google sheet to json, sheets json api, google sheet json api, json sheet builder, json cheat sheet pdf, json to sheet custom header, json schema cheat sheet, jsonpath cheat sheet, google sheet to json, json to google sheets
+          value: json sheet, google script json sheet, convert-excel-to-json sheet, json sheet js, google sheet to json, sheets json api, google sheet json api, json sheet builder,  json to sheet custom header, google sheet to json, json to google sheets
         - name: og:type
           value: article
           keyName: property
@@ -46,23 +46,23 @@ layout: post
 
 In a few days, the Json Sheet app will come to Apple it.
 
-### Let me tell you what is a json sheet
+### Let me tell you what is a json Sheet
 
-Json Sheet is Smart  Spreadsheet Management App
+Json Sheet is Smart  SpreadSheet Management App
 
-The easiest way to manage your sheets is from within the Json Sheet app.
+The easiest way to manage your Sheets is from within the Json Sheet app.
 
-### Json sheet  App Function 
+### Json Sheet  App Function 
 
- 1. Create Json sheet 
+ 1. Create Json Sheet 
  2. Create Multiple Sub Sheets
  3. Share Json Sheet and collaborate with others in the same 
  4. Format cells, enter data, view charts, insert formulas, use 
      find/replace, and more.
- 5. Share Jsonsheet files 
+ 5. Share Json Sheet files 
 
 
-So download Json Sheet shortly Available in App Store (IOS) and manage sheets easily from your
+So download Json Sheet shortly Available in App Store (IOS) and manage Sheets easily from your
 
 Reach us!</br>
 Instagram- <a href="https://www.instagram.com/jsonsheet/">https://www.instagram.com/jsonsheet/</a> </br>

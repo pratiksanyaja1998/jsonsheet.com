@@ -13,11 +13,11 @@ image: images/blogs/blog-1.png
 image_alt: Post 1 placeholder image
 image_position: top
 seo:
-    title: Our vision for the next generation of management tools
+    title: Our vision for the next generation of management tools - Json Sheet
     description: Learn all about json sheet is modern management sheet
     extra:
         - name: Keywords
-          value: json sheet, google script json sheet, convert-excel-to-json sheet, json sheetjs,json cheat sheet, google sheet to json, sheets json api, google sheet json api, json sheet builder, json cheat sheet pdf, json to sheet custom header, json schema cheat sheet, jsonpath cheat sheet, google sheet to json, json to google sheets
+          value: json sheet, google script json sheet, convert-excel-to-json sheet, json sheet js, google sheet to json, sheets json api, google sheet json api, json sheet builder,  json to sheet custom header, google sheet to json, json to google sheets
         - name: og:type
           value: article
           keyName: property
@@ -68,7 +68,7 @@ For example, many of our customers want to track their weekly tasks and see clea
 But let's say your processes eventually become more complex, and you want to see who on your team is working on what over a period of months to gauge whether you'll meet your critical deadlines. On the same particular board on<a href="https://jsonsheet.com/" >jsonsheet.com</a>, you can easily add more columns and filters to adapt it to your growing needs.
 <a href="https://jsonsheet.com/" >![jsonsheet](/images/blogs/blog-1-1.PNG)</a>
 
-This is a fundamental strength we've built into jshonsheet.com that I've seen lacking in almost every other <a href="https://jsonsheet.com/" >management</a> tool. Either the tools are simple, but they limit you to doing only simple things forever, or they are complex, and you are burdened to manage the complexity. A tool must be flexible and scalable while maintaining the core of simplicity.
+This is a fundamental strength we've built into jsonsheet.com that I've seen lacking in almost every other <a href="https://jsonsheet.com/" >management</a> tool. Either the tools are simple, but they limit you to doing only simple things forever, or they are complex, and you are burdened to manage the complexity. A tool must be flexible and scalable while maintaining the core of simplicity.
 
 ## 2. A good product is non-imposing
 
@@ -93,4 +93,4 @@ Also, when a product is fast, people start using it for many other things than i
 
 It takes a lot of dedication to make a product so great, people will try it and pay for it without convincing salespeople to buy it. Tools and teams that tackle this challenge will dominate the market in the coming years.
 
-<div  style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=com.jsonsheetapp"><button style="border:1px solid;font-weight:700;padding:3%;font-size:1.5em;color:#1b1e21;background-color:#a4c8ed;border-radius:8px;" >Get strated</button></a></div>
+<div  style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=com.jsonsheetapp"><button style="border:1px solid;font-weight:700;padding:3%;font-size:1.5em;color:#1b1e21;background-color:#a4c8ed;border-radius:8px;" >Get started</button></a></div>

@@ -1,9 +1,11 @@
 ---
 title: Terms & Conditions
 seo:
-  title: Terms and Conditions
-  description: This is the terms and conditions page
+  title: Terms And Conditions - Json Sheet
+  description: This is json sheet terms and conditions page.
   extra:
+    - name: Keywords
+      value: json sheet, google script json sheet, convert-excel-to-json sheet, json sheet js, google sheet to json, sheets json api, google sheet json api, json sheet builder,  json to sheet custom header, google sheet to json, json to google sheets	 
     - name: og:type
       value: website
       keyName: property
@@ -19,6 +21,7 @@ seo:
       value: Terms and Conditions
     - name: twitter:description
       value: This is the terms and conditions page
+
 layout: page
 ---
 These terms and conditions (“Agreement”) set forth the general terms and conditions of your use of the jsonsheet.com website (“Website”), “Json Sheet” mobile application (“Mobile Application”) and any of their related products and services (collectively, “Services”). This Agreement is legally binding between you (“User”, “you” or “your”) and this Website operator and Mobile Application developer (“Operator”, “we”, “us” or “our”). If you are entering into this agreement on behalf of a business or other legal entity, you represent that you have the authority to bind such entity to this agreement, in which case the terms “User”, “you” or “your” shall refer to such entity. If you do not have such authority, or if you do not agree with the terms of this agreement, you must not accept this agreement and may not access and use the Services. By accessing and using the Services, you acknowledge that you have read, understood, and agree to be bound by the terms of this Agreement. You acknowledge that this Agreement is a contract between you and the Operator, even though it is electronic and is not physically signed by you, and it governs your use of the Services.

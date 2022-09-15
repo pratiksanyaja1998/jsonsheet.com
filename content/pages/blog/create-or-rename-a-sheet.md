@@ -17,7 +17,7 @@ seo:
     description: Learn about create or rename a sheet or other Json Sheet item
     extra:
         - name: Keywords
-          value: json sheet, google script json sheet, convert-excel-to-json sheet, json sheetjs,json cheat sheet, google sheet to json, sheets json api, google sheet json api, json sheet builder, json cheat sheet pdf, json to sheet custom header, json schema cheat sheet, jsonpath cheat sheet, google sheet to json, json to google sheets
+          value: json sheet, google script json sheet, convert-excel-to-json sheet, json sheet js, google sheet to json, sheets json api, google sheet json api, json sheet builder,  json to sheet custom header, google sheet to json, json to google sheets
         - name: og:type
           value: article
           keyName: property
@@ -57,7 +57,7 @@ In a Json sheet, most solutions start with a sheet: it's the primary place where
 
 ## 2. Rename a sheet
 
-1. Click on the 3 dots next to the <b>spreadsheet</b> 
+1. Click on the 3 dots next to the <b>spreadsheet</b>
 2. Click on rename and rename your spreadsheet
 
 ![jsonsheet](/images/blogs/create-jsonsheet-1.PNG)
