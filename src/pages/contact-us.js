@@ -124,7 +124,7 @@ const ContactUs = (props) => {
                                                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1859.46925209965!2d72.90466784453756!3d21.234287029194064!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0475a8b4f9c41%3A0x73cbbce6635f7c29!2sSpyhunter%20IT%20Solution!5e0!3m2!1sen!2sin!4v1655707539248!5m2!1sen!2sin"
                                                 frameBorder="0"
                                                 style={{ height: 200, width: '100%' }}
-                                                allowfullscreen
+                                                allowFullScreen
                                                 loading="lazy"
                                             ></iframe>
                                         </div>

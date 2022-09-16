@@ -40,8 +40,15 @@ const Template = (props) => {
             page={{
                 title: details?.name,
                 seo: {
-                    title: details?.name,
-                    description: details?.description
+                    title: details?.name+' - Json Sheet',
+                    description: details?.description,
+                    extra: [
+                        {
+                            name: 'Keywords',
+                            value: details?.keywords
+                            ,
+                        },
+                    ]
                 },
                 layout: 'page'
             }}

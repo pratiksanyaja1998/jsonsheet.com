@@ -153,7 +153,7 @@ export const ORGANIZE_LIST = [
         description: 'Create a powerful gallery view.Json Sheet.'
     },
     {
-        img: 'images/col-types/gallery.jpg',
+        img: 'images/col-types/graph.png',
         title: 'Graph',
         description: 'Add counters, graphs and charts to visualize your data in several boards.'
     },
@@ -275,19 +275,21 @@ export const CONSUME_LIST = [
         img: 'images/web.png',
         title: 'Web',
         btn: 'Try out for free',
-        description: 'Create mood boards, directories and much more, with the powerful Gallery view.'
+        description: 'Create mood boards, directories and much more, with the powerful Gallery view.',
+        url: 'https://app.jsonsheet.com/#/'
     },
     {
         img: 'images/mobile.png',
         title: 'Mobile App',
         btn: 'Download iOS or Android',
-        description: 'Create custom forms to collect responses from anywhere and even embed it in your webpage.'
+        description: 'Create custom forms to collect responses from anywhere and even embed it in your webpage.',
+        url: 'https://play.google.com/store/apps/details?id=com.jsonsheetapp'
     },
     {
         img: 'images/desktop.png',
         title: 'Desktop App',
         btn: 'Download Windows or MacOS',
-        description: 'Not only create forms but also make them internally updatable.'
-    }
+        description: 'Not only create forms but also make them internally updatable.',
+        url: 'https://app.jsonsheet.com/#/'
+ }
 ];
-

@@ -18,14 +18,14 @@ const Template = (props) => {
         []
     );
     useEffect(() => {
-        fatchData();
+        fetchData();
     }, [search]);
 
     useEffect(() => {
-        fatchData();
+        fetchData();
     }, []);
 
-    const fatchData = () => {
+    const fetchData = () => {
         setIsLoading(true);
         let url = 'https://api.whitelabelapp.in/googlesheetapp/templates/list';
         if (search) {

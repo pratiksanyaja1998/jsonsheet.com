@@ -14,7 +14,7 @@ image: images/blogs/blog-2.png
 image_alt: Post 3 placeholder image
 image_position: top
 seo:
-  title: 3 Management Basics Everyone Needs to Know
+  title: 3 Management Basics Everyone Needs to Know - Json Sheet 
   description: Learn all about 3 Management Basics Everyone Needs to Know
   extra:
     - name: Keywords
