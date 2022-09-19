@@ -19,6 +19,7 @@ export default function MyApp({ Component, pageProps }) {
         <>
             <Helmet>
                 <link rel="canonical" href={canonicalURL} />
+                <link href={canonicalURL} rel="alternate" hreflang="x-default" />
             </Helmet>
             <Component {...pageProps} />
             <ToastContainer />
