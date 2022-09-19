@@ -22,7 +22,7 @@
     .Regardless-section {
         background-color: rgba(234, 234, 234, 1);
         padding: 3rem;
-        .regardles-section-small-text {
+        .regardless-section-small-text {
             display: flex;
             justify-content: flex-end;
             flex-direction: column;
@@ -61,11 +61,11 @@
         }
     }
 
-    .solutions-fichar-section {
+    .solutions-feature-section {
         background-color: rgba(242, 242, 242, 1);
         color: #2c343c;
 
-        .solutions-fichar-text {
+        .solutions-feature-text {
             text-align: left;
             padding: 0px 1.667rem 0px 5rem;
             @media only screen and (max-width: 1200px) {
@@ -78,7 +78,7 @@
                 padding: 0px 1.667rem 0px 1.667rem;
             }
         }
-        .solutions-fichar-text.order-md-first {
+        .solutions-feature-text.order-md-first {
             text-align: left;
             padding: 0px 5rem 0px 1.667rem;
             @media only screen and (max-width: 1200px) {

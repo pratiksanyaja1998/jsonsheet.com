@@ -71,6 +71,8 @@
     .product-card-img {
         border: 1px solid #1c1c1c;
         border-radius: 5px;
+        object-fit: cover;
+        aspect-ratio: 3/2;
     }
     .product-card-text {
         color: gray;
@@ -86,6 +88,8 @@
         max-width: 60%;
         background-color: #f5f5f5;
         border-radius: 4px;
+        object-fit: cover;
+        aspect-ratio: 1 / 1;
 
         @media only screen and (max-width: 480px) {
             max-width: 80%;
@@ -108,7 +112,7 @@
         // justify-content: space-between;
         margin: auto;
         margin-top: 20px;
-    
+
         // &:hover {
         //     color: rgba(255, 255, 255, 1);
         //     border: 2px solid rgba(28, 28, 28, 0.8);

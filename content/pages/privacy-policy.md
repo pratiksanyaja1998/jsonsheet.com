@@ -2,10 +2,10 @@
 title: Privacy Policy
 seo:
   title: Json Sheet Privacy Policy - Json Sheet
-  description: This is the privacy policy page
+  description: This is json sheet privacy policy page.
   extra:
     - name: Keywords
-      value: json sheet, google script json sheet, convert-excel-to-json sheet, json sheetjs,json cheat sheet, google sheet to json, sheets json api, google sheet json api, json sheet builder, json cheat sheet pdf, json to sheet custom header, json schema cheat sheet, jsonpath cheat sheet, google sheet to json, json to google sheets	
+      value: json sheet, google script json sheet, convert-excel-to-json sheet, json sheet js, google sheet to json, sheets json api, google sheet json api, json sheet builder,  json to sheet custom header, google sheet to json, json to google sheets	
     - name: og:type
       value: website
       keyName: property

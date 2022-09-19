@@ -26,17 +26,21 @@ const ProductCard = (props) => {
 const product = (props) => {
     const data = _.get(props, 'data');
     const config = _.get(data, 'config');
+
     return (
         <Layout
             page={{
                 title: 'Product',
                 seo: {
-                    title: 'Json Sheet Product - Build a Better Way to Work - Json Sheet',
-                    description: 'Json Sheet is a low-code platform for building collaborative applications. Customize your workflow, collaborate and achieve ambitious results. Get started for free.',
-                    extra: [{
-                        name: 'Keywords',
-                        value: 'json sheet, google script json sheet, convert-excel-to-json sheet, json sheetjs,json cheat sheet, google sheet to json, sheets json api, google sheet json api, json sheet builder, json cheat sheet pdf, json to sheet custom header, json schema cheat sheet, jsonpath cheat sheet, google sheet to json, json to google sheets'
-                    }],
+                    title: 'Product - Build a Better Way to Work - Json Sheet',
+                    description:
+                        'Json Sheet is a low-code platform for building collaborative applications. Customize your workflow, collaborate and achieve ambitious results. Get started for free.',
+                    extra: [
+                        {
+                            name: 'Keywords',
+                            value: 'json sheet, google script json sheet, convert-excel-to-json sheet, json sheet js, google sheet to json, sheets json api, google sheet json api, json sheet builder,  json to sheet custom header, google sheet to json, json to google sheets'
+                        }
+                    ]
                 },
                 layout: 'page'
             }}
@@ -61,10 +65,10 @@ const product = (props) => {
                         loop
                         muted
                         data-autoplay="on"
-                        src="images/Jsonsheet.gif"
+                        src="images/Json-sheet.gif"
                         autoplay="true"
                     ></video> */}
-                        <img src='images/Jsonsheet.gif' className="video"/>
+                    <img src="images/Json-sheet.gif" className="video" />
                 </section>
 
                 {/* overview image */}
@@ -94,7 +98,7 @@ const product = (props) => {
                 <p className="online-database-subtitle">It's more than a spreadsheet, it's a relational database at your fingertips.</p>
                 <button className="btn btn--primary online-database-btn ">
                     <Icon icon={'arrow-right'} />
-                    <span className={'order-first'}>{'ONLINE DATBASE'}</span>
+                    <span className={'order-first'}>{'ONLINE DATABASE'}</span>
                 </button>
             </div>
 
@@ -128,16 +132,14 @@ const product = (props) => {
                 })}
             </section>
 
-            {/* explore automations section */}
+            {/* explore automat-ions section */}
             <section>
                 <div className="online-database">
                     <h1 className="online-database-title">Automate like never before</h1>
-                    <p className="online-database-subtitle">
-                        No more manually updating your spreadsheets. Connect to popular services (marketing, sales etc.) and automate your columns in real-time.{' '}
-                    </p>
+                    <p className="online-database-subtitle">No more manually updating your Json Sheet spreadsheets. Leave routine work to robots.</p>
                     <button className="btn btn--primary online-database-btn ">
                         <Icon icon={'arrow-right'} />
-                        <span className={'order-first'}>{'EXPLORE AUTOMATIONS'}</span>
+                        <span className={'order-first'}>{'EXPLORE AUTOMATION'}</span>
                     </button>
                 </div>
             </section>
@@ -192,8 +194,8 @@ const product = (props) => {
             {/* explore Consume section */}
             <section>
                 <div className="online-database">
-                    <h1 className="online-database-title">Work from anywhere</h1>
-                    <p className="online-database-subtitle">Use it on the Web, Mobile or even on Desktop. Heck, there's even a Chrome Extension!</p>
+                    <h1 className="online-database-title">Work from Json sheet</h1>
+                    <p className="online-database-subtitle">Use it on web, mobile or even desktop.</p>
                 </div>
             </section>
 

@@ -10,7 +10,7 @@ const TemplateItem = (props) => {
             }}
         >
             <div style={{ minHeight: '100%', borderRadius: '6px' }} className="card--highlight card item">
-                <img src={props.item.image} style={{ maxHeight: '100%', borderRadius: '6px 6px 0px 0px', objectFit: 'cover' }} />
+                <img src={props.item.image} style={{ maxHeight: '100%', borderRadius: '6px 6px 0px 0px', objectFit: 'cover',aspectRatio:"3/2" }} />
                 <div className="p-1">
                     <h5 className="mt-0">{props.item.name}</h5>
                     <p

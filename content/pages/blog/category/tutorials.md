@@ -42,9 +42,11 @@ sections:
     has_border: true
     background_color: secondary
 seo:
-  title: Posts in Tutorials
-  description: This is the category archive page
+  title: Tutorials Blog - Json Sheet
+  description: This is json sheet Tutorials Blog
   extra:
+    - name: Keywords
+      value: json sheet, google script json sheet, convert-excel-to-json sheet, json sheet js, google sheet to json, sheets json api, google sheet json api, json sheet builder,  json to sheet custom header, google sheet to json, json to google sheets ,json sheet blog, json sheet api blog
     - name: og:type
       value: website
       keyName: property

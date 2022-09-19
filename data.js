@@ -64,7 +64,7 @@ export const AUTOMATE_LIST = [
     {
         img: 'images/col-types/edit.png',
         title: 'Easy-to-use editor',
-        description: 'Edit your worksheet with an intuitive interface. add to Createdat & Modifiedat.'
+        description: 'Edit your worksheet with an intuitive interface. add to Created & Modified.'
     }
 ];
 export const SLICE_LIST = [
@@ -140,7 +140,7 @@ export const ORGANIZE_LIST = [
     {
         img: 'images/col-types/grid.png',
         title: 'Grid',
-        description: "It's not the ordinary spreadsheet tables, it's much more."
+        description: "It's not the usual spreadsheet tables, it's more."
     },
     {
         img: 'images/col-types/kanban.jpg',
@@ -150,7 +150,22 @@ export const ORGANIZE_LIST = [
     {
         img: 'images/col-types/gallery.jpg',
         title: 'Gallery',
-        description: 'Create mood boards, directories and much more, with the powerful Gallery view.'
+        description: 'Create a powerful gallery view.Json Sheet.'
+    },
+    {
+        img: 'images/col-types/gallery.jpg',
+        title: 'Graph',
+        description: 'Add counters, graphs and charts to visualize your data in several boards.'
+    },
+    {
+        img: 'images/col-types/gallery.jpg',
+        title: 'Discover',
+        description: 'Discover new ways to analyze and visualize your data and collaborate more effectively with apps in the Json Sheet App Marketplace.'
+    },
+    {
+        img: 'images/col-types/gallery.jpg',
+        title: 'Multiple editors',
+        description: ' Edit any Sheet together with team members simultaneously.'
     }
 ];
 export const CREATE_LIST = [

@@ -52,7 +52,7 @@ const Template = (props) => {
                     description: 'Welcome to Json Sheet Templates, where you can start using Json Sheets by choosing a template made just for you.',
                     extra: [{
                         name: 'Keywords',
-                        value: 'json sheet, google script json sheet, convert-excel-to-json sheet, json sheetjs,json cheat sheet, google sheet to json, sheets json api, google sheet json api, json sheet builder, json cheat sheet pdf, json to sheet custom header, json schema cheat sheet, jsonpath cheat sheet, google sheet to json, json to google sheets'
+                        value: 'json sheet, google script json sheet, convert-excel-to-json sheet, json sheet js, google sheet to json, sheets json api, google sheet json api, json sheet builder,  json to sheet custom header, google sheet to json, json to google sheets'
                     }],
                 },
                 layout: 'page'
