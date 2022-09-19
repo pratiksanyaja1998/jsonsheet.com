@@ -13,7 +13,7 @@ image: images/blogs/create-jsonsheet.png
 image_alt: Post 1 placeholder image
 image_position: top
 seo:
-    title: Create or rename a sheet or other Json Sheet item
+    title: Create or rename a sheet or other Json Sheet item - Json Sheet
     description: Learn about create or rename a sheet or other Json Sheet item
     extra:
         - name: Keywords

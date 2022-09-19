@@ -26,7 +26,6 @@ const ProductCard = (props) => {
 const product = (props) => {
     const data = _.get(props, 'data');
     const config = _.get(data, 'config');
-
     return (
         <Layout
             page={{
@@ -58,16 +57,9 @@ const product = (props) => {
                 {/* get started and video */}
                 <section className="container">
                     <input placeholder="Enter your email" className="input-email" />
-                    <button className="btn btn--primary started-btn">Get Started</button>
-                    {/* <video
-                        className="video"
-                        preload="none"
-                        loop
-                        muted
-                        data-autoplay="on"
-                        src="images/Json-sheet.gif"
-                        autoplay="true"
-                    ></video> */}
+                    <button className="btn btn--primary started-btn" onClick={() => window.open('https://app.jsonsheet.com/#/')}>
+                        Get Started
+                    </button>
                     <img src="images/Json-sheet.gif" className="video" />
                 </section>
 
@@ -81,9 +73,9 @@ const product = (props) => {
                     <div>
                         <h1>Achieve anything</h1>
                         <div className="Achieve grid grid-gap-small my-2">
-                            {ACHIEVE.map((item) => {
+                            {ACHIEVE.map((item, i) => {
                                 return (
-                                    <a className="Achieve-card cell-12 cell-sm-4 cell-md-3 cell-lg-2 my-2" href={item.link}>
+                                    <a className="Achieve-card cell-12 cell-sm-4 cell-md-3 cell-lg-2 my-2" href={item.link} key={i}>
                                         <img src={item.img} className="Achieve-card-img" />
                                         <h4 className="Achieve-card-text">{item.title}</h4>
                                     </a>
@@ -206,7 +198,12 @@ const product = (props) => {
                         <div className="Consume-card cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-3" key={i}>
                             <img src={item.img} className="consume-card-img" />
                             <h3 className="consume-card-title">{item.title}</h3>
-                            <button className="btn btn--primary consume-card-btn">
+                            <button
+                                className="btn btn--primary consume-card-btn"
+                                onClick={() => {
+                                    window.open(item.url, '_blank');
+                                }}
+                            >
                                 <Icon icon={'arrow-right'} />
                                 <span className={'order-first'}>{item.btn}</span>
                             </button>

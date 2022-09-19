@@ -58,8 +58,8 @@ const Solutions = (props) => {
                                 <div className="hero__body my-2 cell-12 text-center">
                                     <h1 className="hero__title">Solutions to empower every team. Connect everything. Achieve anything. </h1>
                                     <p className="hero__subtitle">Customize the right workflow for your team and achieve success with a no-code database.</p>
-                                    <button className="btn btn--primary">
-                                        <span> Signup for free </span>
+                                    <button className="btn btn--primary" onClick={() => window.open('https://app.jsonsheet.com/#/')}>
+                                        <span>Signup for free</span>
                                     </button>
                                     <h5>No credit card needed </h5>
                                 </div>
@@ -100,7 +100,9 @@ const Solutions = (props) => {
                                         <h3 className="card-title">{item.title}</h3>
                                         <button className="btn btn--primary">
                                             <Icon icon={'arrow-right'} />
-                                            <span className={'order-first'} style={{whiteSpace:"normal"}}>{item.button}</span>
+                                            <span className={'order-first'} style={{ whiteSpace: 'normal' }}>
+                                                {item.button}
+                                            </span>
                                         </button>
                                         {/* </div> */}
                                     </div>
@@ -118,7 +120,7 @@ const Solutions = (props) => {
                                 return (
                                     <div className="grid  grid-gap-small my-2 py-2" key={i}>
                                         <div className="cell-12 cell-sm-12 cell-md-7 cell-lg-6 my-2 px-sm-4 px-lg-1">
-                                            <img src={item.img} style={{objectFit:"cover",aspectRatio:"3/2"}} />
+                                            <img src={item.img} style={{ objectFit: 'cover', aspectRatio: '3/2' }} />
                                         </div>
                                         <div
                                             className={
@@ -161,7 +163,7 @@ const Solutions = (props) => {
                         <div className="grid grid-gap-small my-2">
                             <div className="cell-12 cell-md-5 cell-lg-4 my-2 order-md-first sign-up-section-text">
                                 <h1 className="Sign-up-text">Start building in Json sheet today</h1>
-                                <button className="btn btn--primary Sign-up-btn justify-md-center ">
+                                <button className="btn btn--primary Sign-up-btn justify-md-center" onClick={() => window.open('https://app.jsonsheet.com/#/')}>
                                     <Icon icon={'arrow-right'} />
                                     <span className={'order-first'}>Signup for free</span>
                                 </button>

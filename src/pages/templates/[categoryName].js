@@ -5,7 +5,7 @@ import { Layout, TemplateLayout, TemplateItem, NoDataFound, Loading } from '../.
 import router, { withRouter, useRouter } from 'next/router';
 import axios from 'axios';
 
-const TamplateName = (props) => {
+const TemplateName = (props) => {
     // props
     const data = _.get(props, 'data');
     const config = _.get(data, 'config');
@@ -23,19 +23,19 @@ const TamplateName = (props) => {
         []
     );
     useEffect(() => {
-        fatchData();
+        fetchData();
     }, [search]);
 
     useEffect(() => {
         setSearch('');
-        fatchData();
-    }, [props.categoty.id]);
+        fetchData();
+    }, [props.category.id]);
 
-    const fatchData = () => {
+    const fetchData = () => {
         setIsLoading(true);
         let url = 'https://api.whitelabelapp.in/googlesheetapp/templates/list';
-        if (props.categoty.id) {
-            url += '?category=' + props.categoty.id;
+        if (props.category.id) {
+            url += '?category=' + props.category.id;
         }
         if (search) {
             url += '&search=' + search;
@@ -55,23 +55,29 @@ const TamplateName = (props) => {
     return (
         <Layout
             page={{
-                title: props.categoty.name,
+                title: props.category.name,
                 seo: {
-                    title: props.categoty.name,
-                    description: props.categoty.description
+                    title: props.category.name + ' - Json Sheet',
+                    description: props.category.description,
+                    extra: [
+                        {
+                            name: 'Keywords',
+                            value: props.category.keywords
+                        }
+                    ]
                 },
                 layout: 'page'
             }}
             config={config}
         >
-            <TemplateLayout getData={getData} categoty={props.categoty.id}>
+            <TemplateLayout getData={getData} category={props.category.id}>
                 {isLoading ? (
                     <Loading />
                 ) : templateList.length == 0 ? (
                     <NoDataFound />
                 ) : (
                     <div>
-                        <h1>{props.categoty.name}</h1>
+                        <h1>{props.category.name}</h1>
                         <div className="grid grid-gap-small">
                             {templateList.map((item, index) => {
                                 return (
@@ -104,6 +110,6 @@ export const getStaticPaths = async () => {
 export async function getStaticProps({ params }) {
     const categoryList = await axios.get('https://api.whitelabelapp.in/googlesheetapp/templates/category').then((res) => res.data);
     const props = await sourcebitDataClient.getStaticPropsForPageAtPath('');
-    return { props: { ...props, params, categoty: categoryList.find((o) => o.slug == params.categoryName) } };
+    return { props: { ...props, params, category: categoryList.find((o) => o.slug == params.categoryName) } };
 }
-export default withRouter(TamplateName);
+export default withRouter(TemplateName);
