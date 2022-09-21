@@ -20,6 +20,26 @@ export default function MyApp({ Component, pageProps }) {
             <Helmet>
                 <link rel="canonical" href={canonicalURL} />
                 <link href={canonicalURL} rel="alternate" hreflang="x-default" />
+
+                <meta name="twitter:card" content="summary" />
+                <meta name="twitter:site" content="@jsonsheet.com" />
+                <meta name="twitter:title" content="Json Sheet | A new collaborative canvas to manage and automate work." />
+                <meta
+                    name="twitter:description"
+                    content="Json Sheet brings together best of spreadsheets, databases and business in a single platform for you to create your own tools, your way."
+                />
+                <meta name="twitter:image" content="https://jsonsheet.com/images/icon-square.png" />
+                {/* <!-- <meta property="twitter:account_id" content=""/> --> */}
+
+                <meta property="og:title" content="Json Sheet || A new collaborative canvas to manage and automate work." />
+                <meta
+                    property="og:description"
+                    content="Json Sheet |brings together best of spreadsheets, databases and business in a single platform for you to create your own tools, your way."
+                />
+                <meta property="og:url" content="https://jsonsheet.com/" />
+                <meta property="og:site_name" content="jsonsheet.com" />
+                <meta property="og:image" content="https://jsonsheet.com/images/icon-square.png" />
+                <meta property="og:type" content="website" />
             </Helmet>
             <Component {...pageProps} />
             <ToastContainer />
