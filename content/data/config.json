@@ -25,7 +25,35 @@
             {
                 "label": "Solutions",
                 "url": "/solutions",
-                "style": "link"
+                "style": "link",
+                "has_dropdown": true,
+                "list": [
+                    {
+                        "label": "See All Solutions",
+                        "url": "/solutions",
+                        "style": "link"
+                    },
+                    {
+                        "label": "Marketing-teams",
+                        "url": "/marketing-teams",
+                        "style": "link"
+                    },
+                    {
+                        "label": "Hr-teams",
+                        "url": "/hr-teams",
+                        "style": "link"
+                    },
+                    {
+                        "label": "Operations-teams",
+                        "url": "/operations-teams",
+                        "style": "link"
+                    },
+                    {
+                        "label": "Product-teams",
+                        "url": "/product-teams",
+                        "style": "link"
+                    }
+                ]
             },
             {
                 "label": "About",
@@ -37,7 +65,6 @@
                 "url": "/contact-us",
                 "style": "link"
             }
-           
         ],
         "has_secondary_nav": true,
         "secondary_nav_links": [

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon, Layout } from '../components';
+import { Icon, Layout, ProductCard } from '../components';
 import _ from 'lodash';
 import { sourcebitDataClient } from 'sourcebit-target-next';
 import { ORGANIZE_LIST, AUTOMATE_LIST, CREATE_LIST, COLLABORATE_LIST, CONSUME_LIST, SLICE_LIST } from '../../data';
@@ -12,16 +12,6 @@ const ACHIEVE = [
     { link: '#Customize', img: 'https://t3.ftcdn.net/jpg/03/18/79/48/240_F_318794876_Wmnt0TkO7xxn9pp2ajZBhdrRLlIb7ekU.jpg', title: 'Customize' },
     { link: '#Consume', img: 'https://t4.ftcdn.net/jpg/02/95/20/73/240_F_295207347_cw4cuZwBBoWjrW8Qg218P70UyKG8chc4.jpg', title: 'Consume' }
 ];
-
-const ProductCard = (props) => {
-    return (
-        <div className="product-card">
-            <img src={props?.item?.img} className="product-card-img" />
-            <h6 className="product-card-title">{props?.item?.title}</h6>
-            <p className="product-card-text">{props?.item?.description}</p>
-        </div>
-    );
-};
 
 const product = (props) => {
     const data = _.get(props, 'data');
@@ -54,8 +44,9 @@ const product = (props) => {
                         </p>
                     </div>
                 </section>
+
                 {/* get started and video */}
-                <section className="container">
+                <section className="container text-center get-started">
                     <input placeholder="Enter your email" className="input-email" />
                     <button className="btn btn--primary started-btn" onClick={() => window.open('https://app.jsonsheet.com/#/')}>
                         Get Started
@@ -64,14 +55,14 @@ const product = (props) => {
                 </section>
 
                 {/* overview image */}
-                <section className="container">
+                <section className="container overview-image-section">
                     <img src="images/overview.png" className="img-overview" />
                 </section>
 
                 {/* Achieve anything section*/}
                 <section className="container">
-                    <div>
-                        <h1>Achieve anything</h1>
+                    <div className="Achieve-anything-section">
+                        <h1 className="achieve-heading">Achieve anything</h1>
                         <div className="Achieve grid grid-gap-small my-2">
                             {ACHIEVE.map((item, i) => {
                                 return (
@@ -84,139 +75,129 @@ const product = (props) => {
                         </div>
                     </div>
                 </section>
-            </div>
-            <div className="online-database">
-                <h1 className="online-database-title">The fastest way to organize any json data</h1>
-                <p className="online-database-subtitle">It's more than a spreadsheet, it's a relational database at your fingertips.</p>
-                <button className="btn btn--primary online-database-btn ">
-                    <Icon icon={'arrow-right'} />
-                    <span className={'order-first'}>{'ONLINE DATABASE'}</span>
-                </button>
-            </div>
 
-            {/* Organize section*/}
-            <section id="Organize" className="container grid grid-gap-small my-2">
-                {ORGANIZE_LIST.map((item, i) => {
-                    return (
-                        <div className="cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-2" key={i}>
-                            <ProductCard item={item} />
-                        </div>
-                    );
-                })}
-            </section>
-
-            {/* Create section */}
-            <section>
                 <div className="online-database">
+                    <h1 className="online-database-title">The fastest way to organize any json data</h1>
+                    <p className="online-database-subtitle">It's more than a spreadsheet, it's a relational database at your fingertips.</p>
+                    <button className="btn btn--primary online-database-btn ">
+                        <Icon icon={'arrow-right'} />
+                        <span className={'order-first'}>{'ONLINE DATABASE'}</span>
+                    </button>
+                </div>
+
+                {/* Organize section*/}
+                <section id="Organize" className="container grid grid-gap-small my-2">
+                    {ORGANIZE_LIST.map((item, i) => {
+                        return (
+                            <div className="cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-2" key={i}>
+                                <ProductCard item={item} />
+                            </div>
+                        );
+                    })}
+                </section>
+
+                {/* Create section */}
+                <section className="online-database">
                     <h1 className="online-database-title">Create, the way you want</h1>
                     <p className="online-database-subtitle">All the unique column types, that makes it so powerful. </p>
-                </div>
-            </section>
+                </section>
 
-            {/* Create card section */}
-            <section id="Create" className="container grid grid-gap-small my-2">
-                {CREATE_LIST.map((item, i) => {
-                    return (
-                        <div className="cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-2" key={i}>
-                            <ProductCard item={item} />
-                        </div>
-                    );
-                })}
-            </section>
+                {/* Create card section */}
+                <section id="Create" className="container grid grid-gap-small my-2">
+                    {CREATE_LIST.map((item, i) => {
+                        return (
+                            <div className="cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-2" key={i}>
+                                <ProductCard item={item} />
+                            </div>
+                        );
+                    })}
+                </section>
 
-            {/* explore automat-ions section */}
-            <section>
-                <div className="online-database">
+                {/* explore automat-ions section */}
+                <section className="online-database">
                     <h1 className="online-database-title">Automate like never before</h1>
                     <p className="online-database-subtitle">No more manually updating your Json Sheet spreadsheets. Leave routine work to robots.</p>
                     <button className="btn btn--primary online-database-btn ">
                         <Icon icon={'arrow-right'} />
                         <span className={'order-first'}>{'EXPLORE AUTOMATION'}</span>
                     </button>
-                </div>
-            </section>
+                </section>
 
-            {/* Automate card section */}
-            <section id="Automate" className="container grid grid-gap-small my-2">
-                {AUTOMATE_LIST.map((item, i) => {
-                    return (
-                        <div className="cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-2" key={i}>
-                            <ProductCard item={item} />
-                        </div>
-                    );
-                })}
-            </section>
-            {/* explore Customize section */}
-            <section>
-                <div className="online-database">
+                {/* Automate card section */}
+                <section id="Automate" className="container grid grid-gap-small my-2">
+                    {AUTOMATE_LIST.map((item, i) => {
+                        return (
+                            <div className="cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-2" key={i}>
+                                <ProductCard item={item} />
+                            </div>
+                        );
+                    })}
+                </section>
+
+                {/* explore Customize section */}
+                <section className="online-database">
                     <h1 className="online-database-title">Slice, Formulas, & Share</h1>
                     <p className="online-database-subtitle">No more writing long queries. Filter, Sort, Search, Color, Share.</p>
-                </div>
-            </section>
+                </section>
 
-            {/* Customize card section */}
-            <section id="Automate" className="container grid grid-gap-small my-2">
-                {SLICE_LIST.map((item, i) => {
-                    return (
-                        <div className="cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-2" key={i}>
-                            <ProductCard item={item} />
-                        </div>
-                    );
-                })}
-            </section>
+                {/* Customize card section */}
+                <section id="Automate" className="container grid grid-gap-small my-2">
+                    {SLICE_LIST.map((item, i) => {
+                        return (
+                            <div className="cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-2" key={i}>
+                                <ProductCard item={item} />
+                            </div>
+                        );
+                    })}
+                </section>
 
-            {/* explore Collaborate section */}
-            <section>
-                <div className="online-database">
+                {/* explore Collaborate section */}
+                <section className="online-database">
                     <h1 className="online-database-title">Collaborate with your team, from anywhere</h1>
                     <p className="online-database-subtitle">Work with your team in real-time, from anywhere you want.</p>
-                </div>
-            </section>
+                </section>
 
-            {/* Collaborate card section */}
-            <section id="Collaborate" className="container grid grid-gap-small my-2">
-                {COLLABORATE_LIST.map((item, i) => {
-                    return (
-                        <div className="cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-2" key={i}>
-                            <ProductCard item={item} />
-                        </div>
-                    );
-                })}
-            </section>
-            {/* explore Consume section */}
-            <section>
-                <div className="online-database">
+                {/* Collaborate card section */}
+                <section id="Collaborate" className="container grid grid-gap-small my-2">
+                    {COLLABORATE_LIST.map((item, i) => {
+                        return (
+                            <div className="cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-2" key={i}>
+                                <ProductCard item={item} />
+                            </div>
+                        );
+                    })}
+                </section>
+                {/* explore Consume section */}
+                <section className="online-database">
                     <h1 className="online-database-title">Work from Json sheet</h1>
                     <p className="online-database-subtitle">Use it on web, mobile or even desktop.</p>
-                </div>
-            </section>
+                </section>
 
-            {/* Consume card section */}
-            <section id="Consume" className="container grid grid-gap-small my-2">
-                {CONSUME_LIST.map((item, i) => {
-                    return (
-                        <div className="Consume-card cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-3" key={i}>
-                            <img src={item.img} className="consume-card-img" />
-                            <h3 className="consume-card-title">{item.title}</h3>
-                            <button
-                                className="btn btn--primary consume-card-btn"
-                                onClick={() => {
-                                    window.open(item.url, '_blank');
-                                }}
-                            >
-                                <Icon icon={'arrow-right'} />
-                                <span className={'order-first'}>{item.btn}</span>
-                            </button>
-                        </div>
-                    );
-                })}
-            </section>
+                {/* Consume card section */}
+                <section id="Consume" className="container grid grid-gap-small my-2">
+                    {CONSUME_LIST.map((item, i) => {
+                        return (
+                            <div className="Consume-card cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-3" key={i}>
+                                <img src={item.img} className="consume-card-img" />
+                                <h3 className="consume-card-title">{item.title}</h3>
+                                <button
+                                    className="btn btn--primary consume-card-btn"
+                                    onClick={() => {
+                                        window.open(item.url, '_blank');
+                                    }}
+                                >
+                                    <Icon icon={'arrow-right'} />
+                                    <span className={'order-first'}>{item.btn}</span>
+                                </button>
+                            </div>
+                        );
+                    })}
+                </section>
+            </div>
         </Layout>
     );
 };
 export async function getStaticProps({ params }) {
-    // console.log('Page [...slug].js getStaticProps, params: ', params);
-    // const pagePath = '/' + (params.slug ? params.slug.join('/') : '');
     const props = await sourcebitDataClient.getStaticPropsForPageAtPath('');
     return { props };
 }
