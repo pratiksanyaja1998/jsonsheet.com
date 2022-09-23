@@ -34,22 +34,22 @@
                         "style": "link"
                     },
                     {
-                        "label": "Marketing-teams",
+                        "label": "Marketing Teams",
                         "url": "/marketing-teams",
                         "style": "link"
                     },
                     {
-                        "label": "Hr-teams",
+                        "label": "HR Teams",
                         "url": "/hr-teams",
                         "style": "link"
                     },
                     {
-                        "label": "Operations-teams",
+                        "label": "Operations Teams",
                         "url": "/operations-teams",
                         "style": "link"
                     },
                     {
-                        "label": "Product-teams",
+                        "label": "Product Teams",
                         "url": "/product-teams",
                         "style": "link"
                     }

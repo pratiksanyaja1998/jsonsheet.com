@@ -52,3 +52,9 @@
     background-color: black;
     margin: 0px;
 }
+.custom-dropdown-menu-item {
+    position: 'relative';
+    z-index: 5;
+    font-weight: 400;
+    cursor: pointer;
+}

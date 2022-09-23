@@ -51,7 +51,7 @@ export default class DropDownAction extends React.Component {
 
         return (
             <>
-                <Link className={''} style={{ position: 'relative', zIndex: 5, fontWeight: 400 }}>
+                <Link className={'custom-dropdown-menu-item'}>
                     <React.Fragment>
                         <span className={'dropdown-label'} onClick={() => this.setState({ showPopup: !this.state.showPopup })}>
                             {label}

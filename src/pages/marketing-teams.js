@@ -1,14 +1,13 @@
 import React from 'react';
-import { Layout, Icon } from '../components';
+import { Layout, Icon, SolutionAbilityItem, SolutionTemplateCard } from '../components';
 import _ from 'lodash';
 import { sourcebitDataClient } from 'sourcebit-target-next';
-import { MARKETING_FEATURE_LIST, MARKETING_ABILITIES_LIST, MARKETING_TEMPLATES_LIST } from '../../data';
-import { useRouter } from 'next/router';
+import { MARKETING_FEATURE_LIST, SOLUTION_ABILITIES_LIST, MARKETING_TEMPLATES_LIST } from '../../data';
 
 const marketing = (props) => {
     const data = _.get(props, 'data');
     const config = _.get(data, 'config');
-    const router = useRouter();
+
     return (
         <Layout
             page={{
@@ -107,18 +106,16 @@ const marketing = (props) => {
                         <h3>Abilities</h3>
                     </div>
                     <div className="container grid grid-gap-small my-2">
-                        {MARKETING_ABILITIES_LIST.map((item, i) => {
+                        {SOLUTION_ABILITIES_LIST.map((item, i) => {
                             return (
                                 <div className="cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-2" key={i}>
-                                    <div className="marketing-card card--highlight">
-                                        <img src={item?.img} className="marketing-card-img" />
-                                        <h4 className="marketing-card-title">{item?.title}</h4>
-                                    </div>
+                                    <SolutionAbilityItem item={item} />
                                 </div>
                             );
                         })}
                     </div>
                 </section>
+
                 {/* Templates section */}
                 <section className="templates-section py-5">
                     <div className="text-center">
@@ -128,15 +125,7 @@ const marketing = (props) => {
                         {MARKETING_TEMPLATES_LIST.map((item, i) => {
                             return (
                                 <div className="cell-12 cell-sm-6 cell-md-6 cell-lg-4 my-2" key={i}>
-                                    <div
-                                        className="templates-card card--highlight"
-                                        onClick={() => {
-                                            router.push('/templates/marketing');
-                                        }}
-                                    >
-                                        <img src={item?.img} className="templates-card-img" />
-                                        <h4 className="templates-card-title">{item?.title}</h4>
-                                    </div>
+                                    <SolutionTemplateCard item={item} />
                                 </div>
                             );
                         })}

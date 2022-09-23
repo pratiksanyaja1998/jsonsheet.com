@@ -28,6 +28,8 @@ import Loading from './Loading';
 import SubmitButton from './SubmitButton';
 import ProductCard from './ProductCard';
 import DropDownAction from './DropDownAction';
+import SolutionAbilityItem from './SolutionAbilityItem';
+import SolutionTemplateCard from './SolutionTemplateCard';
 
 export {
     Action,
@@ -59,7 +61,9 @@ export {
     Loading,
     SubmitButton,
     ProductCard,
-    DropDownAction
+    DropDownAction,
+    SolutionAbilityItem,
+    SolutionTemplateCard
 };
 
 export default {
@@ -92,5 +96,7 @@ export default {
     Loading,
     SubmitButton,
     ProductCard,
-    DropDownAction
+    DropDownAction,
+    SolutionAbilityItem,
+    SolutionTemplateCard
 };

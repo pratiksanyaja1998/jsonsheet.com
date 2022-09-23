@@ -52,7 +52,6 @@ export const FAQS_LIST = [
         ans: 'What is Json Sheet Connect? Json Sheet Connect is a more secure and productive way for organizations to communicate together. It lets you move all communications with your external partners, clients, vendors, and others into a Json Sheet, replacing email and promoting collaboration. Json Sheet extends enterprise-grade security features and compliance standards, such as enterprise key management, to Json Sheet Connect. Learn more about Json Sheet Connect.'
     }
 ];
-
 export const CARD = [
     {
         img: 'images/marketing-team.png',
@@ -354,45 +353,6 @@ export const MARKETING_FEATURE_LIST = [
     }
 ];
 
-export const MARKETING_ABILITIES_LIST = [
-    {
-        img: 'images/operations-team.png',
-        title: 'Dashboards and Reports'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'Calendar'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'Mobile App'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'Digital Asset Management'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'Workload efficiency'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'visualization'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'location '
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'Files'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'Summary'
-    }
-];
-
 export const MARKETING_TEMPLATES_LIST = [
     {
         img: 'images/col-types/grid.png',
@@ -446,45 +406,6 @@ export const HR_TEAMS_FEATURE_LIST = [
     }
 ];
 
-export const HR_TEAMS_ABILITIES_LIST = [
-    {
-        img: 'images/operations-team.png',
-        title: 'Dashboards and Reports'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'Calendar'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'Mobile App'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'Digital Asset Management'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'Workload efficiency'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'visualization'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'location '
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'Files'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'Summary'
-    }
-];
-
 export const HR_TEAMS_TEMPLATES_LIST = [
     {
         img: 'images/col-types/grid.png',
@@ -530,45 +451,6 @@ export const OPERATIONS_TEAMS_FEATURE_LIST = [
         position: 'right',
         title: 'Create a dashboard',
         description: "Easily share status updates and keep leadership informed of progress with customizable dashboards that track what's most important."
-    }
-];
-
-export const OPERATIONS_TEAMS_ABILITIES_LIST = [
-    {
-        img: 'images/operations-team.png',
-        title: 'Dashboards and Reports'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'Calendar'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'Mobile App'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'Digital Asset Management'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'Workload efficiency'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'visualization'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'location '
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'Files'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'Summary'
     }
 ];
 
@@ -621,7 +503,27 @@ export const PRODUCT_TEAMS_FEATURE_LIST = [
     }
 ];
 
-export const PRODUCT_TEAMS_ABILITIES_LIST = [
+export const PRODUCT_TEAMS_TEMPLATES_LIST = [
+    {
+        img: 'images/col-types/grid.png',
+        title: 'Product Development'
+    },
+    {
+        img: 'images/col-types/grid.png',
+        title: 'Product Roadmap '
+    },
+    {
+        img: 'images/col-types/grid.png',
+        title: 'User Research'
+    },
+    {
+        img: 'images/col-types/grid.png',
+        title: 'Product Catalogue'
+    }
+];
+
+// Abilities list
+export const SOLUTION_ABILITIES_LIST = [
     {
         img: 'images/operations-team.png',
         title: 'Dashboards and Reports'
@@ -657,24 +559,5 @@ export const PRODUCT_TEAMS_ABILITIES_LIST = [
     {
         img: 'images/operations-team.png',
         title: 'Summary'
-    }
-];
-
-export const PRODUCT_TEAMS_TEMPLATES_LIST = [
-    {
-        img: 'images/col-types/grid.png',
-        title: 'Product Development'
-    },
-    {
-        img: 'images/col-types/grid.png',
-        title: 'Product Roadmap '
-    },
-    {
-        img: 'images/col-types/grid.png',
-        title: 'User Research'
-    },
-    {
-        img: 'images/col-types/grid.png',
-        title: 'Product Catalogue'
     }
 ];
