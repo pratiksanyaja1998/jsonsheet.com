@@ -31,6 +31,9 @@
 @import "components/type-hero";
 @import "components/templateLayout";
 @import "components/noDataFound";
+@import "components/product-card";
+@import "components/solutionAbilityItem";
+@import "components/solutionTemplateCard";
 
 // Layouts
 @import "layouts/site";
@@ -48,3 +51,7 @@
 @import "contact-us";
 @import "product";
 @import "solutions";
+@import "marketing-teams";
+@import "hr-teams";
+@import "operations-teams";
+@import "product-teams";

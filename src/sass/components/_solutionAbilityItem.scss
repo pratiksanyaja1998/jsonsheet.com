@@ -1,0 +1,22 @@
+.abilities-card {
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+
+    .abilities-card-img {
+        object-fit: cover;
+        aspect-ratio: 3/2;
+        max-width: 3rem;
+        padding: 10px;
+        height: 3rem;
+    }
+    .abilities-card-title {
+        padding-left: 15px;
+        // padding: 10px;
+        align-items: center;
+        margin: 0px;
+    }
+}

@@ -2,28 +2,59 @@
  * Menus
  */
 .menu {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .menu__item {
-	color: $color-nav-link-text;
-	line-height: 1.25;
+    color: $color-nav-link-text;
+    line-height: 1.25;
+    color: #2c343c;
 
-	a {
-		font-size: 0.88889em;
-	}
+    a {
+        font-size: 0.88889em;
+    }
 
-	a:not(.btn) {
-		color: inherit;
-		display: inline-block;
-		position: relative;
-		text-decoration: none;
-	}
+    a:not(.btn) {
+        color: inherit;
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+    }
 
-	a:not(.btn):hover,
-	&.is-active a {
-		text-decoration: underline;
-	}
+    a:not(.btn):hover,
+    &.is-active a {
+        text-decoration: underline;
+    }
+}
+
+.dropdown-label {
+    margin-right: 10px;
+}
+.custom-menu-dropdown {
+    position: absolute;
+    background-color: white;
+    top: 45px;
+    left: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    line-height: 35px !important;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 100;
+    width: 145px;
+}
+.hr-tag {
+    height: 1px;
+    background-color: black;
+    margin: 0px;
+}
+.custom-dropdown-menu-item {
+    position: 'relative';
+    z-index: 5;
+    font-weight: 400;
+    cursor: pointer;
 }

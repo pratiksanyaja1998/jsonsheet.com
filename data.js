@@ -6,28 +6,32 @@ export const FEATURE_LIST = [
         title: 'Solutions for Marketing teams  ',
         description:
             'Manage your deliverables at every stage, streamline approvals and report on all results in Json sheet. streamline workflows, and requests and automate marketing reporting for your company or your clients.',
-        btn: 'Explore for Marketing'
+        btn: 'Explore for Marketing',
+        link: '/marketing-teams'
     },
     {
         img: 'images/features/HR-teams.jpg',
         position: 'right',
         title: 'Solutions for HR teams ',
         description: 'Easily manage your recruitment pipeline, ensure employee onboarding and consolidate all HR assets and projects in one place.',
-        btn: 'Explore for HR'
+        btn: 'Explore for HR',
+        link: '/hr-teams'
     },
     {
         img: 'images/features/Product-teams-01.jpg',
         position: 'left',
         title: 'Solutions for Product teams',
         description: 'Set your inventory, collect and act on customer feedback, and launch great products your customers love.',
-        btn: 'Explore for Product'
+        btn: 'Explore for Product',
+        link: '/product-teams'
     },
     {
         img: 'images/features/Operations-teams.jpg',
         position: 'right',
         title: 'Solutions for Operations Teams  ',
         description: "Connect initiatives across your business and streamline your team's most important workflows to achieve your goals.",
-        btn: 'Explore for Operations'
+        btn: 'Explore for Operations',
+        link: '/operations-teams'
     }
 ];
 export const FAQS_LIST = [
@@ -46,6 +50,32 @@ export const FAQS_LIST = [
     {
         que: 'What is Json Sheet Connect?',
         ans: 'What is Json Sheet Connect? Json Sheet Connect is a more secure and productive way for organizations to communicate together. It lets you move all communications with your external partners, clients, vendors, and others into a Json Sheet, replacing email and promoting collaboration. Json Sheet extends enterprise-grade security features and compliance standards, such as enterprise key management, to Json Sheet Connect. Learn more about Json Sheet Connect.'
+    }
+];
+export const CARD = [
+    {
+        img: 'images/marketing-team.png',
+        title: 'Solutions for Marketing teams',
+        button: 'Explore Marketing',
+        link:'/marketing-teams'
+    },
+    {
+        img: 'images/hr-team.png',
+        title: 'Solutions for HR teams',
+        button: 'Explore HR',
+        link:'/hr-teams'
+    },
+    {
+        img: 'images/operations-team.png',
+        title: 'Solutions for Operations teams',
+        button: 'Explore Operations',
+        link:'/operations-teams'
+    },
+    {
+        img: 'images/sales-team.png',
+        title: 'Solutions for Product teams ',
+        button: 'Explore Product',
+        link:'/product-teams'
     }
 ];
 
@@ -291,5 +321,243 @@ export const CONSUME_LIST = [
         btn: 'Download Windows or MacOS',
         description: 'Not only create forms but also make them internally updatable.',
         url: 'https://app.jsonsheet.com/#/'
- }
+    }
+];
+
+//marketing page
+export const MARKETING_FEATURE_LIST = [
+    {
+        img: 'images/features/Marketing-teams.jpg',
+        position: 'left',
+        title: 'Manage your projects in a pipeline',
+        description: 'Manage any campaign, content, task, activity or any milestone from start to end, and keep it on track with Json Sheet.'
+    },
+    {
+        img: 'images/features/HR-teams.jpg',
+        position: 'right',
+        title: 'Maximize ROI from share marketing investment',
+        description: 'Work more efficiently when you create a shared repository of vendors, assets, inventory and more.'
+    },
+    {
+        img: 'images/features/Product-teams-01.jpg',
+        position: 'left',
+        title: 'Pull your Marketing KPIs automatically',
+        description:
+            'No more manually updating your spreadsheets and pointless copy-paste. Connect Columns to all popular marketing services and automatically bring your campaign data into your tables for analysis and action.'
+    },
+    {
+        img: 'images/features/Operations-teams.jpg',
+        position: 'right',
+        title: 'Report like anyone else',
+        description: 'Create custom dashboards to track key metrics like campaign cost, position, velocity, and output like no other.'
+    }
+];
+
+export const MARKETING_TEMPLATES_LIST = [
+    {
+        img: 'images/col-types/grid.png',
+        title: 'Marketing Campaign '
+    },
+    {
+        img: 'images/col-types/grid.png',
+        title: 'Budget Management'
+    },
+    {
+        img: 'images/col-types/grid.png',
+        title: 'Event Planning'
+    },
+    {
+        img: 'images/col-types/grid.png',
+        title: 'Social Media Tracking Overview'
+    },
+    {
+        img: 'images/col-types/grid.png',
+        title: 'Blog Editorial Calendar'
+    }
+];
+
+// hr-teams page
+export const HR_TEAMS_FEATURE_LIST = [
+    {
+        img: 'images/features/Marketing-teams.jpg',
+        position: 'left',
+        title: 'Employee Applicant Tracking System',
+        description:
+            'Create, embed, or share an employee applicant tracking form, bring responses directly to your desks, and manage your recruiting pipeline as you grow your teams.'
+    },
+    {
+        img: 'images/features/HR-teams.jpg',
+        position: 'right',
+        title: 'New Employee Onboarding',
+        description:
+            'Streamline process and paperwork, maintain an auditable database without extra effort, and grow your business with well-trained employees.'
+    },
+    {
+        img: 'images/features/Product-teams-01.jpg',
+        position: 'left',
+        title: 'Tracking benefits and retirement',
+        description: 'Improve collaboration, increase visibility into workload processing times, and report on program status.'
+    },
+    {
+        img: 'images/features/Operations-teams.jpg',
+        position: 'right',
+        title: 'Keep your team organized throughout the hiring process',
+        description: 'Easily collaborate on hiring plans, interview requirements and more to attract and hire top talent.'
+    }
+];
+
+export const HR_TEAMS_TEMPLATES_LIST = [
+    {
+        img: 'images/col-types/grid.png',
+        title: 'Applicant Tracker '
+    },
+    {
+        img: 'images/col-types/grid.png',
+        title: 'Attendance Tracker'
+    },
+    {
+        img: 'images/col-types/grid.png',
+        title: 'Employees Info'
+    },
+    {
+        img: 'images/col-types/grid.png',
+        title: 'Recruitment Tracker'
+    }
+];
+
+// operations-teams
+export const OPERATIONS_TEAMS_FEATURE_LIST = [
+    {
+        img: 'images/features/Marketing-teams.jpg',
+        position: 'left',
+        title: 'Make data-driven decisions',
+        description: 'Audit vendors, programs and processes based on performance data to ensure you make the right decisions for your business.'
+    },
+    {
+        img: 'images/features/HR-teams.jpg',
+        position: 'right',
+        title: 'Manage your inventory & orders with Json Sheet ',
+        description:
+            'Inventory management has never been easier! Track products, stock, supplier purchase orders, sales orders and your inventory in real-time. The way you want it.'
+    },
+    {
+        img: 'images/features/Product-teams-01.jpg',
+        position: 'left',
+        title: 'Manage & share your product Database',
+        description: 'Create a product catalog for your brand, share it with the right stakeholders, and receive inquiries or payments for your business.'
+    },
+    {
+        img: 'images/features/Operations-teams.jpg',
+        position: 'right',
+        title: 'Create a dashboard',
+        description: "Easily share status updates and keep leadership informed of progress with customizable dashboards that track what's most important."
+    }
+];
+
+export const OPERATIONS_TEAMS_TEMPLATES_LIST = [
+    {
+        img: 'images/col-types/grid.png',
+        title: 'List management'
+    },
+    {
+        img: 'images/col-types/grid.png',
+        title: 'Vendor Management'
+    },
+    {
+        img: 'images/col-types/grid.png',
+        title: 'Contract Management'
+    },
+    {
+        img: 'images/col-types/grid.png',
+        title: 'Product inventory'
+    }
+];
+
+// product-teams
+export const PRODUCT_TEAMS_FEATURE_LIST = [
+    {
+        img: 'images/features/Marketing-teams.jpg',
+        position: 'left',
+        title: 'Create a centralized roadmap',
+        description: 'Organize around a flexible, organization-wide roadmap. Customizable views allow any department to see their role and plan accordingly.'
+    },
+    {
+        img: 'images/features/HR-teams.jpg',
+        position: 'right',
+        title: 'Save custom data',
+        description:
+            'With custom dashboards, each stakeholder sees only the information they care about. Generate executive launch reports or show business impact over time right from the Jason sheet.'
+    },
+    {
+        img: 'images/features/Product-teams-01.jpg',
+        position: 'left',
+        title: 'Centralize and organize production from start to finish',
+        description:
+            'Easily manage multiple products from one place. Create custom dashboards, delegate to teammates, and understand bottlenecks and risks—so you can keep moving forward.'
+    },
+    {
+        img: 'images/features/Operations-teams.jpg',
+        position: 'right',
+        title: 'Clear the way for more seamless product launches.',
+        description: 'Empower your product management team to move projects across the finish line faster and more easily with a timeline view.'
+    }
+];
+
+export const PRODUCT_TEAMS_TEMPLATES_LIST = [
+    {
+        img: 'images/col-types/grid.png',
+        title: 'Product Development'
+    },
+    {
+        img: 'images/col-types/grid.png',
+        title: 'Product Roadmap '
+    },
+    {
+        img: 'images/col-types/grid.png',
+        title: 'User Research'
+    },
+    {
+        img: 'images/col-types/grid.png',
+        title: 'Product Catalogue'
+    }
+];
+
+// Abilities list
+export const SOLUTION_ABILITIES_LIST = [
+    {
+        img: 'images/operations-team.png',
+        title: 'Dashboards and Reports'
+    },
+    {
+        img: 'images/operations-team.png',
+        title: 'Calendar'
+    },
+    {
+        img: 'images/operations-team.png',
+        title: 'Mobile App'
+    },
+    {
+        img: 'images/operations-team.png',
+        title: 'Digital Asset Management'
+    },
+    {
+        img: 'images/operations-team.png',
+        title: 'Workload efficiency'
+    },
+    {
+        img: 'images/operations-team.png',
+        title: 'visualization'
+    },
+    {
+        img: 'images/operations-team.png',
+        title: 'location '
+    },
+    {
+        img: 'images/operations-team.png',
+        title: 'Files'
+    },
+    {
+        img: 'images/operations-team.png',
+        title: 'Summary'
+    }
 ];

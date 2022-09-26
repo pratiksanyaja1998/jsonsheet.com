@@ -2,35 +2,16 @@ import React, { useState } from 'react';
 import { Icon, Layout } from '../components';
 import _ from 'lodash';
 import { sourcebitDataClient } from 'sourcebit-target-next';
-import { FEATURE_LIST, FAQS_LIST } from '../../data';
+import { FEATURE_LIST, FAQS_LIST,CARD } from '../../data';
+import link from 'next/link';
+import { useRouter } from 'next/router'
 
-const CARD = [
-    {
-        img: 'images/marketing-team.png',
-        title: 'Solutions for Marketing teams',
-        button: 'Explore Marketing'
-    },
-    {
-        img: 'images/hr-team.png',
-        title: 'Solutions for HR teams',
-        button: 'Explore HR'
-    },
-    {
-        img: 'images/operations-team.png',
-        title: 'Solutions for Operations teams',
-        button: 'Explore Operations'
-    },
-    {
-        img: 'images/sales-team.png',
-        title: 'Solutions for Product teams ',
-        button: 'Explore Product'
-    }
-];
 const Solutions = (props) => {
     const data = _.get(props, 'data');
     const config = _.get(data, 'config');
+    const [showFaqAns, setShowFaqAns] = useState()
+    const router = useRouter()
 
-    const [showFaqAns, setShowFaqAns] = useState();
     return (
         <Layout
             page={{
@@ -98,7 +79,7 @@ const Solutions = (props) => {
                                             <Icon icon={'facebook'} />
                                         </div> */}
                                         <h3 className="card-title">{item.title}</h3>
-                                        <button className="btn btn--primary">
+                                        <button className="btn btn--primary" onClick={()=>{ router.push(item.link)}} >
                                             <Icon icon={'arrow-right'} />
                                             <span className={'order-first'} style={{ whiteSpace: 'normal' }}>
                                                 {item.button}
@@ -131,7 +112,7 @@ const Solutions = (props) => {
                                         >
                                             <h2>{item.title}</h2>
                                             <p>{item.description}</p>
-                                            <button className="btn btn--primary">
+                                            <button className="btn btn--primary" onClick={()=>{ router.push(item.link)}}>
                                                 <Icon icon={'arrow-right'} />
                                                 <span className={'order-first'}>{item.btn}</span>
                                             </button>
@@ -180,8 +161,6 @@ const Solutions = (props) => {
     );
 };
 export async function getStaticProps({ params }) {
-    // console.log('Page [...slug].js getStaticProps, params: ', params);
-    // const pagePath = '/' + (params.slug ? params.slug.join('/') : '');
     const props = await sourcebitDataClient.getStaticPropsForPageAtPath('');
     return { props };
 }

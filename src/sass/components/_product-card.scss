@@ -1,0 +1,14 @@
+.product-card {
+    padding: 5px 55px !important;
+    border: none;
+    .product-card-img {
+        border: 1px solid #1c1c1c;
+        border-radius: 5px;
+        object-fit: cover;
+        aspect-ratio: 3/2;
+    }
+    .product-card-text {
+        color: gray;
+        // text-align: left ;
+    }
+}

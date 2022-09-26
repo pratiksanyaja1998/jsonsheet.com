@@ -1,0 +1,24 @@
+#hrTeams {
+    .header-section {
+        background-color: rgba(242, 251, 255, 1);
+        .header-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+    .contact-us-section {
+        background-image: linear-gradient(to right, #0084ff, #f2fbff);
+        .title {
+            color: white;
+        }
+        .contact-us-section-small-text {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            .contact-us-btn {
+                font-size: 20px;
+            }
+        }
+    }
+}
