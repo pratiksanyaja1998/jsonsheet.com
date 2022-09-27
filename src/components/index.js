@@ -30,6 +30,8 @@ import ProductCard from './ProductCard';
 import DropDownAction from './DropDownAction';
 import SolutionAbilityItem from './SolutionAbilityItem';
 import SolutionTemplateCard from './SolutionTemplateCard';
+import SolutionSignupSection from './SolutionSignupSection';
+import SolutionContactUsSection from './SolutionContactUsSection';
 
 export {
     Action,
@@ -63,7 +65,9 @@ export {
     ProductCard,
     DropDownAction,
     SolutionAbilityItem,
-    SolutionTemplateCard
+    SolutionTemplateCard,
+    SolutionSignupSection,
+    SolutionContactUsSection
 };
 
 export default {
@@ -98,5 +102,7 @@ export default {
     ProductCard,
     DropDownAction,
     SolutionAbilityItem,
-    SolutionTemplateCard
+    SolutionTemplateCard,
+    SolutionSignupSection,
+    SolutionContactUsSection
 };

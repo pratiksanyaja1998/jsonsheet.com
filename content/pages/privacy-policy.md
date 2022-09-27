@@ -99,7 +99,31 @@ We use the information for a variety of purposes, and how we use it depends on w
 * Deriving market insights to better our products and services
 * Marketing purposes
 
-All personal data is stored securely in accordance with the EU General Data Protection Regulation (Regulation (EU) 2016/679) (GDPR). For more details on security see section 7, below.
+## Our Database Partners
+
+Our site uses your data save in  Firebase Google. Our data saves are listed below. We have our own privacy policy for their policies on user data. For easy access, we have hyperlinked their privacy policies below.
+
+<b>Google </b>:<a href='https://policies.google.com/privacy'>
+https://policies.google.com/privacy
+</a>
+## GDPR Data Protection Rights
+
+0We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:
+
+The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.
+
+The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.
+
+The right to erasure – You have the right to request that we erase your personal data, under certain conditions.
+
+The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.
+
+The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.
+
+The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.
+
+If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.
+
 
 Personally identifiable information
 

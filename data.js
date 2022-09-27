@@ -1,7 +1,7 @@
 // solutions page
 export const FEATURE_LIST = [
     {
-        img: 'images/features/Marketing-teams.jpg',
+        img: 'images/features/marketing-teams.jpg',
         position: 'left',
         title: 'Solutions for Marketing teams  ',
         description:
@@ -10,7 +10,7 @@ export const FEATURE_LIST = [
         link: '/marketing-teams'
     },
     {
-        img: 'images/features/HR-teams.jpg',
+        img: 'images/features/hr-teams.jpg',
         position: 'right',
         title: 'Solutions for HR teams ',
         description: 'Easily manage your recruitment pipeline, ensure employee onboarding and consolidate all HR assets and projects in one place.',
@@ -18,7 +18,7 @@ export const FEATURE_LIST = [
         link: '/hr-teams'
     },
     {
-        img: 'images/features/Product-teams-01.jpg',
+        img: 'images/features/product-teams-01.jpg',
         position: 'left',
         title: 'Solutions for Product teams',
         description: 'Set your inventory, collect and act on customer feedback, and launch great products your customers love.',
@@ -26,7 +26,7 @@ export const FEATURE_LIST = [
         link: '/product-teams'
     },
     {
-        img: 'images/features/Operations-teams.jpg',
+        img: 'images/features/operations-teams.jpg',
         position: 'right',
         title: 'Solutions for Operations Teams  ',
         description: "Connect initiatives across your business and streamline your team's most important workflows to achieve your goals.",
@@ -57,25 +57,25 @@ export const CARD = [
         img: 'images/marketing-team.png',
         title: 'Solutions for Marketing teams',
         button: 'Explore Marketing',
-        link:'/marketing-teams'
+        link: '/marketing-teams'
     },
     {
         img: 'images/hr-team.png',
         title: 'Solutions for HR teams',
         button: 'Explore HR',
-        link:'/hr-teams'
+        link: '/hr-teams'
     },
     {
         img: 'images/operations-team.png',
         title: 'Solutions for Operations teams',
         button: 'Explore Operations',
-        link:'/operations-teams'
+        link: '/operations-teams'
     },
     {
         img: 'images/sales-team.png',
         title: 'Solutions for Product teams ',
         button: 'Explore Product',
-        link:'/product-teams'
+        link: '/product-teams'
     }
 ];
 
@@ -324,29 +324,30 @@ export const CONSUME_LIST = [
     }
 ];
 
+// solutions pages
 //marketing page
 export const MARKETING_FEATURE_LIST = [
     {
-        img: 'images/features/Marketing-teams.jpg',
+        img: 'images/features/frame-21.png',
         position: 'left',
         title: 'Manage your projects in a pipeline',
         description: 'Manage any campaign, content, task, activity or any milestone from start to end, and keep it on track with Json Sheet.'
     },
     {
-        img: 'images/features/HR-teams.jpg',
+        img: 'images/features/frame-22.png',
         position: 'right',
         title: 'Maximize ROI from share marketing investment',
         description: 'Work more efficiently when you create a shared repository of vendors, assets, inventory and more.'
     },
     {
-        img: 'images/features/Product-teams-01.jpg',
+        img: 'images/features/frame-24.png',
         position: 'left',
         title: 'Pull your Marketing KPIs automatically',
         description:
             'No more manually updating your spreadsheets and pointless copy-paste. Connect Columns to all popular marketing services and automatically bring your campaign data into your tables for analysis and action.'
     },
     {
-        img: 'images/features/Operations-teams.jpg',
+        img: 'images/features/frame-23.png',
         position: 'right',
         title: 'Report like anyone else',
         description: 'Create custom dashboards to track key metrics like campaign cost, position, velocity, and output like no other.'
@@ -355,23 +356,23 @@ export const MARKETING_FEATURE_LIST = [
 
 export const MARKETING_TEMPLATES_LIST = [
     {
-        img: 'images/col-types/grid.png',
+        img: 'images/templates/marketing/marketing-campaign.png',
         title: 'Marketing Campaign '
     },
     {
-        img: 'images/col-types/grid.png',
+        img: 'images/templates/marketing/budget-management.png',
         title: 'Budget Management'
     },
     {
-        img: 'images/col-types/grid.png',
+        img: 'images/templates/marketing/event-planning.png',
         title: 'Event Planning'
     },
     {
-        img: 'images/col-types/grid.png',
+        img: 'images/templates/marketing/social-media-tracking-overview.jpg',
         title: 'Social Media Tracking Overview'
     },
     {
-        img: 'images/col-types/grid.png',
+        img: 'images/templates/marketing/blog-editorial-calendar.jpg',
         title: 'Blog Editorial Calendar'
     }
 ];
@@ -379,27 +380,27 @@ export const MARKETING_TEMPLATES_LIST = [
 // hr-teams page
 export const HR_TEAMS_FEATURE_LIST = [
     {
-        img: 'images/features/Marketing-teams.jpg',
+        img: 'images/features/frame-25.png',
         position: 'left',
         title: 'Employee Applicant Tracking System',
         description:
             'Create, embed, or share an employee applicant tracking form, bring responses directly to your desks, and manage your recruiting pipeline as you grow your teams.'
     },
     {
-        img: 'images/features/HR-teams.jpg',
+        img: 'images/features/frame-26.png',
         position: 'right',
         title: 'New Employee Onboarding',
         description:
             'Streamline process and paperwork, maintain an auditable database without extra effort, and grow your business with well-trained employees.'
     },
     {
-        img: 'images/features/Product-teams-01.jpg',
+        img: 'images/features/frame-27.png',
         position: 'left',
         title: 'Tracking benefits and retirement',
         description: 'Improve collaboration, increase visibility into workload processing times, and report on program status.'
     },
     {
-        img: 'images/features/Operations-teams.jpg',
+        img: 'images/features/frame-28.png',
         position: 'right',
         title: 'Keep your team organized throughout the hiring process',
         description: 'Easily collaborate on hiring plans, interview requirements and more to attract and hire top talent.'
@@ -408,46 +409,46 @@ export const HR_TEAMS_FEATURE_LIST = [
 
 export const HR_TEAMS_TEMPLATES_LIST = [
     {
-        img: 'images/col-types/grid.png',
+        img: 'images/templates/hr/applicant-tracker.png',
         title: 'Applicant Tracker '
     },
     {
-        img: 'images/col-types/grid.png',
+        img: 'images/templates/hr/attendance-tracker.png',
         title: 'Attendance Tracker'
     },
     {
-        img: 'images/col-types/grid.png',
+        img: 'images/templates/hr/employees-info.png',
         title: 'Employees Info'
     },
     {
-        img: 'images/col-types/grid.png',
+        img: 'images/templates/hr/recruitment-tracker.png',
         title: 'Recruitment Tracker'
     }
 ];
 
 // operations-teams
-export const OPERATIONS_TEAMS_FEATURE_LIST = [
+export const OPERATIONS_TEAMS_FEATURE_LIST = [      
     {
-        img: 'images/features/Marketing-teams.jpg',
+        img: 'images/features/frame-29.png',
         position: 'left',
         title: 'Make data-driven decisions',
         description: 'Audit vendors, programs and processes based on performance data to ensure you make the right decisions for your business.'
     },
     {
-        img: 'images/features/HR-teams.jpg',
+        img: 'images/features/frame-30.png',
         position: 'right',
         title: 'Manage your inventory & orders with Json Sheet ',
         description:
             'Inventory management has never been easier! Track products, stock, supplier purchase orders, sales orders and your inventory in real-time. The way you want it.'
     },
     {
-        img: 'images/features/Product-teams-01.jpg',
+        img: 'images/features/frame-31.png',
         position: 'left',
         title: 'Manage & share your product Database',
         description: 'Create a product catalog for your brand, share it with the right stakeholders, and receive inquiries or payments for your business.'
     },
     {
-        img: 'images/features/Operations-teams.jpg',
+        img: 'images/features/frame-32.png',
         position: 'right',
         title: 'Create a dashboard',
         description: "Easily share status updates and keep leadership informed of progress with customizable dashboards that track what's most important."
@@ -456,19 +457,19 @@ export const OPERATIONS_TEAMS_FEATURE_LIST = [
 
 export const OPERATIONS_TEAMS_TEMPLATES_LIST = [
     {
-        img: 'images/col-types/grid.png',
+        img: 'images/templates/operations/list-management.png',
         title: 'List management'
     },
     {
-        img: 'images/col-types/grid.png',
+        img: 'images/templates/operations/vendor-management.png',
         title: 'Vendor Management'
     },
     {
-        img: 'images/col-types/grid.png',
+        img: 'images/templates/operations/contract-management.png',
         title: 'Contract Management'
     },
     {
-        img: 'images/col-types/grid.png',
+        img: 'images/templates/operations/product-inventory.png',
         title: 'Product inventory'
     }
 ];
@@ -476,27 +477,27 @@ export const OPERATIONS_TEAMS_TEMPLATES_LIST = [
 // product-teams
 export const PRODUCT_TEAMS_FEATURE_LIST = [
     {
-        img: 'images/features/Marketing-teams.jpg',
+        img: 'images/features/frame-33.png',
         position: 'left',
         title: 'Create a centralized roadmap',
         description: 'Organize around a flexible, organization-wide roadmap. Customizable views allow any department to see their role and plan accordingly.'
     },
     {
-        img: 'images/features/HR-teams.jpg',
+        img: 'images/features/frame-34.png',
         position: 'right',
         title: 'Save custom data',
         description:
             'With custom dashboards, each stakeholder sees only the information they care about. Generate executive launch reports or show business impact over time right from the Jason sheet.'
     },
     {
-        img: 'images/features/Product-teams-01.jpg',
+        img: 'images/features/frame-35.png',
         position: 'left',
         title: 'Centralize and organize production from start to finish',
         description:
             'Easily manage multiple products from one place. Create custom dashboards, delegate to teammates, and understand bottlenecks and risks—so you can keep moving forward.'
     },
     {
-        img: 'images/features/Operations-teams.jpg',
+        img: 'images/features/frame-36.png',
         position: 'right',
         title: 'Clear the way for more seamless product launches.',
         description: 'Empower your product management team to move projects across the finish line faster and more easily with a timeline view.'
@@ -505,19 +506,19 @@ export const PRODUCT_TEAMS_FEATURE_LIST = [
 
 export const PRODUCT_TEAMS_TEMPLATES_LIST = [
     {
-        img: 'images/col-types/grid.png',
+        img: 'images/templates/Product/product-development.png',
         title: 'Product Development'
     },
     {
-        img: 'images/col-types/grid.png',
-        title: 'Product Roadmap '
+        img: 'images/templates/Product/product-roadmap.png',
+        title: 'Product Roadmap'
     },
     {
-        img: 'images/col-types/grid.png',
+        img: 'images/templates/Product/user-research.png',
         title: 'User Research'
     },
     {
-        img: 'images/col-types/grid.png',
+        img: 'images/templates/Product/product-catalogue.png',
         title: 'Product Catalogue'
     }
 ];
@@ -525,39 +526,39 @@ export const PRODUCT_TEAMS_TEMPLATES_LIST = [
 // Abilities list
 export const SOLUTION_ABILITIES_LIST = [
     {
-        img: 'images/operations-team.png',
+        img: 'images/abilities/dashboards.png',
         title: 'Dashboards and Reports'
     },
     {
-        img: 'images/operations-team.png',
+        img: 'images/abilities/calendar-date.png',
         title: 'Calendar'
     },
     {
-        img: 'images/operations-team.png',
+        img: 'images/abilities/mobile-app.png',
         title: 'Mobile App'
     },
     {
-        img: 'images/operations-team.png',
+        img: 'images/abilities/asset-management.png',
         title: 'Digital Asset Management'
     },
     {
-        img: 'images/operations-team.png',
+        img: 'images/abilities/workload.png',
         title: 'Workload efficiency'
     },
     {
-        img: 'images/operations-team.png',
+        img: 'images/abilities/visualization.png',
         title: 'visualization'
     },
     {
-        img: 'images/operations-team.png',
+        img: 'images/abilities/location.png',
         title: 'location '
     },
     {
-        img: 'images/operations-team.png',
+        img: 'images/abilities/files.png',
         title: 'Files'
     },
     {
-        img: 'images/operations-team.png',
+        img: 'images/abilities/summary.png',
         title: 'Summary'
     }
 ];
