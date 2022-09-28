@@ -1,6 +1,6 @@
 // product-teams
 import React from 'react';
-import { Layout, Icon, SolutionAbilityItem, SolutionTemplateCard } from '../components';
+import { Layout, Icon, SolutionAbilityItem, SolutionTemplateCard, SolutionSignupSection, SolutionContactUsSection } from '../components';
 import _ from 'lodash';
 import { sourcebitDataClient } from 'sourcebit-target-next';
 import { PRODUCT_TEAMS_TEMPLATES_LIST, PRODUCT_TEAMS_FEATURE_LIST, SOLUTION_ABILITIES_LIST } from '../../data';
@@ -14,8 +14,8 @@ const marketing = (props) => {
             page={{
                 title: 'solutions',
                 seo: {
-                    title: 'Workflow Management & Solutions for Every Team - Json Sheet',
-                    description: ' Customize your workflow, collaborate and achieve ambitious results. Get started for free. Smart Json Sheet',
+                    title: 'Product Operations & Product Team Solution - Json Sheet',
+                    description: ' Run your business profitably and enable every department to do their jobs efficiently with Json Sheet Product solutions.',
                     extra: [
                         {
                             name: 'Keywords',
@@ -27,7 +27,7 @@ const marketing = (props) => {
             }}
             config={config}
         >
-            <div id="productTeams">
+            <div id="productTeams" className='solution-category'>
                 {/* header section */}
 
                 <div className="header-section">
@@ -43,7 +43,7 @@ const marketing = (props) => {
                                 </div>
                             </div>
                             <div className="cell-12 cell-sm-12 cell-md-6 cell-lg-7 my-2 regardless-section-small-text ">
-                                <img src="images/features/Product-teams-01.jpg" />
+                                <img src="images/pages/product-teams.png" />
                             </div>
                         </div>
                     </div>
@@ -75,31 +75,7 @@ const marketing = (props) => {
                 </div>
 
                 {/* contact us section*/}
-                <div className="contact-us-section py-5">
-                    <div className="container">
-                        <div className="grid grid-gap-small my-2">
-                            <div className="cell-12 cell-sm-12 cell-md-8 cell-lg-8 my-2">
-                                <h2 className="title">
-                                    Solutions for product teams pointing in the right direction. Head over to your boards and start getting things done!
-                                </h2>
-                            </div>
-                            <div className="cell-12 cell-sm-12 cell-md-4 cell-lg-4 my-2 contact-us-section-small-text ">
-                                <div className="text-center">
-                                    <button
-                                        className="btn btn--primary contact-us-btn"
-                                        onClick={() => {
-                                            window.open('https://jsonsheet.com/contact-us');
-                                        }}
-                                    >
-                                        <Icon icon={'arrow-right'} />
-                                        <span className={'order-first'}>Contact Us</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                <SolutionContactUsSection title={'Solutions for product teams pointing in the right direction.Head over to your boards and start getting things done!'}/>
                 {/* abilities section */}
                 <section className="abilities-section py-5">
                     <div className="text-center">
@@ -131,24 +107,9 @@ const marketing = (props) => {
                         })}
                     </div>
                 </section>
+
                 {/* Sign-up section */}
-                <section className="sign-up-section pb-5">
-                    <div className="container">
-                        <div className="grid grid-gap-small my-2">
-                            <div className="cell-12 cell-md-5 cell-lg-4 my-2 order-md-first sign-up-section-text">
-                                <h1 className="Sign-up-text">Start building in Json sheet today</h1>
-                                <button className="btn btn--primary Sign-up-btn justify-md-center" onClick={() => window.open('https://app.jsonsheet.com/#/')}>
-                                    <Icon icon={'arrow-right'} />
-                                    <span className={'order-first'}>Signup for free</span>
-                                </button>
-                                <p className="mt-2 Sign-up-text">No credit card needed</p>
-                            </div>
-                            <div className="cell-12 cell-md-7 cell-lg-8 my-2 order-first ">
-                                <img src="images/tab.png" className=" sign-up-section-img" />
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <SolutionSignupSection />
             </div>
         </Layout>
     );

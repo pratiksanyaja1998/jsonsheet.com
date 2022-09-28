@@ -1,0 +1,14 @@
+.contact-us-section {
+    background-image: linear-gradient(to right, #0084ff, #f2fbff);
+    .title {
+        color: white;
+    }
+    .contact-us-section-title {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        .contact-us-btn {
+            font-size: 20px;
+        }
+    }
+}

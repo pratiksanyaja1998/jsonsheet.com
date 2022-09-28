@@ -32,7 +32,8 @@ const updateSiteMap = async () => {
             `https://jsonsheet.com/blog/create-or-rename-a-sheet-or-other-json-sheet-item`,
             `https://jsonsheet.com/blog/delete-a-json-sheet`,
             `https://jsonsheet.com/blog/our-vision-for-the-next-generation-of-management-tools`,
-            `https://jsonsheet.com/blog/the-json-sheet-mobile-app-will-soon-be-available-in-the-app-store`
+            `https://jsonsheet.com/blog/the-json-sheet-mobile-app-will-soon-be-available-in-the-app-store`,
+            `https://jsonsheet.com/blog/what-is-json-sheet`
         ];
 
         let existingSitemapList = {};
