@@ -27,7 +27,11 @@ const updateSiteMap = async () => {
             `https://jsonsheet.com/blog/category/news`,
             `https://jsonsheet.com/blog/category/general`,
             `https://jsonsheet.com/blog/category/tutorials`,
-            //blogs
+            `https://jsonsheet.com/marketing-team`,
+            `https://jsonsheet.com/hr-teams`,
+            `https://jsonsheet.com//operations-teams`,
+            `https://jsonsheet.com/product-teams`,
+            // blogs
             `https://jsonsheet.com/blog/3-management-basics-everyone-needs-to-know`,
             `https://jsonsheet.com/blog/create-or-rename-a-sheet-or-other-json-sheet-item`,
             `https://jsonsheet.com/blog/delete-a-json-sheet`,
