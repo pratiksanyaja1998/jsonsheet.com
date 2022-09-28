@@ -3,7 +3,7 @@ import {Icon} from '../components';
 
 const SolutionSignupSection = () => {
     return (
-        <section className="sign-up-section pb-5" >
+        <section className="sign-up-section pb-5 py-5"  >
             <div className="container">
                 <div className="grid grid-gap-small my-2">
                     <div className="cell-12 cell-md-5 cell-lg-4 my-2 order-md-first sign-up-section-text">

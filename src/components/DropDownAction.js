@@ -55,8 +55,9 @@ export default class DropDownAction extends React.Component {
                     <React.Fragment>
                         <span className={'dropdown-label'} onClick={() => this.setState({ showPopup: !this.state.showPopup })}>
                             {label}
+
+                            <Icon icon={icon} />
                         </span>
-                        <Icon icon={icon} />
                     </React.Fragment>
 
                     {this.state.showPopup && !this.state.dropdown && (
