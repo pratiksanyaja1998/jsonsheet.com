@@ -58,7 +58,7 @@ When you manage without a goal, you take on one task at a time. You want to avoi
 
 For us, the solution is to build a culture of transparency and that is inherent in our product. A jsonsheet.com board shows everyone exactly how tasks fit into the larger context of the process, who is responsible for what and where things stand. Even the tallest mountain looks like you can conquer it all together when it's all laid out on a vision board.
 
-<a href="https://jsonsheet.com/" >![jsonsheet](/images/blogs/blog-2-1.PNG)</a>
+<a href="https://jsonsheet.com/" >![jsonsheet](/images/blogs/blog-2-1.png)</a>
 
 ## 2. Manage by time
 
@@ -70,7 +70,7 @@ We have a great post on how to create a weekly task board for your team; See: 3 
 
 Validation is one of the most powerful tool managers, but sadly, almost all tools on the market ignore it. What happens when you complete tasks in traditional project management tools? It disappears! This is exactly the opposite of what should happen. A manager should say, "Good job," or at least acknowledge, "Hey, it's done."
 
-<a href="https://jsonsheet.com/" >![jsonsheet](/images/blogs/blog-1-2.PNG)</a>
+<a href="https://jsonsheet.com/" >![jsonsheet](/images/blogs/blog-1-2.png)</a>
 
 Have you heard Dan Ariely's great TED talk on the science of what motivates people? Getting recognized for your work is one of the top factors. monday.com takes people's identification needs to a new level. Everyone looks at the weekly task list and when a task is marked as “Done”, it turns green. Everyone knows, and recognition comes from the entire team, not just the manager. It is fast and powerful. As a team, you can focus on the shared goal of going green all week and recognize each other and celebrate together. That's why people say monday.com is addictive and makes teams happy.
 

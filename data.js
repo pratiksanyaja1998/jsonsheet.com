@@ -1,7 +1,7 @@
 // solutions page
 export const FEATURE_LIST = [
     {
-        img: 'images/features/marketing-teams.jpg',
+        img: 'images/features/marketing-team.jpg',
         position: 'left',
         title: 'Solutions for Marketing teams  ',
         description:
@@ -10,7 +10,7 @@ export const FEATURE_LIST = [
         link: '/marketing-teams'
     },
     {
-        img: 'images/features/hr-teams.jpg',
+        img: 'images/features/hr-team.jpg',
         position: 'right',
         title: 'Solutions for HR teams ',
         description: 'Easily manage your recruitment pipeline, ensure employee onboarding and consolidate all HR assets and projects in one place.',
@@ -18,7 +18,7 @@ export const FEATURE_LIST = [
         link: '/hr-teams'
     },
     {
-        img: 'images/features/product-teams-01.jpg',
+        img: 'images/features/product-team-01.jpg',
         position: 'left',
         title: 'Solutions for Product teams',
         description: 'Set your inventory, collect and act on customer feedback, and launch great products your customers love.',
@@ -26,7 +26,7 @@ export const FEATURE_LIST = [
         link: '/product-teams'
     },
     {
-        img: 'images/features/operations-teams.jpg',
+        img: 'images/features/operations-team.jpg',
         position: 'right',
         title: 'Solutions for Operations Teams  ',
         description: "Connect initiatives across your business and streamline your team's most important workflows to achieve your goals.",
@@ -417,7 +417,7 @@ export const HR_TEAMS_TEMPLATES_LIST = [
         title: 'Attendance Tracker'
     },
     {
-        img: 'images/template/hr/employees-info.png',
+        img: 'images/template/hr/employees-infos.png',
         title: 'Employees Info'
     },
     {

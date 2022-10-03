@@ -53,14 +53,14 @@ In a Json sheet, most solutions start with a sheet: it's the primary place where
 4. Click on the 3 dots next to the name of the sheet
 5. After that go to the settings and then add the column there
 
-![jsonsheet](/images/blogs/create-jsonsheet-2.PNG)
+![jsonsheet](/images/blogs/create-jsonsheet-2.png)
 
 ## 2. Rename a sheet
 
 1. Click on the 3 dots next to the <b>spreadsheet</b>
 2. Click on rename and rename your spreadsheet
 
-![jsonsheet](/images/blogs/create-jsonsheet-1.PNG)
+![jsonsheet](/images/blogs/create-jsonsheet-1.png)
 
 ## 3. Overview of Json Sheet Items
 
