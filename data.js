@@ -168,7 +168,7 @@ export const COLLABORATE_LIST = [
 ];
 export const ORGANIZE_LIST = [
     {
-        img: 'images/col-types/grid.png',
+        img: 'images/col-types/grid.PNG',
         title: 'Grid',
         description: "It's not the usual spreadsheet tables, it's more."
     },
@@ -285,7 +285,7 @@ export const CREATE_LIST = [
         description: 'Scan any barcode with our Android app and automatically assign a barcode to any row.'
     },
     {
-        img: 'images/col-types/location.png',
+        img: 'images/col-types/locations.png',
         title: 'Location',
         description: 'You can specify the location of your data here.'
     },
@@ -356,23 +356,23 @@ export const MARKETING_FEATURE_LIST = [
 
 export const MARKETING_TEMPLATES_LIST = [
     {
-        img: 'images/templates/marketing/marketing-campaign.png',
+        img: 'images/template/marketing/marketing-campaign.png',
         title: 'Marketing Campaign '
     },
     {
-        img: 'images/templates/marketing/budget-management.png',
+        img: 'images/template/marketing/budget-management.png',
         title: 'Budget Management'
     },
     {
-        img: 'images/templates/marketing/event-planning.png',
+        img: 'images/template/marketing/event-planning.png',
         title: 'Event Planning'
     },
     {
-        img: 'images/templates/marketing/social-media-tracking-overview.jpg',
+        img: 'images/template/marketing/social-media-tracking-overview.jpg',
         title: 'Social Media Tracking Overview'
     },
     {
-        img: 'images/templates/marketing/blog-editorial-calendar.jpg',
+        img: 'images/template/marketing/blog-editorial-calendar.jpg',
         title: 'Blog Editorial Calendar'
     }
 ];
@@ -409,19 +409,19 @@ export const HR_TEAMS_FEATURE_LIST = [
 
 export const HR_TEAMS_TEMPLATES_LIST = [
     {
-        img: 'images/templates/hr/applicant-tracker.png',
+        img: 'images/template/hr/applicant-tracker.png',
         title: 'Applicant Tracker '
     },
     {
-        img: 'images/templates/hr/attendance-tracker.png',
+        img: 'images/template/hr/attendance-tracker.png',
         title: 'Attendance Tracker'
     },
     {
-        img: 'images/templates/hr/employees-info.png',
+        img: 'images/template/hr/employees-info.png',
         title: 'Employees Info'
     },
     {
-        img: 'images/templates/hr/recruitment-tracker.png',
+        img: 'images/template/hr/recruitment-tracker.png',
         title: 'Recruitment Tracker'
     }
 ];
@@ -457,19 +457,19 @@ export const OPERATIONS_TEAMS_FEATURE_LIST = [
 
 export const OPERATIONS_TEAMS_TEMPLATES_LIST = [
     {
-        img: 'images/templates/operations/list-management.png',
+        img: 'images/template/operations/list-management.png',
         title: 'List management'
     },
     {
-        img: 'images/templates/operations/vendor-management.png',
+        img: 'images/template/operations/vendor-management.png',
         title: 'Vendor Management'
     },
     {
-        img: 'images/templates/operations/contract-management.png',
+        img: 'images/template/operations/contract-management.png',
         title: 'Contract Management'
     },
     {
-        img: 'images/templates/operations/product-inventory.png',
+        img: 'images/template/operations/product-inventory.png',
         title: 'Product inventory'
     }
 ];
@@ -506,19 +506,19 @@ export const PRODUCT_TEAMS_FEATURE_LIST = [
 
 export const PRODUCT_TEAMS_TEMPLATES_LIST = [
     {
-        img: 'images/templates/Product/product-development.png',
+        img: 'images/template/Product/product-development.png',
         title: 'Product Development'
     },
     {
-        img: 'images/templates/Product/product-roadmap.png',
+        img: 'images/template/Product/product-roadmap.png',
         title: 'Product Roadmap'
     },
     {
-        img: 'images/templates/Product/user-research.png',
+        img: 'images/template/Product/user-research.png',
         title: 'User Research'
     },
     {
-        img: 'images/templates/Product/product-catalogue.png',
+        img: 'images/template/Product/product-catalogue.png',
         title: 'Product Catalogue'
     }
 ];
@@ -526,39 +526,39 @@ export const PRODUCT_TEAMS_TEMPLATES_LIST = [
 // Abilities list
 export const SOLUTION_ABILITIES_LIST = [
     {
-        img: 'images/abilities/dashboards.png',
+        img: 'images/ability/dashboards.png',
         title: 'Dashboards and Reports'
     },
     {
-        img: 'images/abilities/calendar-date.png',
+        img: 'images/ability/calendar-date.png',
         title: 'Calendar'
     },
     {
-        img: 'images/abilities/mobile-app.png',
+        img: 'images/ability/mobile-app.png',
         title: 'Mobile App'
     },
     {
-        img: 'images/abilities/asset-management.png',
+        img: 'images/ability/asset-management.png',
         title: 'Digital Asset Management'
     },
     {
-        img: 'images/abilities/workload.png',
+        img: 'images/ability/workload.png',
         title: 'Workload efficiency'
     },
     {
-        img: 'images/abilities/visualization.png',
+        img: 'images/ability/visualization.png',
         title: 'visualization'
     },
     {
-        img: 'images/abilities/location.png',
+        img: 'images/ability/location.png',
         title: 'location '
     },
     {
-        img: 'images/abilities/files.png',
+        img: 'images/ability/files.png',
         title: 'Files'
     },
     {
-        img: 'images/abilities/summary.png',
+        img: 'images/ability/summary.png',
         title: 'Summary'
     }
 ];

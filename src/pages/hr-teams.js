@@ -45,7 +45,7 @@ const marketing = (props) => {
                                 </div>
                             </div>
                             <div className="cell-12 cell-sm-12 cell-md-6 cell-lg-7 my-2 regardless-section-small-text ">
-                                <img src="images/pages/hr-teams.png" />
+                                <img src="images/page/hr-teams.png" />
                             </div>
                         </div>
                     </div>
