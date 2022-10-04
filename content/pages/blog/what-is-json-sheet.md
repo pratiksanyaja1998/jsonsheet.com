@@ -80,7 +80,7 @@ a{
 }
 </style>
 
-| ![jsonsheet](/images/blogs/webs.png)                                       | ![jsonsheet](/images/blogs/mobiles.png)                                                                           |
+| ![jsonsheet](/images/blogs/webs.png)                                      | ![jsonsheet](/images/blogs/mobiles.png)                                                                          |
 | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | <a href='https://app.jsonsheet.com/#/'><strong><h4>Web</h4></strong> </a> | <a href='https://play.google.com/store/apps/details?id=com.jsonsheetapp'><strong><h4> Mobile </h4> </strong></a> |
 

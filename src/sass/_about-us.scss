@@ -1,0 +1,20 @@
+#aboutUs {
+    .header-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style: disc;
+    }
+    .header-img {
+        max-width: 90%;
+        border-radius: 2px;
+    }
+    .get-started {
+        text-align: center;
+        color: white;
+    }
+    .get-started-btn {
+        color: #1b1e21;
+        background-color: #e7e7e7;
+    }
+}

@@ -15,7 +15,7 @@ const updateSiteMap = async () => {
 
         let staticUrls = [
             `https://jsonsheet.com`,
-            `https://jsonsheet.com/about`,
+            `https://jsonsheet.com/about-us`,
             `https://jsonsheet.com/blog`,
             `https://jsonsheet.com/contact-us`,
             `https://jsonsheet.com/templates`,

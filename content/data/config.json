@@ -56,8 +56,8 @@
                 ]
             },
             {
-                "label": "About",
-                "url": "/about",
+                "label": "About Us",
+                "url": "/about-us",
                 "style": "link"
             },
             {
@@ -102,8 +102,8 @@
                 "style": "link"
             },
             {
-                "label": "About",
-                "url": "/about",
+                "label": "About Us",
+                "url": "/about-us",
                 "style": "link"
             },
             {
