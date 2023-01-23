@@ -53,7 +53,7 @@ I think in general, it's a false divide to separate your work-life from your lif
 
 So we decided to design a tool that's beautiful, friendly and focused on what people need to succeed. For that, we will focus on three main things:
 
-<div  style="text-align: center;"><a href="https://jsonsheet.com/"><button style="border:1px solid;font-weight:700;padding:3%;font-size:1.5em;color:#1b1e21;background-color:#a4c8ed;border-radius:8px;" >Get started with json sheet</button></a></div>
+<div  style="text-align: center;"><a href="https://jsonsheet.com/"><button style="border:1px solid;font-weight:600;padding:3%;font-size:1em;color:white;background-color:#0084ff;border-radius:8px;" >Get started with json sheet</button></a></div>
 
 ## 1. A good product is intuitive
 
@@ -93,4 +93,4 @@ Also, when a product is fast, people start using it for many other things than i
 
 It takes a lot of dedication to make a product so great, people will try it and pay for it without convincing salespeople to buy it. Tools and teams that tackle this challenge will dominate the market in the coming years.
 
-<div  style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=com.jsonsheetapp"><button style="border:1px solid;font-weight:700;padding:3%;font-size:1.5em;color:#1b1e21;background-color:#a4c8ed;border-radius:8px;" >Get started</button></a></div>
+<div  style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=com.jsonsheetapp"><button style="border:1px solid;font-weight:600;padding:2%;font-size:1em;color:white;background-color:#0084ff;border-radius:8px;" >Get started</button></a></div>

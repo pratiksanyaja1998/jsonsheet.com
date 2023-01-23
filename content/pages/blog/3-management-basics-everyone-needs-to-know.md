@@ -74,6 +74,6 @@ Validation is one of the most powerful tool managers, but sadly, almost all tool
 
 Have you heard Dan Ariely's great TED talk on the science of what motivates people? Getting recognized for your work is one of the top factors. monday.com takes people's identification needs to a new level. Everyone looks at the weekly task list and when a task is marked as “Done”, it turns green. Everyone knows, and recognition comes from the entire team, not just the manager. It is fast and powerful. As a team, you can focus on the shared goal of going green all week and recognize each other and celebrate together. That's why people say monday.com is addictive and makes teams happy.
 
-<div  style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=com.jsonsheetapp"><button style="border:1px solid;font-weight:700;padding:3%;font-size:1.5em;color:#1b1e21;background-color:#a4c8ed;border-radius:8px;" >Get started</button></a></div>
+<div  style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=com.jsonsheetapp"><button style="border:1px solid;font-weight:600;padding:2%;font-size:1.5em;color:white;background-color:#0084ff;border-radius:8px;" >Get started</button></a></div>
 
 

@@ -30,7 +30,9 @@
 }
 
 .dropdown-label {
-    margin-right: 10px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
 }
 .custom-menu-dropdown {
     position: absolute;
