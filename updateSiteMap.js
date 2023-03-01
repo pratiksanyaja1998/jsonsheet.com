@@ -12,7 +12,6 @@ const updateSiteMap = async () => {
         let templateCatList = await axios.get('/googlesheetapp/templates/category').then((response) => {
             return response.data;
         });
-
         let staticUrls = [
             `https://jsonsheet.com`,
             `https://jsonsheet.com/about-us`,
